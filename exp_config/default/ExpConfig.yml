@@ -1,0 +1,60 @@
+#  [𝐒𝐊𝐈𝐋𝐋𝐒 𝐒𝐘𝐒𝐓𝐄𝐌]
+#  XP multiplier (0.5 -> 3.0) default = 1.0
+XP_multiplier: 1.0
+# Experience Gain points
+# You can specify more mob types, see this link for reference:
+# https://minecraft.fandom.com/wiki/Mob specify in ALL_CAPS_NO_SPACE
+ENTITY_KILL_EXP:
+  - PLAYER: 50
+    AXOLOTL: 10
+    BEE: 5
+    CAT: 5
+    CHICKEN: 8
+    COW: 15
+    SHEEP: 13
+    VILLAGER: 10
+    ZOMBIE: 15
+    SPIDER: 17
+    CAVE_SPIDER: 20
+    CREEPER: 20
+    SKELETON: 18
+    ENDERMAN: 25
+    BLAZE: 30
+    GUARDIAN: 13
+    ELDER_GUARDIAN: 35
+    DRAGON: 700
+    NETHER_BOSS: 550
+    VEX: 10
+    WARDEN: 300
+    OTHER: 5
+# Block breaking exp, you can include DEEPSLATE ores
+# example: DEEPSLATE_COAL_ORE
+# More information in this link: https://minecraft.fandom.com/wiki/Materials
+# specify in ALL_CAPS_NO_SPACE, use UNDERSCORE(_) as alternative for Space(" ")
+BLOCK_BREAKING_EXP:
+  - COAL_ORE: 10
+    IRON_ORE: 15
+    COPPER_ORE: 8
+    GOLD_ORE: 18
+    REDSTONE_ORE: 20
+    EMERALD_ORE: 25
+    LAPIS_LAZULI_ORE: 35
+    DIAMOND_ORE: 40
+    NETHER_GOLD_ORE: 12
+    NETHER_QUARTS_ORE: 15
+    OAK_LOG: 2
+    DARK_OAK_LOG: 4
+    SPRUCE_LOG: 5
+    BIRCH_LOG: 2
+    JUNGLE_LOG: 3
+    ACACIA_LOG: 3
+    MANGROVE_LOG: 5
+    OTHER: 0
+HarvestCropsXPGain: 2
+# Experience to Skill Point (default is 1500) (MAX = 15000)
+# this means, players must reach first 2700(1500 * 1.8) exp to
+# get 1 Skill point, it will then be multiplied overtime
+SkillPointXP: 1500
+# Skill Point multiplier, multiplies the current SkillPointXP
+# to get the next XP to Skill Point goal (default: 1.8) (0.5 -> 3.0)
+SkillPointMultiplier: 1.8
