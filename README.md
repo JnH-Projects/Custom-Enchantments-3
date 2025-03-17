@@ -18,6 +18,10 @@ This repository contains the plugin's default and custom configuration. You can 
 
 - [LootItems.yml](/loot_items/default/LootItems.yml) - `default` | v1.0.5
 
+### Looting Plots
+
+- [LootPlots.yml](/looting_plots/default/LootPlots.yml) - `default` | v1.0.7
+
 ### Resource Pack
 
 - [CustomEnchantments 3 [1.16].zip](/resource_packs/§dCustomEnchantments%203%20[1.16].zip)
