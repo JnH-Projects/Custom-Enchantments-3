@@ -2,6 +2,14 @@
 
 Contains the default configuration of the plugin
 
+### Installation
+
+For smoother update, you'll need to turn off your server to save everything that is running. Doing `/reload` is fine since this plugin supports the command but if you have multiple plugins installed in your server, it's better to turn the server off.
+
+Download a copy of [lang.yml](/languages/english/lang.yml) and replace your existing file inside the plugin's folder.
+
+Once set, you can now start your server.
+
 ### Contribution
 
 The default [lang.yml](/languages/english/lang.yml) translation is `English` but you can submit your own copy translated on your own language.
