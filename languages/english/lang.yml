@@ -43,6 +43,7 @@ LANGUAGE:
   DESTROY: Mine _a
   WeaponEnchant: Weapons Enchantments
   BleedLore: Get a chance for enemy to bleed
+  DefaultSettings: Default/Custom Settings via Github
   TreasureAbility: Passive Abilities
   HOURGLASS_LORE: Decrease Cooldown
   NoPointBoundary: You need to set point _a location
@@ -55,10 +56,14 @@ LANGUAGE:
   ConsumeMana: (Consumes _a mana)
   PLACE: Place _a
   PlayerNotFound: Player _a was not found or offline
+  DrainEnergySplash: Drains _a mana when splashed in a surrounding area
   Power: Power
+  AnimalArmorEnchant: Animal Armor Enchantments
+  GUICraftingTutorial: Crafting Tutorial
   DeathRayLore: Shoot laser on target
   RARE: Rare
   EnterShopName: Enter the shop name
+  NoSupply: No more currency supply, wait for buyers to buy
   ACCEPT_QUEST: You have accepted the quest
   QUEST_LIST_SHOP: List of Quests Entities
   ResetMessage: Your skill tree was reset
@@ -68,6 +73,7 @@ LANGUAGE:
   ProtectedBoundaryWarn: This block is inside a protected boundary
   LootingPlotList: List of loot plots! You can design your own :)
   LifeStealLore: Heal while attacking
+  ANIMAL_ARMOR: Animal Armors
   SettingBoundary2: Location _a to _b
   SettingBoundary3: 'Type ''save [boundary name]'' to save. Example: save territory_1'
   SettingBoundary4: Type 'cancel' to cancel
@@ -86,6 +92,7 @@ LANGUAGE:
   CannotActivateNearShop: Enchantment _a cannot activate within _b blocks near a shop
   RegainLore: Get a second life!
   SellRacoShopInfo01: You can sell something in raco shop!
+  HORSE_ARMOR: Horse Armor
   SellRacoShopInfo02: To sell item in raco shop, do '/ce shop sell price' while holding
     the item you want to sell
   SellRacoShopInfo03: Item price should not contain decimal point
@@ -118,16 +125,20 @@ LANGUAGE:
   HideActionBar: You have disabled the action bar
   DeforestationLore: Cut the whole vertical tree trunk
   QUEST_LIST: List of Quests
+  DynamiteSplash: Explodes when thrown at a target
+  CompanionHealingLore: Slowly heals your companion
   PLUGIN_INFO_11: OVERRIDE_CHAT
   PLUGIN_INFO_10: MAGIC_WAND_DMG
   Stun: Stun
   PLUGIN_INFO_13: TREASURE_ITEMS_REGISTERED
   PLUGIN_INFO_12: CUSTOM_ITEMS_REGISTERED
   ManaSteal: Mana Steal
+  QUEST_MODIFY_ENTITY: Modifying Quests Associated with _a
   TreasureManaRegen: 'Mana Regen: _a/s'
   PlayerBalance: Balance
   FrostArrowLore: Slow your enemy by chance
   Back: Go back
+  FireSplash: Inflicts flame and removes fire resistance
   LEGENDARY: Legendary
   TankEnchant: Tank
   SwordEnchant: Sword Enchantments
@@ -137,16 +148,22 @@ LANGUAGE:
   DeathAngelLore: Fall a meteorite to where the arrow landed
   BERSERK: BERSERK
   INTELLIGENCE_LORE: Increase mana
+  FireSplashPotion: Fire Splash Potion
   PoisonLore: Attack with poison effect
   BlindnessLore: When attacked, blind the enemy by chance
   ManaShield: Mana Shield
   RemovedAlly: _a was removed as your ally
   QUEST_OPTION: Type _a to accept, _b to deny quest
+  CustomEnchantTutorial: Custom Enchantment Help
+  GUITreasure: Treasure Items
+  WOLF_ARMOR: Wolf Armor
   TreasureAddPhyDmg: 'Additional Physical Damage: _a hp'
   'OFF': 'OFF'
   BoughtEnchantRACO: You've bought _a for _b (RACO)
   FreezeLore: Get a chance to freeze your attacker
+  QuestCoolDownRefreshed: New Quest is now available
   BlackHoleLore: Cast a black hole on your area, trapping players
+  CompanionThorns: Companion Thorns
   InvalidArg: Invalid Argument
   HailStorm: Hail Storm
   PROMPT_BUY_PLUGIN_2: Trial version doesn't allow you to use this command
@@ -162,6 +179,7 @@ LANGUAGE:
   EnchantIncompatible: The enchantment cannot be applied to this item
   HIGH: HIGH
   ResourcePack: Resource Pack
+  QUEST_MODIFY_ENTITY_NEARBY: You must be nearby a quest entity
   WindStrikeLore: Dashes to enemy, deal magic damage
   Nebula: Nebula
   NotFoundPlayer: Player not found, must be online!
@@ -169,6 +187,7 @@ LANGUAGE:
   WindSlasherLore0: Summon tornado by chance at AGILITY 40+
   Something: something
   FrostArrow: Frost Arrow
+  NotEnoughBalance_1: You will need _a to buy _b
   Deforestation: Deforestation
   Player: Player
   PoisonousThorns: Poisonous Thorns
@@ -176,7 +195,10 @@ LANGUAGE:
   GenericEnchant: Generic and Magic Enchantments
   PlayerClassesUI: Select a classification
   BOW: Bows/Crossbows
+  AntiManaSplashBottle: Anti Mana Splash Potion
   QUEST_VERIFY: Save Quest? _a to save or _b to cancel
+  GUIPluginWiki: Plugin Wiki
+  CompanionHealing: Companion Healing
   RequiredClass: You must be in _a class to acquire this skill
   TOOL: Tools
   SuperNova: Super Nova
@@ -204,6 +226,7 @@ LANGUAGE:
   BoughtSkill: You have bought _a for _b
   MagicResist: Magic Resist
   EnchantLimit: You have reached the maximum enchant limit of _a
+  ManaEnergySplash: Gain _a mana when splashed in a surrounding area
   SWIFT_ESCAPE: SWIFT ESCAPE
   SWIFT_ESCAPE_LORE: Increases Chance to Evade/Ignore Damage
   PLUGIN_INFO_7: QUEST_XP_REWARD
@@ -225,16 +248,19 @@ LANGUAGE:
   SoulEaterLore: Spirit of darkness binds on your sword
   QUEST_CANCEL: You have cancelled creating a quest
   AGILITY_LORE: Increase movement speed
+  Damage: Damage
   FoundSelf: Try another name
   WAND: Magic Wands
   ManaEnergy: Obtain _a mana when consumed
   INTELLIGENCE_LORE1: Increase magical defense by _a or _b% on Max INTELLIGENCE
   INTELLIGENCE_LORE0: Increase magical damage
+  ClickToOpen: Click to open website
   ShopCreated: Created a shop
   SWORD_MASTERY: SWORD MASTERY
   ManaStealLore: Steal mana from enemy
   HailStormLore: Cast a hail storm in the area
   QUEST_CREATED: Quest was saved!
+  MaxSupply: Maximum supply has reached, wait for sellers to sell
   PLACE_NEAR: Place _a near _b
   ShowActionBar: You have enabled the action bar
   PLAYER_ON_QUEST: You are currently on a quest
@@ -253,7 +279,7 @@ LANGUAGE:
   QUEST_INFO_6: 'REWARD: _aC and _b'
   AreaWorldGuarded_SpawnMob: To spawn an entity, set the 'mob-spawning' flag to 'Allow'
     in your world guarded region
-  PENETRATION_LORE: Ignore physical defense by 0.5
+  PENETRATION_LORE: Ignore physical defense by 0.5%
   ManaBurnLore: Burn players mana when nearby
   Healing: Healing
   LootingPlotCancel: Loot Plot designing was cancelled
@@ -266,6 +292,8 @@ LANGUAGE:
   EnchantmentDisabled: Enchantment was disabled
   ENCHANTING_1: You are about to enchant an item, enchant to item first
   Juggernaut: Juggernaut
+  OverMaxSupply: Amount provided is more than the max supply, allowable amount is
+    _a
   OpeningInClass: Opening Classes UI in _a second/s
   ENCHANTING_2: Remove your offhand item to enchant the main-hand item
   DoubleJump: Double Jump
@@ -293,9 +321,13 @@ LANGUAGE:
   TradeUI11: '- After conversion, you can now buy RACO coin'
   HeistLore: Get a chance to steal money from your enemy
   TradeUI12: Will the RACO value change?
+  TradeUI17: 'Circulating Supply: _a'
   ConfusionLore: Confuse the enemy by chance
   WARNING: '[WARNING]'
+  TradeUI18: 'Total Supply: _a'
   TradeUI15: '  sell RACO, the value of it decreases.'
+  GUITreasureLore1: 'Drop chance per item: _a'
+  TradeUI16: 'Market Cap: _a'
   BOW_MASTERY_LORE: Increase bow damage
   TradeUI08: Sell _a _b (RACO)
   TradeUI09: How to buy RACO coins?
@@ -308,6 +340,7 @@ LANGUAGE:
     Changing class is expensive, so be wise.
   PLANT: Plant _a
   KILL_NEAR: Kill _a near _b
+  InvalidEntityType: Invalid Entity Type
   QUEST_CREATE_9: 'Example Quest Objective:'
   QUEST_REWARDS: 'Rewards: _a _b'
   QUEST_CREATE_8: Something_2 should be an entity type!
@@ -321,6 +354,7 @@ LANGUAGE:
   QUEST_CREATE_2: 'Quest Title: [_a]'
   StunLore: Get a chance to stun the enemy
   BowEnchant: Bow Enchantments
+  SplashNearLore: Deals more effect when thrown near the entity
   QUEST_ERROR: Invalid Input!! Error at _a
   AppliesTo: (Applies to _a)
   BERSERK_LORE: Increase damage by 0.2 for every hp lost
@@ -338,6 +372,7 @@ LANGUAGE:
   SpecifyArg: Specify the arguments
   BOW_MASTERY: BOW MASTERY
   LootingPlotCreate03: but don't put any items on it, the plugin will
+  TargetAvailableBalance: _a available balance is _b
   SelectSpell: Right click to select a spell
   SharpArrow: Sharp Arrow
   WARRIOR_LORE0: They have the best in attacking ability and endurance,
@@ -360,7 +395,9 @@ LANGUAGE:
   AutoFarm: Auto Farm
   Shop: Shop _a is at _b
   ONLY_ONE_ENCHANT: You can only have 1 active skill on this item
+  ManaSplashBottle: Mana Splash Potion
   LOW: LOW
+  Next: Next
   RELOAD_PLUGIN0: Reloading Plugin
   ShieldEnchant: Shield Enchantments
   RELOAD_PLUGIN1: Plugin Reloaded
@@ -392,6 +429,8 @@ LANGUAGE:
   FarmlandLore: Create a small chunk of farmland
   ReceiveMoneyPlayer: Received _a from _b
   MagicResistLore: Gain magic damage resistance
+  GUITreasureItems: Treasure Items List
+  GUITreasureLore: Rarely found on villages, mineshaft, and looting plot chests
   WARRIOR_LORE: Settle in the southern area of the Taiga Biomes.
   FallingStarLore: Call the falling star above to rain the enemies
   TreasureHPS: 'Health Regen: _a hp/s'
@@ -406,6 +445,7 @@ LANGUAGE:
   QUEST_INFO_2: 'Objective: _a'
   QUEST_INFO_3: 'Goal: _a'
   SpecifyPlayer: Please specify the player name
+  DuplicateShop: Shop already exists
   SyntaxError: Command Syntax Error!
   UNSWERVING_SHOT: UNSWERVING SHOT
   NoSkillPoint: You don't have enough skill point/s
@@ -424,6 +464,7 @@ LANGUAGE:
   FireBallLore: Shoot fireball
   Confusion: Confusion
   AntiHeist: Anti Heist
+  CompanionThornsLore: Apply thorns enchantment for your companion
   VeinMiner: Vein Miner
   ManaShieldLore: Absorb some damage and consume it as mana
   PLANT_NEAR: Plant _a near _b
@@ -443,6 +484,7 @@ LANGUAGE:
   BlackHole: Black Hole
   AutoRepairLore: Slowly repair tool/weapon over time
   RightClick1: 'Step 1: Right Click this book'
+  DynamiteSplashBottle: Dynamite
   ExecuteLore: Deal huge damage on enemy with low health
   LootingPlotCreatedFailed: Failed to save plot, make sure you follow the saving syntax
   FocusFireLore: Gain Quick MS and Invisibility on every success hit
