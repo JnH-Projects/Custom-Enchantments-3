@@ -4,7 +4,7 @@ This repository contains the plugin's default and custom configuration. You can 
 
 ### Configuration
 
-- [config.yml](/config/default/config.yml) - `default` | v1.1.1
+- [config.yml](/config/default/config.yml) - `default` | v1.2.0-R.1
 
 ### Language
 
