@@ -16,14 +16,17 @@
 #    ╚══════╝╚═╝  ╚═══╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═════╝
 #  Developed by: JayMar921
 #  Contributors: Sekai47, MikaPikaChu, JhonoBrine
-Config_Ver: '1.2.0-r.2'
+Config_Ver: 1.2.0-r.3
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 #            [𝐏𝐥𝐮𝐠𝐢𝐧 𝐂𝐨𝐧𝐟𝐢𝐠𝐮𝐫𝐚𝐭𝐢𝐨𝐧]
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 # Custom Enchantments on specific world, this allows
 # players to use custom enchants on a specific worlds.
 # Note: This only works on enchantments, not quests/shops.
-CustomEnchantsWorld: ['world','world_nether','world_end']
+# Example: ['world','world_nether','world_end']
+# Leaving `CustomEnchantsWorld` empty allows Custom Enchants
+# to be used everywhere in the server worlds
+CustomEnchantsWorld: []
 # Show the action bar to all players
 # Action bar contains [health per second, movement speed, and mana]
 ShowActionBar: true
@@ -54,24 +57,24 @@ ShopGUIBackColor: white
 #              [Enchantment Limits]
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 # Limit on how many enchants on 1 item
-EnchantLimit: 5
+EnchantLimit: 10
 # Remove Enchantment cost per level
 RemoveEnchantmentCost: 5
 # Do you only allow 1 active skill on sword/bow/wand?
 # Active Skill are custom enchantments that is enchanted
 # to the sword/bow/wand. Allowing players to focus only on
 # one active skill to level up. This is true by default
-AllowOneActiveSkill: true
+AllowOneActiveSkill: false
 # Do you allow players to use enchantments that are
 # not associated with their specific class?
 # Example: LightSpirit can only be used if you
 # are in a warrior class.
 # this is false by default
-AllowUseAllEnchantDenyClass: false
+AllowUseAllEnchantDenyClass: true
 # Tired of creating shops manually?
 # You can enable command shop which allows players to do
 # the command '/ce shop'
-EnableShopCommand: false
+EnableShopCommand: true
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 #                  [Chat Handler]
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
@@ -159,30 +162,30 @@ ManaCostMultiplierPerLevel: 1.2
 LightSpiritManaCost: 10
 WindStrikeManaCost: 4.5
 HailStormManaCost: 20
-HailStormCoolDown: 200
-RegainCoolDown: 200
+HailStormCoolDown: 2
+RegainCoolDown: 2
 DoubleJumpManaCost: 3
 SuperNovaManaCost: 15.0
-SuperNovaCoolDown: 40
-LightningCoolDown: 25
+SuperNovaCoolDown: 2
+LightningCoolDown: 2
 LightningManaCost: 12.5
-HealingCoolDown: 50
+HealingCoolDown: 2
 HealingManaCost: 13.2
-LevitateCoolDown: 35
+LevitateCoolDown: 2
 LevitateManaCost: 8.2
-NebulaCoolDown: 45
+NebulaCoolDown: 2
 NebulaManaCost: 17.3
-DeathAngelCoolDown: 30
+DeathAngelCoolDown: 2
 DeathAngelManaCost: 8
 StormManaCost: 14.5
-StormCoolDown: 150
+StormCoolDown: 2
 ManaBurnManaCost: 20
-ManaBurnCoolDown: 250
+ManaBurnCoolDown: 2
 FireBallManaCost: 5
-StellaCoolDown: 300
-BlackHoleCoolDown: 450
+StellaCoolDown: 2
+BlackHoleCoolDown: 2
 BlackHoleManaCost: 25.2
-FallingStarCoolDown: 340
+FallingStarCoolDown: 2
 FallingStarManaCost: 20.8
 # Mana Potion (Energy obtained when consumed)
 ManaPotionEnergy: 35.0
@@ -192,43 +195,43 @@ ManaPotionEnergy: 35.0
 #       the entire attribute. Remember that
 #       Each Attributes has a max level of '200'
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-LifeSteal_STRENGTH: 40
-ManaSteal_INTELLIGENCE: 10
-Execute_STRENGTH: 80
-LightSpirit_INTELLIGENCE: 50
-SoulEater_STRENGTH: 50
-WindStrike_AGILITY: 5
-Juggernaut_STRENGTH: 40
-WindSlasher_AGILITY: 35
-SuddenBlow_STRENGTH: 30
-HailStorm_INTELLIGENCE: 40
-ManaShield_INTELLIGENCE: 35
-Sturdy_STRENGTH: 35
-MagicResist_INTELLIGENCE: 20
-Tank_STRENGTH: 20
-Regain_STRENGTH: 65
-Omnivamp_STRENGTH: 120
-Blink_AGILITY: 40
-SharpArrow_AGILITY: 5
-DeathAngel_AGILITY: 40
-Implant_INTELLIGENCE: 60
-DeathRay_AGILITY: 120
-Stella_AGILITY: 100
-SuperNova_INTELLIGENCE: 55
-Lightning_INTELLIGENCE: 15
-Healing_INTELLIGENCE: 10
-Levitate_INTELLIGENCE: 50
-Nebula_INTELLIGENCE: 100
-Storm_INTELLIGENCE: 100
-ManaBurn_INTELLIGENCE: 10
-Fireball_INTELLIGENCE: 10
-BlackHole_INTELLIGENCE: 80
-FallingStar_INTELLIGENCE: 80
-DragonBreath_STRENGTH: 10
+LifeSteal_STRENGTH: 1
+ManaSteal_INTELLIGENCE: 1
+Execute_STRENGTH: 1
+LightSpirit_INTELLIGENCE: 1
+SoulEater_STRENGTH: 1
+WindStrike_AGILITY: 1
+Juggernaut_STRENGTH: 1
+WindSlasher_AGILITY: 1
+SuddenBlow_STRENGTH: 1
+HailStorm_INTELLIGENCE: 1
+ManaShield_INTELLIGENCE: 1
+Sturdy_STRENGTH: 1
+MagicResist_INTELLIGENCE: 1
+Tank_STRENGTH: 1
+Regain_STRENGTH: 1
+Omnivamp_STRENGTH: 1
+Blink_AGILITY: 1
+SharpArrow_AGILITY: 1
+DeathAngel_AGILITY: 1
+Implant_INTELLIGENCE: 1
+DeathRay_AGILITY: 1
+Stella_AGILITY: 1
+SuperNova_INTELLIGENCE: 1
+Lightning_INTELLIGENCE: 1
+Healing_INTELLIGENCE: 1
+Levitate_INTELLIGENCE: 1
+Nebula_INTELLIGENCE: 1
+Storm_INTELLIGENCE: 1
+ManaBurn_INTELLIGENCE: 1
+Fireball_INTELLIGENCE: 1
+BlackHole_INTELLIGENCE: 1
+FallingStar_INTELLIGENCE: 1
+DragonBreath_STRENGTH: 1
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 #              [QUEST and CURRENCY]
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-SelectQuestCoolDown: 500
+SelectQuestCoolDown: 10
 ExpEarnedPerQuest: 100
 # CE Currency is called RACO
 RACOSign: C
@@ -248,7 +251,7 @@ UncommonChance: 0.1
 RareChance: 0.05
 VeryRareChance: 0.01
 EpicChance: 0.005
-LegendaryChance: 0.0002
+LegendaryChance: 2.0E-4
 # The loot chest can only contain 'UP TO'
 # 2 common, 2 uncommon, 1 rare, 1 very rare, 1 epic
 # and 1 legendary item.
@@ -256,7 +259,7 @@ LegendaryChance: 0.0002
 # Treasure Items are rare items that has passive
 # abilities, the effect will work if the item is
 # in the player's inventory
-TreasureItemChance: 0.05
+TreasureItemChance: 0.02
 # Set the chance of rewarding raco coins to players
 # who have TreasureItem with RACO reward (default: 0.5)
 RACOrewardChance: 0.5
@@ -287,4 +290,4 @@ ParticleAmount: 80
 # magic damage of magic enchantments.
 # Note: Magic damage is 3 times greater than the
 # vanilla physical damage.
-MagicWandDamage: 1.5
+MagicWandDamage: 1.0
