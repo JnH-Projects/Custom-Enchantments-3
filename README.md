@@ -4,11 +4,11 @@ This repository contains the plugin's default and custom configuration. You can 
 
 ### Configuration
 
-- [config.yml](/config/default/config.yml) - `default` | v1.2.0-R.3
+- [config.yml](/config/default/config.yml) - `default` | v1.2.1
 
 ### Language
 
-- [English](/languages/english/lang.yml) - English `default`
+- [English](/languages/english/lang.yml) - English `default` | v1.2.1
 
 ### Exp Config
 
@@ -28,3 +28,7 @@ This repository contains the plugin's default and custom configuration. You can 
 - [CustomEnchantments 3 [1.17].zip](/resource_packs/§dCustomEnchantments%203%20[1.17].zip)
 - [CustomEnchantments 3 [1.18].zip](/resource_packs/§dCustomEnchantments%203%20[1.18].zip)
 - [CustomEnchantments 3 [1.19].zip](/resource_packs/§dCustomEnchantments%203%20[1.19].zip)
+
+### Website
+
+- [Custom Enchantments 3 - Wiki](https://jhprojects.vercel.app/ce3)
