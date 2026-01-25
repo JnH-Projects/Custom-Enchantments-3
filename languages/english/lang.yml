@@ -34,6 +34,7 @@ LANGUAGE:
   QUEST_CREATE_20: 'Separate with comma[,] example: 1000,1001,1002'
   QuestEntity: Quest Entity
   NotEnoughBalance: Not enough balance
+  MaceEnchant: Mace Enchantments
   AutoFarmLore: Get a chance to replant harvested crops
   BuySkillAttribute: Spend an attribute point
   IncompleteCommand: Incomplete command
@@ -45,6 +46,7 @@ LANGUAGE:
   BleedLore: Get a chance for enemy to bleed
   DefaultSettings: Default/Custom Settings via Github
   TreasureAbility: Passive Abilities
+  TS_Quest: Player Quest Tutorial
   HOURGLASS_LORE: Decrease Cooldown
   NoPointBoundary: You need to set point _a location
   VeinMinerLore: Mine veins of ores
@@ -67,6 +69,7 @@ LANGUAGE:
   ACCEPT_QUEST: You have accepted the quest
   QUEST_LIST_SHOP: List of Quests Entities
   ResetMessage: Your skill tree was reset
+  TS_NoPermission: Only admins can use this Tutorial
   BlinkLore: Shift + Right click to blink on short distance
   TreasureMgcDmg: 'Magical Damage: _a ⚡'
   Levitate: Levitate
@@ -162,10 +165,12 @@ LANGUAGE:
   BoughtEnchantRACO: You've bought _a for _b (RACO)
   FreezeLore: Get a chance to freeze your attacker
   QuestCoolDownRefreshed: New Quest is now available
+  SpearEnchant: Spear Enchantments
   BlackHoleLore: Cast a black hole on your area, trapping players
   CompanionThorns: Companion Thorns
   InvalidArg: Invalid Argument
   HailStorm: Hail Storm
+  TS_LevelUp: Player Levelling Tutorial
   PROMPT_BUY_PLUGIN_2: Trial version doesn't allow you to use this command
   PROMPT_BUY_PLUGIN_1: Trial version doesn't allow you to use this item
   CurrencyExchange: Currency Exchange
@@ -198,6 +203,7 @@ LANGUAGE:
   AntiManaSplashBottle: Anti Mana Splash Potion
   QUEST_VERIFY: Save Quest? _a to save or _b to cancel
   GUIPluginWiki: Plugin Wiki
+  Stealth: Stealth
   CompanionHealing: Companion Healing
   RequiredClass: You must be in _a class to acquire this skill
   TOOL: Tools
@@ -205,6 +211,7 @@ LANGUAGE:
   Disenchant: Remove Enchantments
   MagneticLore: Attracts ground items nearby to pickup
   TridentEnchant: Trident Enchantments
+  TS_QuestShop: Create Quest Entity Tutorial
   Sturdy: Sturdy
   SomeoneWand: _a's Magic Wand
   WIZARD: Wizard
@@ -223,12 +230,25 @@ LANGUAGE:
   Wallet: Your wallet
   PlayerClass: Class
   PLUGIN_INFO_2: Plugin Version
+  TS_QuestShop_3: Now that you have created a simple quest, to show the list of quest,
+    you'll just need to do '/ce quest list' and make sure to take note if the 5-digit
+    ID since we will need it.
+  TS_QuestShop_4: '''/ce quest list'''
   BoughtSkill: You have bought _a for _b
   MagicResist: Magic Resist
+  TS_QuestShop_5: Let's create a quest shop now
+  TS_QuestShop_6: '''/ce shop add VILLAGER QUEST My Quest'''
   EnchantLimit: You have reached the maximum enchant limit of _a
   ManaEnergySplash: Gain _a mana when splashed in a surrounding area
+  TS_QuestShop_1: "Now that you've got a good spot, let's create a simple quest for\
+    \ now, do the command below and follow the steps. \nNote: don't put space(' ')\
+    \ after each comma's"
+  TS_QuestShop_2: '''/ce quest add'''
+  TS_QuestShop_7: 'It should be of Shop Type: QUEST'
+  TS_QuestShop_8: 'It should be of Shop Name: My Quest'
   SWIFT_ESCAPE: SWIFT ESCAPE
   SWIFT_ESCAPE_LORE: Increases Chance to Evade/Ignore Damage
+  TS_QuestShop_9: Right Click the quest shop and start a quest!
   PLUGIN_INFO_7: QUEST_XP_REWARD
   PLUGIN_INFO_8: DENIED_QUEST_COOLDOWN
   Poison: Poison
@@ -238,6 +258,7 @@ LANGUAGE:
   Exp: EXP
   PLUGIN_INFO_9: PARTICLE_EFFECTS
   Regain: Regain
+  TS_PROCEED: Moving on next step...
   ResetElixirLore: Reset your skill tree
   AntiHeistLore: Get a chance to block heist enchantment from attacker
   QUEST_COMPLETE: Quest _a Completed
@@ -260,12 +281,18 @@ LANGUAGE:
   ManaStealLore: Steal mana from enemy
   HailStormLore: Cast a hail storm in the area
   QUEST_CREATED: Quest was saved!
-  MaxSupply: Maximum supply has reached, wait for sellers to sell
+  MaxSupply: Maximum supply has reached, wait for holders to sell
   PLACE_NEAR: Place _a near _b
+  TS_P_4: Plugin Tutorials
+  TS_P_3: Tutorial Mode Ended
   ShowActionBar: You have enabled the action bar
+  TS_P_2: See chat for additional info
+  TS_P_1: Tutorial Mode
+  TS_Shop: Create Shop Tutorial
   PLAYER_ON_QUEST: You are currently on a quest
   AreaWorldGuarded: The area is world guarded
   PluginWiki: Plugin Wiki
+  TS_Shop_9: Cool! You've made your first shop!
   NebulaLore: Nebula explosion!
   CONSUME_NEAR: Consume _a near _b
   InvalidShopType: Invalid Shop Type
@@ -281,15 +308,23 @@ LANGUAGE:
     in your world guarded region
   PENETRATION_LORE: Ignore physical defense by 0.5%
   ManaBurnLore: Burn players mana when nearby
+  TS_Shop_6: 'It should be of Shop Entity Type: VILLAGER'
   Healing: Healing
   LootingPlotCancel: Loot Plot designing was cancelled
+  TS_Shop_5: Please follow the command shown above
+  TS_Shop_8: 'It should be of Shop Name: Sword Shop'
   TreasureCDR: 'Cooldown Reduction: _as'
+  TS_Shop_7: 'It should be of Shop Type: SWORD'
   QUEST_NOT_AVAILABLE: Sorry, please try again later...
+  TS_Shop_2: A simple villager sword enchantment shop
   CLVLBalance: 'Balance (CLVL): _a'
+  TS_Shop_1: Now, let's set up a simple shop
   LevelUp: You have leveled up, you have _a point/s to spend. Do _b to buy skill
   MaxSouls: Max Souls
   BoundaryList: List of boundaries
+  TS_Shop_4: '''/ce Shop Add VILLAGER SWORD Sword Shop'''
   EnchantmentDisabled: Enchantment was disabled
+  TS_Shop_3: 'do the command:'
   ENCHANTING_1: You are about to enchant an item, enchant to item first
   Juggernaut: Juggernaut
   OverMaxSupply: Amount provided is more than the max supply, allowable amount is
@@ -323,8 +358,8 @@ LANGUAGE:
   TradeUI12: Will the RACO value change?
   TradeUI17: 'Circulating Supply: _a'
   ConfusionLore: Confuse the enemy by chance
-  WARNING: '[WARNING]'
   TradeUI18: 'Total Supply: _a'
+  WARNING: '[WARNING]'
   TradeUI15: '  sell RACO, the value of it decreases.'
   GUITreasureLore1: 'Drop chance per item: _a'
   TradeUI16: 'Market Cap: _a'
@@ -351,6 +386,7 @@ LANGUAGE:
   QUEST_CREATE_5: Quest type is the objective type
   QUEST_CREATE_4: Create your Quest Objective
   QUEST_CREATE_3: 'Type: _a -> _b'
+  StealthLore: Deals more damage while sneaking
   QUEST_CREATE_2: 'Quest Title: [_a]'
   StunLore: Get a chance to stun the enemy
   BowEnchant: Bow Enchantments
@@ -392,19 +428,44 @@ LANGUAGE:
   EPIC: Epic
   WarnIncompatibleClass: Enchantment _a can only be used if you're in _b class
   BoundaryNotFound: 'Cannot find boundary: _a'
+  TS_Quest_2: Locate that quest shop and start your quest!
+  TS_Quest_1: '''/ce quest'''
+  TS_Quest_3: Good Job! You've completed your quest, you can start a quest anytime
+    and get more rewards.
   AutoFarm: Auto Farm
   Shop: Shop _a is at _b
+  TS_LevelUp_9: SKILL POINTS can be spent to unlock specific abilities within a chosen
+    class, such as Archery, Wizard, or Warrior. Once you select a class, you are limited
+    to upgrading only its mastery skills, allowing you to specialize and progress
+    within that path.
   ONLY_ONE_ENCHANT: You can only have 1 active skill on this item
   ManaSplashBottle: Mana Splash Potion
+  TS_LevelUp_8: By continuously grinding and reaching level 10, you'll earn 1 Skill
+    Point. Skill Points are only awarded at milestone levels that are multiples of
+    10 such as level 10, 20, 30, and so on.
   LOW: LOW
   Next: Next
   RELOAD_PLUGIN0: Reloading Plugin
   ShieldEnchant: Shield Enchantments
   RELOAD_PLUGIN1: Plugin Reloaded
+  TS_LevelUp_3: Now you're learning! I'm proud of you!
   COMMON: Common
+  TS_LevelUp_2: Cool! You've just gained an EXP buy killing a mob, now try breaking
+    any type of block
   Level: LEVEL
   SturdyLore: Obtain physical resistance when equipped
   JuggernautLore: Deal armor penetration
+  TS_LevelUp_1: Okay... Let's start at the very basic, try killing any mob to gain
+    Exp
+  TS_LevelUp_7: 'ATTRIBUTE POINTS can be invested to enhance core stats: Strength,
+    Agility, and Intelligence. Each point spent increases your chosen attribute, shaping
+    your character''s overall abilities and play style.'
+  TS_LevelUp_6: As you can see, you are currently level _a and have _b attribute point
+    to spend
+  TS_LevelUp_5: '''/ce skills'''
+  TS_LevelUp_4: Each time you kill a mob or break a block, you will gain EXP. If you
+    reach a certain EXP threshold, you will get 1 level. Let's go back to the Skills
+    UI
   QUEST_LOAD: Loading your quest...
   FireBall: Fire Ball
   DoubleJumpLore: Sneak while on air to jump
@@ -418,9 +479,18 @@ LANGUAGE:
   TradeExchange: You have exchanged _a for _b
   Blocks: blocks
   StellaLore: Ultimate bow enchantment
+  TS_Shop_16: Good Job!
   FallingStar: Falling Star
+  TS_Shop_17: I'm so proud of you!
+  TS_Shop_14: try the remove command
+  TS_Shop_15: /ce Shop Remove Sword Shop
+  TS_Shop_12: Cool! We're almost done!
+  TS_Shop_13: Now that you've created a shop, lets
+  TS_Shop_10: Now try interacting it
+  TS_Shop_11: Right Click the shop
   Omnivamp: Omni Vamp
   FocusFire: Focus Fire
+  TS_Shop_18: Now try creating shops in your server
   Blindness: Blindness
   UNCOMMON: Uncommon
   PICKAXE: Pickaxe
@@ -432,6 +502,7 @@ LANGUAGE:
   GUITreasureItems: Treasure Items List
   GUITreasureLore: Rarely found on villages, mineshaft, and looting plot chests
   WARRIOR_LORE: Settle in the southern area of the Taiga Biomes.
+  TS_QuestShop_1_1: 'YT Tutorial: https://youtu.be/8Ojqnw-8Mnc'
   FallingStarLore: Call the falling star above to rain the enemies
   TreasureHPS: 'Health Regen: _a hp/s'
   QUEST_ENTITY_SET: Quest Entity Set!
@@ -461,10 +532,12 @@ LANGUAGE:
   Brilliance: Brilliance
   MaxLevel: Max Level
   Execute: Execute
+  TS_QuestShop_11: Now try creating quests in your server
+  TS_QuestShop_10: '''/ce Shop Remove My Quest'''
   FireBallLore: Shoot fireball
   Confusion: Confusion
   AntiHeist: Anti Heist
-  CompanionThornsLore: Apply thorns enchantment for your companion
+  CompanionThornsLore: Apply thorns with slowness effect when companion is attacked
   VeinMiner: Vein Miner
   ManaShieldLore: Absorb some damage and consume it as mana
   PLANT_NEAR: Plant _a near _b
@@ -487,6 +560,9 @@ LANGUAGE:
   DynamiteSplashBottle: Dynamite
   ExecuteLore: Deal huge damage on enemy with low health
   LootingPlotCreatedFailed: Failed to save plot, make sure you follow the saving syntax
+  TS_LevelUp_10: I hope you've picked up some tips on leveling up today. Now get out
+    there, enjoy the grind, and keep pushing forward, wishing you the best on your
+    journey!
   FocusFireLore: Gain Quick MS and Invisibility on every success hit
   ARCHER_LORE2: They are considered as the quickest
   ManaBurn: Mana Burn
