@@ -16,7 +16,7 @@
 #    ╚══════╝╚═╝  ╚═══╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═════╝
 #  Developed by: JayMar921
 #  Contributors: Sekai47, MikaPikaChu, JhonoBrine
-Config_Ver: 1.2.0-r.3
+Config_Ver: 1.2.1
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 #            [𝐏𝐥𝐮𝐠𝐢𝐧 𝐂𝐨𝐧𝐟𝐢𝐠𝐮𝐫𝐚𝐭𝐢𝐨𝐧]
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
@@ -88,7 +88,7 @@ ShowLevelOnChat: true
 #               [Enchantment Price]
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 # Set the price to '0' to disable players from buying
-# Swords Enchantments
+# Swords / Mace / Spear Enchantments
 LifeSteal: 55
 Bleed: 38
 Critical: 85
@@ -103,6 +103,7 @@ WindSlasher: 55
 Confusion: 27
 DragonBreath: 32
 Gooey: 30
+StealthPrice: 15
 # Trident Enchantments
 SuddenBlow: 35
 HailStorm: 95
@@ -291,3 +292,7 @@ ParticleAmount: 80
 # Note: Magic damage is 3 times greater than the
 # vanilla physical damage.
 MagicWandDamage: 1.0
+# Loot Plot Generation
+# This may be CPU intensive, but it allows generating
+# Loot plots around the world
+GenerateLootPlots: false
