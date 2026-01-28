@@ -16,7 +16,7 @@
 #    ╚══════╝╚═╝  ╚═══╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═════╝
 #  Developed by: JayMar921
 #  Contributors: Sekai47, MikaPikaChu, JhonoBrine
-Config_Ver: 1.2.1
+Config_Ver: 1.2.2
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 #            [𝐏𝐥𝐮𝐠𝐢𝐧 𝐂𝐨𝐧𝐟𝐢𝐠𝐮𝐫𝐚𝐭𝐢𝐨𝐧]
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
@@ -26,6 +26,7 @@ Config_Ver: 1.2.1
 # Example: ['world','world_nether','world_end']
 # Leaving `CustomEnchantsWorld` empty allows Custom Enchants
 # to be used everywhere in the server worlds
+# This will also allow using of skills in the specific world
 CustomEnchantsWorld: []
 # Show the action bar to all players
 # Action bar contains [health per second, movement speed, and mana]
