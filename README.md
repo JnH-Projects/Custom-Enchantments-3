@@ -4,7 +4,7 @@ This repository contains the plugin's default and custom configuration. You can 
 
 ### Configuration
 
-- [config.yml](/config/default/config.yml) - `default` | v1.2.2
+- [config.yml](/config/default/config.yml) - `default` | v1.3.0
 
 ### Language
 
@@ -28,6 +28,7 @@ This repository contains the plugin's default and custom configuration. You can 
 - [CustomEnchantments 3 [1.17].zip](/resource_packs/§dCustomEnchantments%203%20[1.17].zip)
 - [CustomEnchantments 3 [1.18].zip](/resource_packs/§dCustomEnchantments%203%20[1.18].zip)
 - [CustomEnchantments 3 [1.19].zip](/resource_packs/§dCustomEnchantments%203%20[1.19].zip)
+- [CustomEnchantments 3 [1.21].zip](/resource_packs/§dCustomEnchantments%203%20[1.21].zip) [CE3 v1.3.0+]
 
 ### Website
 
