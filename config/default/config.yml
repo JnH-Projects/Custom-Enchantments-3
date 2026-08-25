@@ -16,7 +16,7 @@
 #    ╚══════╝╚═╝  ╚═══╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═════╝
 #  Developed by: JayMar921
 #  Contributors: Sekai47, MikaPikaChu, JhonoBrine
-Config_Ver: 1.3.0
+Config_Ver: '1.5.0'
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 #            [𝐏𝐥𝐮𝐠𝐢𝐧 𝐂𝐨𝐧𝐟𝐢𝐠𝐮𝐫𝐚𝐭𝐢𝐨𝐧]
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
@@ -65,7 +65,7 @@ RemoveEnchantmentCost: 5
 # Active Skill are custom enchantments that is enchanted
 # to the sword/bow/wand. Allowing players to focus only on
 # one active skill to level up. This is true by default
-AllowOneActiveSkill: true
+AllowOneActiveSkill: false
 # Do you allow players to use enchantments that are
 # not associated with their specific class?
 # Example: LightSpirit can only be used if you
@@ -110,12 +110,34 @@ Confusion: 27
 DragonBreath: 32
 Gooey: 30
 Stealth: 15
+# Swords / Mace / Spear [1.5.0]
+AshenGrip: 62
+Grudgework: 68
+Tendonsnap: 44
+Ribcracker: 58
+HollowToll: 54
+Sawtooth: 60
+Widowcut: 58
+Bloodtithe: 64
+Ironjaw: 70
+Lancework: 56
+Cleaverhand: 52
+Skullsplit: 45
 # Trident Enchantments
 SuddenBlow: 35
 HailStorm: 95
+# Trident [1.5.0]
+Tidewrack: 72
+Stormhook: 65
+Bargewake: 48
+Skipstone: 55
 # Shield
 ManaShield: 48
 Sturdy: 50
+# Shield [1.5.0]
+BulwarkOath: 60
+Ripostewall: 58
+Anchorhold: 44
 # Bow Enchantments
 SharpArrow: 35
 Stun: 53
@@ -125,6 +147,12 @@ DeathAngel: 75
 Implant: 93
 DeathRay: 85
 Stella: 125
+# Bow [1.5.0]
+Quiverburst: 66
+Longdraw: 62
+Skimshot: 50
+Tetherline: 70
+Ashfletch: 58
 # Armor Enchantments
 MagicResist: 45
 Tank: 45
@@ -135,15 +163,58 @@ OmniVamp: 52
 Blindness: 20
 DoubleJump: 25
 Blink: 35
+# Armor [1.5.0]
+Rekindle: 74
+Ballast: 40
+Cinderstep: 46
+Nightglass: 30
+Quillmail: 55
+Saltcoat: 52
+Waterlung: 34
+Crownward: 50
+Hearsay: 44
+Slagplate: 66
+Backdraft: 58
+Longcoat: 54
+Stridecut: 46
+Sprintwell: 62
+Deadweight: 68
+Softfoot: 40
+Downdraft: 52
 # Animal Armor Enchantments
 CompanionHealing: 5
 CompanionThorns: 10
+# Animal Armor [1.5.0]
+BardingSpirit: 15
+Houndsense: 18
 # Tool Enchantments
 AutoFarm: 15
 VeinMiner: 15
 Deforestation: 15
 Farmland: 25
 Telepathy: 30
+# Tools [1.5.0]
+Lodefinder: 40
+Kilnfire: 35
+LoamSense: 22
+RootRot: 28
+DeepTally: 30
+SiftingHands: 26
+Brinepull: 18
+Slagheap: 24
+Widebore: 50
+Quarryjack: 38
+Stonemason: 20
+Seedwake: 20
+Splitgrain: 24
+Deadfall: 16
+Scytheswing: 42
+Drillseed: 30
+Trenchline: 28
+Backfill: 22
+Rodwhip: 34
+Slackjaw: 26
+Ironmonger: 40
 # Generic Shop
 ManaPotion: 5
 AutoRepair: 30
@@ -156,6 +227,15 @@ Storm: 140
 ManaBurn: 48
 ResetElixir: 500
 FireBall: 20
+# Generic and Magic [1.5.0]
+Toolmarrow: 45
+Emberwake: 95
+Glasswind: 50
+Hairsbreadth: 55
+Mirrorstep: 88
+Cindershroud: 76
+Chainarc: 110
+Hushfall: 92
 # Bought in RACO Currency
 BlackHole: 750C
 FallingStar: 850C
@@ -163,6 +243,11 @@ Heist: 300C
 AntiHeist: 450C
 Magnetic: 20C
 Brilliance: 125C
+# Bought in RACO Currency [1.5.0]
+Marrowshot: 400C
+Sundial: 550C
+Gravewell: 300C
+Wardweave: 200C
 # Mana Cost multiplier per level
 ManaCostMultiplierPerLevel: 1.2
 # Mana Cost and Cool down in seconds
@@ -194,6 +279,26 @@ BlackHoleCoolDown: 450
 BlackHoleManaCost: 25.2
 FallingStarCoolDown: 340
 FallingStarManaCost: 20.8
+# Mana Cost and Cool down for the [1.5.0] enchantments
+LoamSenseCoolDown: 15
+EmberwakeManaCost: 11.0
+EmberwakeCoolDown: 30
+GlasswindManaCost: 4.0
+GlasswindCoolDown: 8
+SundialManaCost: 16.0
+SundialCoolDown: 60
+RekindleCoolDown: 165
+GravewellManaCost: 18.0
+GravewellCoolDown: 70
+MirrorstepManaCost: 12.0
+MirrorstepCoolDown: 45
+CindershroudManaCost: 14.0
+CindershroudCoolDown: 55
+ChainarcManaCost: 15.5
+ChainarcCoolDown: 40
+HushfallManaCost: 13.0
+HushfallCoolDown: 65
+BackdraftCoolDown: 20
 # Mana Potion (Energy obtained when consumed)
 ManaPotionEnergy: 35.0
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
@@ -235,6 +340,50 @@ Fireball_INTELLIGENCE: 10
 BlackHole_INTELLIGENCE: 80
 FallingStar_INTELLIGENCE: 80
 DragonBreath_STRENGTH: 10
+# [1.5.0] enchantments
+AshenGrip_STRENGTH: 25
+Grudgework_STRENGTH: 45
+Tendonsnap_AGILITY: 20
+Ribcracker_STRENGTH: 35
+Tidewrack_STRENGTH: 30
+Quiverburst_AGILITY: 25
+Marrowshot_AGILITY: 60
+Emberwake_INTELLIGENCE: 45
+Glasswind_INTELLIGENCE: 15
+Sundial_INTELLIGENCE: 70
+Rekindle_STRENGTH: 50
+BulwarkOath_STRENGTH: 30
+HollowToll_STRENGTH: 30
+Sawtooth_STRENGTH: 40
+Widowcut_STRENGTH: 35
+Bloodtithe_STRENGTH: 55
+Ironjaw_STRENGTH: 60
+Lancework_STRENGTH: 35
+Cleaverhand_STRENGTH: 40
+Skullsplit_STRENGTH: 25
+Stormhook_STRENGTH: 35
+Bargewake_STRENGTH: 20
+Skipstone_AGILITY: 30
+Longdraw_AGILITY: 30
+Skimshot_AGILITY: 35
+Tetherline_AGILITY: 45
+Ashfletch_AGILITY: 40
+Gravewell_INTELLIGENCE: 65
+Mirrorstep_INTELLIGENCE: 40
+Cindershroud_INTELLIGENCE: 50
+Chainarc_INTELLIGENCE: 75
+Hushfall_INTELLIGENCE: 55
+Crownward_STRENGTH: 25
+Slagplate_INTELLIGENCE: 45
+Backdraft_STRENGTH: 45
+Stridecut_AGILITY: 25
+Sprintwell_INTELLIGENCE: 30
+Deadweight_STRENGTH: 70
+Softfoot_AGILITY: 20
+Downdraft_AGILITY: 40
+Ripostewall_STRENGTH: 40
+Anchorhold_STRENGTH: 20
+Wardweave_INTELLIGENCE: 20
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 #              [QUEST and CURRENCY]
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
@@ -258,7 +407,7 @@ UncommonChance: 0.1
 RareChance: 0.05
 VeryRareChance: 0.01
 EpicChance: 0.005
-LegendaryChance: 2.0E-4
+LegendaryChance: 0.0002
 # The loot chest can only contain 'UP TO'
 # 2 common, 2 uncommon, 1 rare, 1 very rare, 1 epic
 # and 1 legendary item.
@@ -270,6 +419,22 @@ TreasureItemChance: 0.05
 # Set the chance of rewarding raco coins to players
 # who have TreasureItem with RACO reward (default: 0.5)
 RACOrewardChance: 0.5
+# ---------------- TREASURE STAT TUNING [1.5.0] --------------
+# Before 1.5.0 the 'physical_dmg' and 'physical_def' stats on
+# treasure items were shown in their lore but never actually
+# reached the damage code. They work now.
+#
+# physical_dmg is SUMMED across everything you carry, so it is
+# capped here. Set the cap to 0 to keep the old behaviour where
+# the stat did nothing.
+TreasurePhysicalDamageCap: 6.0
+# physical_def is averaged across what you carry, then scaled by
+# this before it is applied as damage reduction. The raw values
+# go up to 0.7, which would be 70% on top of Tank's 60%, so they
+# are scaled down. Set the scale to 0 to keep the old behaviour.
+TreasurePhysicalDefenseScale: 0.25
+# and hard capped here, no matter what is carried.
+TreasurePhysicalDefenseCap: 0.20
 # ------------------------------------------------
 # Do you allow custom loot structure generation?
 # You can create your own custom loot plot by
