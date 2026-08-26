@@ -1,0 +1,211 @@
+#  𝐂𝐮𝐬𝐭𝐨𝐦 𝐄𝐧𝐜𝐡𝐚𝐧𝐭𝐦𝐞𝐧𝐭𝐬 𝟑 - 𝐁𝐚𝐧𝐝𝐢𝐭𝐬
+# -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+#  Bandits camp on generated loot plots. They stay asleep until a
+#  player walks within SpawnRadius, then a crew of 2 to 5 spawns
+#  with one of them as the leader.
+#
+#  They are meant to be a real fight, not free loot. A camp will
+#  not re-arm for CampCooldownSeconds after it is triggered.
+# -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+# Turn the whole system off here.
+Enabled: true
+
+# Crew size. One of them is always the leader.
+MinBandits: 2
+MaxBandits: 5
+
+# How close a player has to get before the camp wakes up.
+SpawnRadius: 15
+
+# A crew this far from every player is removed again, so an
+# abandoned camp does not sit in the world forever.
+DespawnRadius: 80
+
+# How long before a triggered camp can spawn another crew.
+CampCooldownSeconds: 900
+
+# Most camps tracked at once. The oldest is dropped past this.
+MaxTrackedCamps: 60
+
+# Send a chat line naming the leader when a camp wakes up.
+Notify: true
+
+# -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+#                    [DIFFICULTY]
+# -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+# Multipliers on the vanilla mob. 1.0 is an ordinary zombie.
+BanditHealthMultiplier: 1.6
+LeaderHealthMultiplier: 3.0
+
+# Flat extra damage, on top of whatever the mob already does.
+BanditDamageBonus: 1.0
+LeaderDamageBonus: 3.5
+
+# Bandits wear a helmet so a surface camp survives daylight.
+# Their gear never drops, whatever this is set to.
+EquipHelmets: true
+
+# -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+#                    [ABILITIES]
+# -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+# Bandits put on a show with effects borrowed from the wand
+# spells. This is PRESENTATION ONLY. They deal their normal mob
+# damage; the abilities add particles, sound and a little bite.
+#
+# A bandit never carries or drops a custom enchantment.
+AbilitiesEnabled: true
+
+# Chance per check that a bandit uses an ability.
+AbilityChance: 0.18
+
+# Seconds between ability checks for one bandit.
+AbilityCooldownSeconds: 7
+
+# Which effects they are allowed to show off with.
+# Options: LIGHT_SPIRIT, DEATH_RAY, FIREBALL, FROST, NEBULA
+Abilities:
+  - LIGHT_SPIRIT
+  - DEATH_RAY
+  - FIREBALL
+  - FROST
+  - NEBULA
+
+# -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+#                      [DROPS]
+# -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+# Chance a killed bandit leaves a treasure item behind. The
+# treasure itself is drawn from the same weighted table chest
+# loot uses, so rare stays rare.
+#
+# Set both to 0 to have bandits drop nothing but their vanilla
+# loot.
+TreasureDropChance: 0.06
+LeaderTreasureDropChance: 0.30
+
+# RACO dropped per bandit. 0 disables it.
+RacoPerBandit: 2
+RacoPerLeader: 12
+
+# -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+#                    [MOB TYPES]
+# -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+# Crews are built from these. A witch is worth keeping in the
+# list, it is the one that reads as a caster.
+# Any entity name your server does not have is skipped.
+Types:
+  - ZOMBIE
+  - SKELETON
+  - WITHER_SKELETON
+  - WITCH
+
+# Leaders are drawn from this list instead, if it is not empty.
+LeaderTypes:
+  - WITHER_SKELETON
+  - WITCH
+
+# -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+#                       [NAMES]
+# -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+# Every bandit is named CE3-<name>. Add or remove freely.
+Names:
+  - Blackjaw Morgan
+  - Salt Tom Rourke
+  - One Eyed Peg
+  - Barnacle Bell
+  - Gutter Kate
+  - Rum Line Riley
+  - Cutlass Fenn
+  - Iron Molly
+  - Half Mast Hobb
+  - Dead Reckon Dane
+  - Sourwind Sam
+  - Grog Belly Grady
+  - Nine Toes Nash
+  - Widow Marsh
+  - Tar Hand Tully
+  - Crooked Vane
+  - Bilge Rat Bram
+  - Lantern Jaw Lee
+  - Shark Bit Shay
+  - Powder Keg Pim
+  - Squall Nell
+  - Copper Tooth Coe
+  - Longboat Lark
+  - Reef Runner Rask
+  - Cinder Bess
+  - Anchor Chain Ames
+  - Dry Dock Dolan
+  - Fog Horn Fitch
+  - Keelhaul Quinn
+  - Muddy Fathom
+  - Split Sail Sten
+  - Brine Knuckle Bo
+  - Gale Widow Greer
+  - Hook Hand Hale
+  - Ink Black Ivo
+  - Jetsam Jory
+  - Kraken Bait Kell
+  - Low Tide Lund
+  - Mast Head Merle
+  - North Star Nyx
+  - Old Compass Orrin
+  - Port Side Pell
+  - Quartermaster Quill
+  - Rope Burn Rue
+  - Sea Wolf Sable
+  - Trawler Thane
+  - Undertow Ulla
+  - Vane Shifter Vex
+  - Windward Wray
+  - Yardarm Yates
+  - Ash Sail Abner
+  - Bloodwake Bryn
+  - Coldwater Creel
+  - Driftwood Dax
+  - Ebb Tide Esk
+  - Flotsam Fern
+  - Gunwale Gore
+  - Harpoon Hesk
+  - Isle Breaker Ida
+  - Jackstaff Jute
+  - Kedge Anchor Kai
+  - Lee Shore Lom
+  - Mainsail Mott
+  - Netmender Nore
+  - Oakum Ollis
+  - Pitch Barrel Pike
+  - Quarterdeck Qwen
+  - Riptide Ransom
+  - Scupper Sledd
+  - Topsail Tarn
+  - Ullage Umber
+  - Vessel Bane Vero
+  - Waterline Wick
+  - Xebec Xan
+  - Yawl Boat Yorn
+  - Zephyr Zade
+  - Bootstrap Bell
+  - Cask Splitter Cray
+  - Doubloon Dree
+  - Eightbell Erris
+  - Fairwind Fenwick
+  - Grapple Iron Goss
+  - Hullbreach Harrow
+  - Ironsides Isolde
+  - Jolly Wake Jarn
+  - Knot Cutter Kess
+  - Longshore Lyle
+  - Marlinspike Mave
+  - Nightwatch Nero
+  - Oarlock Oswin
+  - Plunder Pratt
+  - Quill Feather Quorra
+  - Rudderless Rill
+  - Sternpost Sorrel
+  - Tideglass Torv
+  - Under Deck Unwin
+  - Voyage End Vask
+  - Wreckwood Wilde
+  - Yellow Flag Yara
+  - Zeal Runner Zorn
