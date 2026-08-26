@@ -4,11 +4,16 @@ This repository contains the plugin's default and custom configuration. You can 
 
 ### Configuration
 
-- [config.yml](/config/default/config.yml) - `default` | v1.3.0
+- [config.yml](/config/default/config.yml) - `default` | v1.5.0
 
 ### Language
 
 - [English](/languages/english/lang.yml) - English `default` | v1.2.1
+
+
+### Bandits
+
+- [Bandits.yml](/bandits/default/bandits.yml) - `default` | v1.5.0
 
 ### Exp Config
 
