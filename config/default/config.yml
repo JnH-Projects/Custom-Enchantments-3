@@ -16,7 +16,7 @@
 #    ╚══════╝╚═╝  ╚═══╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═════╝
 #  Developed by: JayMar921
 #  Contributors: Sekai47, MikaPikaChu, JhonoBrine
-Config_Ver: '1.5.0'
+Config_Ver: '1.6.0'
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 #            [𝐏𝐥𝐮𝐠𝐢𝐧 𝐂𝐨𝐧𝐟𝐢𝐠𝐮𝐫𝐚𝐭𝐢𝐨𝐧]
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
@@ -65,7 +65,7 @@ RemoveEnchantmentCost: 5
 # Active Skill are custom enchantments that is enchanted
 # to the sword/bow/wand. Allowing players to focus only on
 # one active skill to level up. This is true by default
-AllowOneActiveSkill: false
+AllowOneActiveSkill: true
 # Do you allow players to use enchantments that are
 # not associated with their specific class?
 # Example: LightSpirit can only be used if you
@@ -76,6 +76,12 @@ AllowUseAllEnchantDenyClass: false
 # You can enable command shop which allows players to do
 # the command '/ce shop'
 EnableShopCommand: false
+# A freshly crafted magic wand comes with Fire Ball already on
+# it, which is what makes it usable straight away. Set this to
+# true if you would rather hand out bare wands and make players
+# buy every spell.
+# Default: false (the wand comes with Fire Ball)
+MagicWandNoEnchantOnCraft: false
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 #                  [Chat Handler]
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
@@ -385,12 +391,125 @@ Ripostewall_STRENGTH: 40
 Anchorhold_STRENGTH: 20
 Wardweave_INTELLIGENCE: 20
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+#          [Enchantment Price] [1.6.0]
+# -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+# The 25 enchantments added in 1.6.0. Same rules as
+# every price above: 0 disables the enchantment, and
+# a trailing 'C' prices it in RACO instead of levels.
+# A RACO price can also be settled in Kumandra
+# currency when KumandraEnchantPayment is on.
+Tallyscar: 58
+Coinbite: 72
+Gallowswing: 55
+Rimefang: 60
+Ledgerburn: 66
+Saltspine: 54
+Knucklebone: 48
+Harpoonwake: 50
+Brinelash: 46
+Tollshot: 58
+Ravenquill: 64
+Splintervolley: 62
+Voidtithe: 110
+Embertoll: 88
+Starvein: 125
+Glyphwrack: 78
+Cofferguard: 70
+Vaultskin: 85
+Ironvow: 52
+Paleward: 56
+Tombstride: 60
+Wardenknot: 64
+Coinvein: 45
+Titherow: 40
+Dredgeline: 38
+# [1.6.0] wand spells
+VoidtitheManaCost: 16.0
+VoidtitheCoolDown: 42
+EmbertollManaCost: 12.0
+EmbertollCoolDown: 32
+StarveinManaCost: 20.0
+StarveinCoolDown: 50
+GlyphwrackManaCost: 10.0
+GlyphwrackCoolDown: 26
+# [1.6.0] skill requirements
+Tallyscar_STRENGTH: 30
+Coinbite_STRENGTH: 35
+Gallowswing_STRENGTH: 40
+Rimefang_AGILITY: 25
+Ledgerburn_STRENGTH: 45
+Saltspine_STRENGTH: 30
+Knucklebone_STRENGTH: 20
+Harpoonwake_STRENGTH: 30
+Brinelash_STRENGTH: 25
+Tollshot_AGILITY: 30
+Ravenquill_AGILITY: 45
+Splintervolley_AGILITY: 35
+Voidtithe_INTELLIGENCE: 80
+Embertoll_INTELLIGENCE: 50
+Starvein_INTELLIGENCE: 95
+Glyphwrack_INTELLIGENCE: 40
+Cofferguard_STRENGTH: 35
+Vaultskin_STRENGTH: 45
+Ironvow_STRENGTH: 30
+Paleward_INTELLIGENCE: 30
+Tombstride_AGILITY: 40
+Wardenknot_STRENGTH: 35
+# -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 #              [QUEST and CURRENCY]
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 SelectQuestCoolDown: 500
 ExpEarnedPerQuest: 100
 # CE Currency is called RACO
 RACOSign: C
+# -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+#        [KUMANDRA'S ECONOMY SUPPORT] [1.6.0]
+# -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+# Custom Enchantments 3 works perfectly well on its
+# own, and every setting below does nothing at all
+# unless Kumandra's Economy 2.1 or newer is also
+# installed on the server. Nothing here is required.
+#
+# What it does when both plugins are present:
+#  - Players can pay for RACO priced things using
+#    Kumandra currency (Kd), converted at the rate
+#    below.
+#  - Players can convert RACO to Kd and back in the
+#    currency exchange screen.
+#
+# Important: Kd is never turned into RACO out of
+# nothing. Paying with Kd buys RACO from the same
+# circulating supply the CLVL exchange draws on, so
+# the RACO supply cap still means what it says and
+# the two currencies cannot be played against each
+# other. If the supply cannot cover a purchase the
+# Kd payment fails and refunds instead.
+#
+# Master switch. Set to false and CE3 behaves exactly
+# as it did in 1.5.0 whether or not Kumandra is here.
+KumandraEconomySupport: true
+# How much Kumandra currency one single RACO is worth.
+# 25 means 1 RACO costs 25 Kd. Raising this makes RACO
+# more expensive to buy with Kd and worth more to sell.
+KumandraExchangeRate: 25.0
+# Fee on converting between the two currencies, as a
+# decimal. 0.05 is 5%. It is taken off the proceeds
+# when converting RACO to Kd, and added on top as a
+# surcharge when paying a RACO price with Kd, so
+# holding RACO is always slightly better than paying
+# in the foreign currency.
+# Set to 0 for a straight rate with no fee.
+KumandraConversionFee: 0.05
+# Allow Kd to settle a purchase in the RACO shop when
+# the player does not hold enough RACO. A player who
+# does hold enough RACO always spends the RACO.
+KumandraShopPayment: true
+# Allow Kd to buy an enchantment book whose price in
+# this file ends with 'C' (a RACO price).
+KumandraEnchantPayment: true
+# Allow the two way RACO <-> Kd conversion buttons in
+# the currency exchange screen.
+KumandraConversionEnabled: true
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 #                [Custom Looting]
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
@@ -427,7 +546,34 @@ RACOrewardChance: 0.5
 # physical_dmg is SUMMED across everything you carry, so it is
 # capped here. Set the cap to 0 to keep the old behaviour where
 # the stat did nothing.
+# ---------------- TREASURE DROP WEIGHTS [1.5.0] -------------
+# Which treasure you get is a weighted draw now. Before 1.5.0
+# every treasure was equally likely, which was fine at 34 items
+# and is not at 134: it would make the best item in the game
+# exactly as likely as a Dried Fish.
+#
+# Higher weight means more common. These are relative to each
+# other, not percentages. Set a tier to 0 to take that whole
+# tier out of chest loot.
+TreasureWeightCommon: 100
+TreasureWeightUncommon: 45
+TreasureWeightRare: 18
+TreasureWeightEpic: 5
+TreasureWeightLegendary: 1
 TreasurePhysicalDamageCap: 6.0
+# Highest total flat MAGIC damage carried treasure items can
+# add. magical_dmg is also summed, and unlike the physical one
+# it has been live since long before 1.5.0 with no ceiling at
+# all, so a stack of one item was unbounded damage.
+#
+# Careful, the two caps read 0 differently on purpose:
+#   TreasurePhysicalDamageCap: 0  -> the stat does nothing
+#                                    (what it did before 1.5.0)
+#   TreasureMagicalDamageCap: 0   -> no ceiling
+#                                    (what it did before 1.5.0)
+# In both cases 0 restores the pre-1.5.0 behaviour, which is
+# why they differ.
+TreasureMagicalDamageCap: 6.0
 # physical_def is averaged across what you carry, then scaled by
 # this before it is applied as damage reduction. The raw values
 # go up to 0.7, which would be 70% on top of Tank's 60%, so they
