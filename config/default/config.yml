@@ -16,7 +16,7 @@
 #    ╚══════╝╚═╝  ╚═══╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═════╝
 #  Developed by: JayMar921
 #  Contributors: Sekai47, MikaPikaChu, JhonoBrine
-Config_Ver: '1.6.0'
+Config_Ver: '1.7.0'
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 #            [𝐏𝐥𝐮𝐠𝐢𝐧 𝐂𝐨𝐧𝐟𝐢𝐠𝐮𝐫𝐚𝐭𝐢𝐨𝐧]
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
@@ -613,3 +613,21 @@ MagicWandDamage: 1.5
 # This may be CPU intensive, but it allows generating
 # Loot plots around the world
 GenerateLootPlots: true
+# ------------------------------------------------
+#                 PlaceholderAPI
+# ------------------------------------------------
+# Publishes the %ce3_...% placeholders when
+# PlaceholderAPI is installed. Player values such
+# as %ce3_mana% and %ce3_level%, and the plugin's
+# own timings under %ce3_perf_...%.
+# The timings are the reason this exists: if the
+# server is running badly, %ce3_perf_melee_tick%
+# tells you what share of a tick CE3 combat is
+# actually costing, rather than leaving you to
+# guess from a profiler that blames one listener
+# for thirty enchantments.
+# '/ce perf' prints the same numbers with or
+# without PlaceholderAPI installed.
+# Turning this off unregisters nothing that is
+# already registered until the next restart.
+PlaceholderAPISupport: true
