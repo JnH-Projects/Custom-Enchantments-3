@@ -16,7 +16,7 @@
 #    ╚══════╝╚═╝  ╚═══╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═════╝
 #  Developed by: JayMar921
 #  Contributors: Sekai47, MikaPikaChu, JhonoBrine
-Config_Ver: '1.6.0'
+Config_Ver: '1.10.0'
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 #            [𝐏𝐥𝐮𝐠𝐢𝐧 𝐂𝐨𝐧𝐟𝐢𝐠𝐮𝐫𝐚𝐭𝐢𝐨𝐧]
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
@@ -41,6 +41,119 @@ ShowActionBar: true
 # If setting is `true`
 # - Only Players that is listed in authorization.yml can use admin commands.
 EnableAuthorizationYML: false
+# [1.8.1] About 20 seconds after an admin joins
+# (an op, or anyone with customenchants.admin)
+# they get a link to the setup guide. Players never
+# see it. Set to false once your server is set up.
+SetupNotice: true
+# -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+#                  [MODULES] [1.8.0]
+# -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+# Each entry below switches one part of the plugin
+# off. Everything is on by default, and a key that
+# is missing reads as on, so a server updated from
+# an older version runs exactly as it did.
+#
+# A module change takes effect on the next restart.
+# '/ce reload' re-reads this block and tells you
+# which switches are waiting on a restart.
+#
+# Nothing is deleted when a module is off. Balances,
+# quests, shop entities and player levels stay in
+# their files and come back when the module is
+# switched on again. A shop entity that belongs to
+# a module that is off stays where it is and tells
+# the player the feature is disabled when clicked.
+# Use '/ce shop remove' if you want it gone.
+#
+# Economy
+#   RACO balances, the RACO shop, the currency
+#   exchange, '/ce currency', quest coin rewards,
+#   treasure coin drops, bandit coin drops, and
+#   Kumandra support. Books priced in RACO ('C')
+#   are handled by RacoPriceFallback below. The
+#   enchantments whose effect is RACO itself
+#   (Heist, AntiHeist, Cofferguard, Coinvein,
+#   Titherow, Dredgeline) are switched off with it.
+#   Use this if you already run a currency plugin.
+#
+# Progression
+#   Levels, EXP, STRENGTH / AGILITY / INTELLIGENCE,
+#   classes, the skill tree, '/ce skills', '/ce rank',
+#   the level tag in chat, and every attribute
+#   requirement on an enchantment book. With this
+#   off any player can buy and use any book.
+#   Points a player earned before the switch stay in
+#   PlayerData.yml and still count toward the passive
+#   stats they already gave. '/ce skills reset <name>'
+#   still works so you can clear them.
+#
+# Quests
+#   Quest entities, '/ce quest' and the preset quests.
+#
+# Crafting
+#   The magic wand and potion recipes, and the
+#   crafting help pages under '/ce help'. With this
+#   off nobody can craft a wand, so wand spells are
+#   only usable on wands that already exist.
+#
+# Disenchanting
+#   The disenchant entity and its screen.
+#
+# Allies
+#   '/ce allies' and the friendly fire exemption
+#   allies get from area spells.
+#
+# Tutorial
+#   The guided sessions under '/ce help'. The
+#   crafting and treasure reference pages are not
+#   part of this and stay available.
+#
+# UpdateChecker
+#   The version check against Spigot and the
+#   JHProjects site on boot and when an admin joins.
+#   Off means no outbound request.
+Modules:
+  Economy: true
+  Progression: true
+  Quests: true
+  Crafting: true
+  Disenchanting: true
+  Allies: true
+  Tutorial: true
+  UpdateChecker: true
+# What a price that ends in 'C' becomes when
+# Modules.Economy is off. Ignored while it is on.
+#   levels   the book is sold for experience levels,
+#            converted with RacoToLevelRate
+#   disable  the book is treated as price 0
+RacoPriceFallback: levels
+# Levels charged per 1 RACO under 'levels'.
+# BlackHole at 750C with a rate of 0.1 sells for
+# 75 levels. Rounded up, never below 1 level.
+RacoToLevelRate: 0.1
+# Enchantments to switch off completely, on top of
+# whatever the modules above decide. A listed book
+# is not sold in any shop, cannot be applied at the
+# table, and one that already exists on an item does
+# nothing until it is taken off this list. The
+# enchantment data on the item is not removed.
+# Use the name as written in the price list below.
+# Example: [Telepathy, VeinMiner, Heist]
+DisabledEnchantments: []
+# [1.8.1] Vanilla enchantments players cannot put on
+# an item. A listed enchantment is taken out of the
+# enchanting table's offers and rolls, and an anvil
+# will not add it or raise its level, from a book or
+# from another item. Items that already have it keep
+# it and can still be renamed and repaired. Nothing
+# is ever removed from an existing item.
+# Use the Minecraft name, any spelling works:
+#   mending, fire_aspect, Fire Aspect, minecraft:mending
+# ALL blocks every vanilla enchantment.
+# Unknown names are listed in the console on boot.
+# Example: [mending, fire_aspect]
+DisabledVanillaEnchantments: []
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 #                 [SKILL STAT]
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
@@ -456,6 +569,23 @@ Paleward_INTELLIGENCE: 30
 Tombstride_AGILITY: 40
 Wardenknot_STRENGTH: 35
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+#          [Enchantment Price] [1.9.0]
+# -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+# The 5 enchantments added in 1.9.0. Same rules as
+# every price above: 0 disables the enchantment, and
+# a trailing 'C' prices it in RACO instead of levels.
+Boonthief: 70
+Clangor: 64
+Pinshot: 56
+Riptusk: 60
+Spitecoil: 66
+# [1.9.0] skill requirements
+Boonthief_STRENGTH: 40
+Clangor_STRENGTH: 35
+Pinshot_AGILITY: 35
+Riptusk_STRENGTH: 30
+Spitecoil_STRENGTH: 40
+# -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 #              [QUEST and CURRENCY]
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 SelectQuestCoolDown: 500
@@ -613,3 +743,94 @@ MagicWandDamage: 1.5
 # This may be CPU intensive, but it allows generating
 # Loot plots around the world
 GenerateLootPlots: true
+# ------------------------------------------------
+#                 PlaceholderAPI
+# ------------------------------------------------
+# Publishes the %ce3_...% placeholders when
+# PlaceholderAPI is installed. Player values such
+# as %ce3_mana% and %ce3_level%, and the plugin's
+# own timings under %ce3_perf_...%.
+# The timings are the reason this exists: if the
+# server is running badly, %ce3_perf_melee_tick%
+# tells you what share of a tick CE3 combat is
+# actually costing, rather than leaving you to
+# guess from a profiler that blames one listener
+# for thirty enchantments.
+# '/ce perf' prints the same numbers with or
+# without PlaceholderAPI installed.
+# Turning this off unregisters nothing that is
+# already registered until the next restart.
+PlaceholderAPISupport: true
+# ------------------------------------------------
+#                 AuraSkills [1.9.0]
+# ------------------------------------------------
+# Hooks AuraSkills 2.x when it is installed. It
+# needs Minecraft 1.20 or newer; on anything older
+# CE3 runs as normal with this left off. Nothing
+# happens on a server without AuraSkills, so it is
+# safe to leave on.
+AuraSkillsSupport: true
+# Enchanting XP for enchanting through CE3: the
+# table, the anvil, and books bought from the shop
+# once they are applied. AuraSkills only sees
+# vanilla enchanting on its own.
+# 1.0 is the same rate AuraSkills pays for vanilla
+# enchanting, 2.0 doubles it, 0 turns it off.
+AuraSkillsEnchantingXp: 1.0
+# Lets an enchantment ask for an AuraSkills skill
+# level before it works. Under the level, the
+# enchantment does nothing and the player is told
+# why. The item is never taken or damaged.
+AuraSkillsRequirements: false
+# One entry per enchantment, 'Enchantment: skill level'.
+# The enchantment name is the one in the price list,
+# the skill is any AuraSkills skill id, custom skills
+# included. Only read while the switch above is true.
+# Example: ['VeinMiner: mining 20', 'SharpArrow: archery 15']
+AuraSkillsRequirementList: []
+# ------------------------------------------------
+#             Player Languages [1.10.0]
+# ------------------------------------------------
+# lang.yml is the built in language. More go in
+# plugins/CustomEnchantments3/languages/, one file
+# per language, named by its code: de_de.yml,
+# zh_cn.yml. Ready made packs for ten languages:
+#   /ce language install <code>
+# or by hand from
+#   github.com/JnH-Projects/Custom-Enchantments-3
+# '/ce language' shows admins the full guide.
+#
+# Each player picks their own in '/ce settings'.
+# It changes chat, titles and menus for that player
+# only. Anything written ON an item (enchantment
+# names, treasure stats, potion names) is always in
+# DefaultLanguage, because items change hands and
+# CE3 reads some of those lines back.
+#
+# DefaultLanguage is what everyone reads until they
+# pick something else. en_us is lang.yml. Changing
+# it on a live server leaves the lore on existing
+# items in the old language.
+DefaultLanguage: en_us
+# Tells players on join how many languages the
+# server has. Only shown when there is more than
+# one, and each player can turn it off for
+# themselves in '/ce settings'.
+LanguageJoinNotice: true
+# ------------------------------------------------
+#             Treasure Finds [1.10.0]
+# ------------------------------------------------
+# When a player takes a treasure out of a loot plot
+# chest, off a bandit, out of the ground with
+# Sifting Hands or out of the water with Dredgeline,
+# the whole server is told. A treasure a player
+# stored and took back out does not count.
+# Players can hide these in '/ce settings', and
+# every find goes into their treasure codex
+# ('/ce codex') either way.
+TreasureBroadcast: true
+# Finds below this tier are only shown to the
+# player who found them. COMMON shows everything.
+# One of COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+TreasureBroadcastMinimumTier: COMMON
+Telemetry: true

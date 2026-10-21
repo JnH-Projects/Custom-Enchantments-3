@@ -4,12 +4,26 @@ This repository contains the plugin's default and custom configuration. You can 
 
 ### Configuration
 
-- [config.yml](/config/default/config.yml) - `default` | v1.5.0
+- [config.yml](/config/default/config.yml) - `default` | v1.10.0
 
 ### Language
 
-- [English](/languages/english/lang.yml) - English `default` | v1.2.1
+- [English](/languages/english/lang.yml) - English `default` | v1.10.0
 
+Language packs, one per language, that each player can pick for themselves in `/ce settings` (CE3 1.10.0 and newer). See [languages/README.md](/languages/README.md) for how to install them.
+
+| Code | Language | |
+| --- | --- | --- |
+| `de_de` | Deutsch (German) | [de_de.yml](/languages/packs/de_de.yml) |
+| `es_es` | Español (Spanish) | [es_es.yml](/languages/packs/es_es.yml) |
+| `fr_fr` | Français (French) | [fr_fr.yml](/languages/packs/fr_fr.yml) |
+| `id_id` | Bahasa Indonesia (Indonesian) | [id_id.yml](/languages/packs/id_id.yml) |
+| `ja_jp` | 日本語 (Japanese) | [ja_jp.yml](/languages/packs/ja_jp.yml) |
+| `ko_kr` | 한국어 (Korean) | [ko_kr.yml](/languages/packs/ko_kr.yml) |
+| `pt_br` | Português (Brazilian Portuguese) | [pt_br.yml](/languages/packs/pt_br.yml) |
+| `ru_ru` | Русский (Russian) | [ru_ru.yml](/languages/packs/ru_ru.yml) |
+| `vi_vn` | Tiếng Việt (Vietnamese) | [vi_vn.yml](/languages/packs/vi_vn.yml) |
+| `zh_cn` | 简体中文 (Simplified Chinese) | [zh_cn.yml](/languages/packs/zh_cn.yml) |
 
 ### Bandits
 
@@ -34,7 +48,8 @@ This repository contains the plugin's default and custom configuration. You can 
 - [CustomEnchantments 3 [1.18].zip](/resource_packs/§dCustomEnchantments%203%20[1.18].zip)
 - [CustomEnchantments 3 [1.19].zip](/resource_packs/§dCustomEnchantments%203%20[1.19].zip)
 - [CustomEnchantments 3 [1.21].zip](/resource_packs/§dCustomEnchantments%203%20[1.21].zip) [CE3 v1.3.0+]
+- [CustomEnchantments 3 [26].zip](/resource_packs/§dCustomEnchantments%203%20[26].zip)
 
 ### Website
 
-- [Custom Enchantments 3 - Wiki](https://jhprojects.vercel.app/ce3)
+- [Custom Enchantments 3](https://www.jhprojects.dev/customenchantments3)
