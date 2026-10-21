@@ -1,0 +1,43 @@
+# The ready made language packs. /ce language reads this to list what can be installed,
+# and /ce language install <code> downloads <code>.yml from this folder.
+Packs:
+  de_de:
+    Name: "Deutsch"
+    EnglishName: "German"
+    Version: "1.10.0"
+  es_es:
+    Name: "Español"
+    EnglishName: "Spanish"
+    Version: "1.10.0"
+  fr_fr:
+    Name: "Français"
+    EnglishName: "French"
+    Version: "1.10.0"
+  id_id:
+    Name: "Bahasa Indonesia"
+    EnglishName: "Indonesian"
+    Version: "1.10.0"
+  ja_jp:
+    Name: "日本語"
+    EnglishName: "Japanese"
+    Version: "1.10.0"
+  ko_kr:
+    Name: "한국어"
+    EnglishName: "Korean"
+    Version: "1.10.0"
+  pt_br:
+    Name: "Português (Brasil)"
+    EnglishName: "Portuguese (Brazil)"
+    Version: "1.10.0"
+  ru_ru:
+    Name: "Русский"
+    EnglishName: "Russian"
+    Version: "1.10.0"
+  vi_vn:
+    Name: "Tiếng Việt"
+    EnglishName: "Vietnamese"
+    Version: "1.10.0"
+  zh_cn:
+    Name: "简体中文"
+    EnglishName: "Chinese (Simplified)"
+    Version: "1.10.0"

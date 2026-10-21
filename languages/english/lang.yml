@@ -1,573 +1,866 @@
 # Language data, modify you can modify this file
 # Deleting this 'lang.yml' file, the plugin generates a new one
-
+# English, as CE3 1.10.0 writes it. Copy it over plugins/CustomEnchantments3/lang.yml
+# to reset the built in language. For a second language use a pack instead, see languages/README.md.
+LanguageCode: en_us
+LanguageName: English
 LANGUAGE:
-- QUEST_CREATE_13: Enter quest description
-  QUEST_CREATE_14: 'Description: _a'
-  Storm: Storm
-  RacoShop: Raco Shop
-  NoLevelOnDisenchant: You don't have enough levels to disenchant item
-  QUEST_CREATE_15: Enter Quest Reward (CE Currency)
-  QUEST_CREATE_16: Currency reward set to _a
-  QUEST_CREATE_17: Hold any item in your main hand as your item reward and type _a
-  CHESTPLATE: Chestplates
-  QUEST_CREATE_18: Item reward was set
-  Souls: '[Souls _a]'
-  QUEST_CREATE_19: Type the Quest ID's that you want for this quest entity to associate
-  WIZARD_MASTERY: WIZARD MASTERY
-  WindStrike: Wind Strike
-  NEAR: _a near _b
-  ARCHER: Archer
-  QUEST_CREATE_10: Separate your input with commas[_a]
-  QUEST_CREATE_11: Invalid Goal and Condition may not cause any error messages but
-    the quest will not work!
-  QUEST_CREATE_12: 'QUEST: -> _a _b'
-  WindSlasher: Wind Slasher
-  FoundPlayer: _a was added as your ally
-  AboutEnchant: Enchanting is ready, swap to item to enchant
-  VERY_LOW: VERY LOW
-  RemoveEnchant: Remove Enchantment
-  ARCHER_LORE: Inhibit in the northern land of jungle biomes
-  HOE: Hoe
-  PENETRATION: PENETRATION
-  IsCooldown: 'Enchantment _a is on cooldown: _b seconds'
-  QUEST_CREATE_20: 'Separate with comma[,] example: 1000,1001,1002'
-  QuestEntity: Quest Entity
-  NotEnoughBalance: Not enough balance
-  MaceEnchant: Mace Enchantments
-  AutoFarmLore: Get a chance to replant harvested crops
-  BuySkillAttribute: Spend an attribute point
-  IncompleteCommand: Incomplete command
-  TransactionFailure: Transaction Failure
-  Greeting: Hello _a!
-  LootingPlotCreated: Loot Plot designing saved
-  DESTROY: Mine _a
-  WeaponEnchant: Weapons Enchantments
-  BleedLore: Get a chance for enemy to bleed
-  DefaultSettings: Default/Custom Settings via Github
-  TreasureAbility: Passive Abilities
-  TS_Quest: Player Quest Tutorial
-  HOURGLASS_LORE: Decrease Cooldown
-  NoPointBoundary: You need to set point _a location
-  VeinMinerLore: Mine veins of ores
-  CONSUME: Consume _a
-  BOOTS: Boots
-  GooeyLore: Get a chance to launch your enemy 8 blocks above
-  ItemPenetration: Penetration
-  ItemCritical: Critical
-  ConsumeMana: (Consumes _a mana)
-  PLACE: Place _a
-  PlayerNotFound: Player _a was not found or offline
-  DrainEnergySplash: Drains _a mana when splashed in a surrounding area
-  Power: Power
-  AnimalArmorEnchant: Animal Armor Enchantments
-  GUICraftingTutorial: Crafting Tutorial
-  DeathRayLore: Shoot laser on target
-  RARE: Rare
-  EnterShopName: Enter the shop name
-  NoSupply: No more currency supply, wait for buyers to buy
-  ACCEPT_QUEST: You have accepted the quest
-  QUEST_LIST_SHOP: List of Quests Entities
-  ResetMessage: Your skill tree was reset
-  TS_NoPermission: Only admins can use this Tutorial
-  BlinkLore: Shift + Right click to blink on short distance
-  TreasureMgcDmg: 'Magical Damage: _a ⚡'
-  Levitate: Levitate
-  ProtectedBoundaryWarn: This block is inside a protected boundary
-  LootingPlotList: List of loot plots! You can design your own :)
-  LifeStealLore: Heal while attacking
-  ANIMAL_ARMOR: Animal Armors
-  SettingBoundary2: Location _a to _b
-  SettingBoundary3: 'Type ''save [boundary name]'' to save. Example: save territory_1'
-  SettingBoundary4: Type 'cancel' to cancel
-  Allies: _a's Allies
-  SettingBoundary1: You have set the boundary from
-  MODERATE: NORMAL
-  TreasurePhyDef: 'Physical Defense: _ax'
-  DragonBreathLore: Inflict your enemies on fire in a radius
-  RemovedMoneyPlayer: You have been deducted _a from _b
-  Cooldown: Cool Down
-  Farmland: Farmland
-  ResetElixir: Reset Elixir
-  RACOBalance: 'Balance (RACO): _a'
-  Bleed: Bleed
-  SuperNovaLore: Deal huge magic damage on surrounding area
-  CannotActivateNearShop: Enchantment _a cannot activate within _b blocks near a shop
-  RegainLore: Get a second life!
-  SellRacoShopInfo01: You can sell something in raco shop!
-  HORSE_ARMOR: Horse Armor
-  SellRacoShopInfo02: To sell item in raco shop, do '/ce shop sell price' while holding
-    the item you want to sell
-  SellRacoShopInfo03: Item price should not contain decimal point
-  SellRacoShopInfo04: Invalid item
-  SellRacoShopInfo05: 'Price: _a'
-  SellRacoShopInfo06: 'Seller: _a'
-  SellRacoShopInfo07: Item was set in RACO SHOP
-  SellRacoShopInfo08: You cannot sell item as of the moment, shop is full
-  SellRacoShopInfo09: Someone bought your item
-  HealingLore: Heal allies nearby
-  TreasureEarnedRaco: You've earned _a from that kill
-  TreasureExpMul: 'Exp Multiplier: _ax'
-  CustomEnchantNotAllowed: This world doesn't allow you to use custom enchantments
-  Shops: List of Shops
-  DeductMoneyPlayer: Successfully deducted _a to _b balance
-  DISENCHANT_3: You'll pay _a levels for every removed enchantment
-  DISENCHANT_2: Click on 'check' to select enchantments to remove
-  DISENCHANT_1: Place your item at the middle
-  InsideBoundaryWarn: You are inside a protected boundary
-  Blink: Blink
-  LightSpiritLore: Spirit of light binds on your sword
-  MaxSkill: You have mastered this skill
-  NO_ACTIVE_QUEST: You don't have any active quest
-  BoundarySaved: 'Saved boundary: _a'
-  DESTROY_NEAR: Mine _a near _b
-  PLUGIN_INFO_15: LOOTPLOTS_REGISTERED
-  WARRIOR: Warrior
-  PLUGIN_INFO_14: SHOPS_AND_QUEST_ENTITIES
-  EnchantMax: You already have the maximum level on this enchantment
-  HideActionBar: You have disabled the action bar
-  DeforestationLore: Cut the whole vertical tree trunk
-  QUEST_LIST: List of Quests
-  DynamiteSplash: Explodes when thrown at a target
-  CompanionHealingLore: Slowly heals your companion
-  PLUGIN_INFO_11: OVERRIDE_CHAT
-  PLUGIN_INFO_10: MAGIC_WAND_DMG
-  Stun: Stun
-  PLUGIN_INFO_13: TREASURE_ITEMS_REGISTERED
-  PLUGIN_INFO_12: CUSTOM_ITEMS_REGISTERED
-  ManaSteal: Mana Steal
-  QUEST_MODIFY_ENTITY: Modifying Quests Associated with _a
-  TreasureManaRegen: 'Mana Regen: _a/s'
-  PlayerBalance: Balance
-  FrostArrowLore: Slow your enemy by chance
-  Back: Go back
-  FireSplash: Inflicts flame and removes fire resistance
-  LEGENDARY: Legendary
-  TankEnchant: Tank
-  SwordEnchant: Sword Enchantments
-  STRENGTH: STRENGTH
-  CriticalLore: Deal critical damage to enemy
-  EnchantTimeout: Enchanting was cancelled due to timeout
-  DeathAngelLore: Fall a meteorite to where the arrow landed
-  BERSERK: BERSERK
-  INTELLIGENCE_LORE: Increase mana
-  FireSplashPotion: Fire Splash Potion
-  PoisonLore: Attack with poison effect
-  BlindnessLore: When attacked, blind the enemy by chance
-  ManaShield: Mana Shield
-  RemovedAlly: _a was removed as your ally
-  QUEST_OPTION: Type _a to accept, _b to deny quest
-  CustomEnchantTutorial: Custom Enchantment Help
-  GUITreasure: Treasure Items
-  WOLF_ARMOR: Wolf Armor
-  TreasureAddPhyDmg: 'Additional Physical Damage: _a hp'
-  'OFF': 'OFF'
-  BoughtEnchantRACO: You've bought _a for _b (RACO)
-  FreezeLore: Get a chance to freeze your attacker
-  QuestCoolDownRefreshed: New Quest is now available
-  SpearEnchant: Spear Enchantments
-  BlackHoleLore: Cast a black hole on your area, trapping players
-  CompanionThorns: Companion Thorns
-  InvalidArg: Invalid Argument
-  HailStorm: Hail Storm
-  TS_LevelUp: Player Levelling Tutorial
-  PROMPT_BUY_PLUGIN_2: Trial version doesn't allow you to use this command
-  PROMPT_BUY_PLUGIN_1: Trial version doesn't allow you to use this item
-  CurrencyExchange: Currency Exchange
-  BoundaryCancel: Cancelled setting boundary
-  SWORD_MASTERY_LORE: Increases sword damage
-  PlayerRank: Player Ranks
-  ClassPoints: SKILL POINT/S
-  ToolEnchant: Tools Enchantments
-  Telepathy: Telepathy
-  DragonBreath: Dragon Breath
-  EnchantIncompatible: The enchantment cannot be applied to this item
-  HIGH: HIGH
-  ResourcePack: Resource Pack
-  QUEST_MODIFY_ENTITY_NEARBY: You must be nearby a quest entity
-  WindStrikeLore: Dashes to enemy, deal magic damage
-  Nebula: Nebula
-  NotFoundPlayer: Player not found, must be online!
-  TreasureMgcDef: 'Magical Defense: _ax'
-  WindSlasherLore0: Summon tornado by chance at AGILITY 40+
-  Something: something
-  FrostArrow: Frost Arrow
-  NotEnoughBalance_1: You will need _a to buy _b
-  Deforestation: Deforestation
-  Player: Player
-  PoisonousThorns: Poisonous Thorns
-  Implant: Implant
-  GenericEnchant: Generic and Magic Enchantments
-  PlayerClassesUI: Select a classification
-  BOW: Bows/Crossbows
-  AntiManaSplashBottle: Anti Mana Splash Potion
-  QUEST_VERIFY: Save Quest? _a to save or _b to cancel
-  GUIPluginWiki: Plugin Wiki
-  Stealth: Stealth
-  CompanionHealing: Companion Healing
-  RequiredClass: You must be in _a class to acquire this skill
-  TOOL: Tools
-  SuperNova: Super Nova
-  Disenchant: Remove Enchantments
-  MagneticLore: Attracts ground items nearby to pickup
-  TridentEnchant: Trident Enchantments
-  TS_QuestShop: Create Quest Entity Tutorial
-  Sturdy: Sturdy
-  SomeoneWand: _a's Magic Wand
-  WIZARD: Wizard
-  QUEST_CREATE_8.2: for a player to complete the quest
-  NoPermission: You have no permission to use this command
-  QUEST_CREATE_8.1: You also must provide the number of occurrence
-  Magnetic: Magnetic
-  ImplantLore: The dark matter will give a strength to your bow
-  TreasurePhyDmg: 'Physical Damage: _a hp'
-  HOURGLASS: HOURGLASS
-  LightSpirit: Light Spirit
-  SoulEater: Soul Eater
-  PLUGIN_INFO_3: Developed by
-  PLUGIN_INFO_4: XP_MULTIPLIER
-  PLUGIN_INFO_1: Plugin Information
-  Wallet: Your wallet
-  PlayerClass: Class
-  PLUGIN_INFO_2: Plugin Version
-  TS_QuestShop_3: Now that you have created a simple quest, to show the list of quest,
-    you'll just need to do '/ce quest list' and make sure to take note if the 5-digit
-    ID since we will need it.
-  TS_QuestShop_4: '''/ce quest list'''
-  BoughtSkill: You have bought _a for _b
-  MagicResist: Magic Resist
-  TS_QuestShop_5: Let's create a quest shop now
-  TS_QuestShop_6: '''/ce shop add VILLAGER QUEST My Quest'''
-  EnchantLimit: You have reached the maximum enchant limit of _a
-  ManaEnergySplash: Gain _a mana when splashed in a surrounding area
-  TS_QuestShop_1: "Now that you've got a good spot, let's create a simple quest for\
-    \ now, do the command below and follow the steps. \nNote: don't put space(' ')\
-    \ after each comma's"
-  TS_QuestShop_2: '''/ce quest add'''
-  TS_QuestShop_7: 'It should be of Shop Type: QUEST'
-  TS_QuestShop_8: 'It should be of Shop Name: My Quest'
-  SWIFT_ESCAPE: SWIFT ESCAPE
-  SWIFT_ESCAPE_LORE: Increases Chance to Evade/Ignore Damage
-  TS_QuestShop_9: Right Click the quest shop and start a quest!
-  PLUGIN_INFO_7: QUEST_XP_REWARD
-  PLUGIN_INFO_8: DENIED_QUEST_COOLDOWN
-  Poison: Poison
-  PLUGIN_INFO_5: SKILL_POINT_MULTIPLIER
-  BrillianceLore: Grant mana regeneration
-  PLUGIN_INFO_6: ENCHANTMENT_LIMIT
-  Exp: EXP
-  PLUGIN_INFO_9: PARTICLE_EFFECTS
-  Regain: Regain
-  TS_PROCEED: Moving on next step...
-  ResetElixirLore: Reset your skill tree
-  AntiHeistLore: Get a chance to block heist enchantment from attacker
-  QUEST_COMPLETE: Quest _a Completed
-  LevitateLore: Levitate Enemies and deal magic damage
-  LootingPlotRemoved: Removed loot plot [_a]
-  RequiredMana: 'Enchantment _a requires: _b mana'
-  ClickToDownload: Click to download
-  SoulEaterLore: Spirit of darkness binds on your sword
-  QUEST_CANCEL: You have cancelled creating a quest
-  AGILITY_LORE: Increase movement speed
-  Damage: Damage
-  FoundSelf: Try another name
-  WAND: Magic Wands
-  ManaEnergy: Obtain _a mana when consumed
-  INTELLIGENCE_LORE1: Increase magical defense by _a or _b% on Max INTELLIGENCE
-  INTELLIGENCE_LORE0: Increase magical damage
-  ClickToOpen: Click to open website
-  ShopCreated: Created a shop
-  SWORD_MASTERY: SWORD MASTERY
-  ManaStealLore: Steal mana from enemy
-  HailStormLore: Cast a hail storm in the area
-  QUEST_CREATED: Quest was saved!
-  MaxSupply: Maximum supply has reached, wait for holders to sell
-  PLACE_NEAR: Place _a near _b
-  TS_P_4: Plugin Tutorials
-  TS_P_3: Tutorial Mode Ended
-  ShowActionBar: You have enabled the action bar
-  TS_P_2: See chat for additional info
-  TS_P_1: Tutorial Mode
-  TS_Shop: Create Shop Tutorial
-  PLAYER_ON_QUEST: You are currently on a quest
-  AreaWorldGuarded: The area is world guarded
-  PluginWiki: Plugin Wiki
-  TS_Shop_9: Cool! You've made your first shop!
-  NebulaLore: Nebula explosion!
-  CONSUME_NEAR: Consume _a near _b
-  InvalidShopType: Invalid Shop Type
-  Stella: Stella
-  DeathAngel: Death Angel
-  Heist: Heist
-  PoisonousThornsLore: Get a chance to poison the attacker
-  LEGGINGS: Leggings
-  QUEST_INFO_4: 'Condition: _a'
-  QUEST_INFO_5: 'Description:'
-  QUEST_INFO_6: 'REWARD: _aC and _b'
-  AreaWorldGuarded_SpawnMob: To spawn an entity, set the 'mob-spawning' flag to 'Allow'
-    in your world guarded region
-  PENETRATION_LORE: Ignore physical defense by 0.5%
-  ManaBurnLore: Burn players mana when nearby
-  TS_Shop_6: 'It should be of Shop Entity Type: VILLAGER'
-  Healing: Healing
-  LootingPlotCancel: Loot Plot designing was cancelled
-  TS_Shop_5: Please follow the command shown above
-  TS_Shop_8: 'It should be of Shop Name: Sword Shop'
-  TreasureCDR: 'Cooldown Reduction: _as'
-  TS_Shop_7: 'It should be of Shop Type: SWORD'
-  QUEST_NOT_AVAILABLE: Sorry, please try again later...
-  TS_Shop_2: A simple villager sword enchantment shop
-  CLVLBalance: 'Balance (CLVL): _a'
-  TS_Shop_1: Now, let's set up a simple shop
-  LevelUp: You have leveled up, you have _a point/s to spend. Do _b to buy skill
-  MaxSouls: Max Souls
-  BoundaryList: List of boundaries
-  TS_Shop_4: '''/ce Shop Add VILLAGER SWORD Sword Shop'''
-  EnchantmentDisabled: Enchantment was disabled
-  TS_Shop_3: 'do the command:'
-  ENCHANTING_1: You are about to enchant an item, enchant to item first
-  Juggernaut: Juggernaut
-  OverMaxSupply: Amount provided is more than the max supply, allowable amount is
-    _a
-  OpeningInClass: Opening Classes UI in _a second/s
-  ENCHANTING_2: Remove your offhand item to enchant the main-hand item
-  DoubleJump: Double Jump
-  SettingSet: Setting was set
-  TradeUI02: CLVL conversion to _a (RACO)
-  TradeUI03: _a ≈ _b
-  TradeUI01: Market Price
-  TradeUI06: Sell _a CLVL
-  LootingPlotCreate09: 'Example: ''save campfire_loot_plot,Surface'
-  TradeUI07: Buy _a _b (RACO)
-  TradeUI04: '(Note: Price will change overtime)'
-  TradeUI05: Buy _a CLVL
-  TelepathyLore1: Incompatible with fortune enchantment
-  TelepathyLore0: Collect dropped item instantly from being mined
-  LightningLore: Strike lightning on surrounding area
-  STRENGTH_LORE0: Increase physical defense by _a
-  STRENGTH_LORE1: Increase health regen
-  HELMET: Helmet
-  VERY_HIGH: VERY HIGH
-  ARMOR: Armors
-  TradeUI10: '- You must convert your LEVEL to CLVL first'
-  TradeUI13: '- Yes, the more players who will buy RACO,'
-  TradeUI14: '  the value of it increases. The more players'
-  ArmorEnchant: Armors Enchantments
-  TradeUI11: '- After conversion, you can now buy RACO coin'
-  HeistLore: Get a chance to steal money from your enemy
-  TradeUI12: Will the RACO value change?
-  TradeUI17: 'Circulating Supply: _a'
-  ConfusionLore: Confuse the enemy by chance
-  TradeUI18: 'Total Supply: _a'
-  WARNING: '[WARNING]'
-  TradeUI15: '  sell RACO, the value of it decreases.'
-  GUITreasureLore1: 'Drop chance per item: _a'
-  TradeUI16: 'Market Cap: _a'
-  BOW_MASTERY_LORE: Increase bow damage
-  TradeUI08: Sell _a _b (RACO)
-  TradeUI09: How to buy RACO coins?
-  TankEnchantLore: Gain physical damage resistance
-  SuddenBlowLore: Has chance to blind and stun the enemy
-  ClassIntroduction: |-
-    This plugin embraces MMORPG gameplay and a class system. Skills are available only to the appropriate classes.
-
-
-    Changing class is expensive, so be wise.
-  PLANT: Plant _a
-  KILL_NEAR: Kill _a near _b
-  InvalidEntityType: Invalid Entity Type
-  QUEST_CREATE_9: 'Example Quest Objective:'
-  QUEST_REWARDS: 'Rewards: _a _b'
-  QUEST_CREATE_8: Something_2 should be an entity type!
-  QUEST_CREATE_7: Something_2 is is the condition to complete the goal
-  UNSWERVING_SHOT_LORE: Increases arrow’s flying speed
-  QUEST_CREATE_6: Something_1 is the goal to complete the objective
-  QUEST_CREATE_1: Enter the quest title. Type _a to cancel
-  QUEST_CREATE_5: Quest type is the objective type
-  QUEST_CREATE_4: Create your Quest Objective
-  QUEST_CREATE_3: 'Type: _a -> _b'
-  StealthLore: Deals more damage while sneaking
-  QUEST_CREATE_2: 'Quest Title: [_a]'
-  StunLore: Get a chance to stun the enemy
-  BowEnchant: Bow Enchantments
-  SplashNearLore: Deals more effect when thrown near the entity
-  QUEST_ERROR: Invalid Input!! Error at _a
-  AppliesTo: (Applies to _a)
-  BERSERK_LORE: Increase damage by 0.2 for every hp lost
-  AXE: Axe
-  LootingPlotCreate06: type 'save plot_name,location' to save
-  QUEST_REMOVE: Removed Quest _a
-  LootingPlotCreate05: type 'cancel' to cancel
-  LootingPlotCreate08: Surface, Underground
-  LootingPlotCreate07: Locations
-  LootingPlotCreate02: You can put as many chests you want for looting
-  OmnivampLore: Get a chance to heal when attacked
-  LootingPlotCreate01: Design your looting Plot
-  Lightning: Lightning
-  LootingPlotCreate04: generate a loot table for it from LootItems.yml
-  SpecifyArg: Specify the arguments
-  BOW_MASTERY: BOW MASTERY
-  LootingPlotCreate03: but don't put any items on it, the plugin will
-  TargetAvailableBalance: _a available balance is _b
-  SelectSpell: Right click to select a spell
-  SharpArrow: Sharp Arrow
-  WARRIOR_LORE0: They have the best in attacking ability and endurance,
-  TreasureRacoReward: 'Raco reward per kill chance: _a'
-  WindSlasherLore: Gain Attack Speed
-  WARRIOR_LORE2: (You'll be able to use Sword Enchantments)
-  WARRIOR_LORE1: but they're slow in speed and is inaccurate.
-  Check: Check
-  EnchantComplete: You have applied _a enchantment to _b
-  SelectClass: Select this class
-  AGILITY_LORE1: Increase physical damage by _a
-  BuySkill: Spend a skill point
-  AGILITY_LORE0: Increase critical chance
-  INTELLIGENCE: INTELLIGENCE
-  QUEST_RETURN: Return to _a and claim your reward
-  LifeSteal: Life Steal
-  EPIC: Epic
-  WarnIncompatibleClass: Enchantment _a can only be used if you're in _b class
-  BoundaryNotFound: 'Cannot find boundary: _a'
-  TS_Quest_2: Locate that quest shop and start your quest!
-  TS_Quest_1: '''/ce quest'''
-  TS_Quest_3: Good Job! You've completed your quest, you can start a quest anytime
-    and get more rewards.
-  AutoFarm: Auto Farm
-  Shop: Shop _a is at _b
-  TS_LevelUp_9: SKILL POINTS can be spent to unlock specific abilities within a chosen
-    class, such as Archery, Wizard, or Warrior. Once you select a class, you are limited
-    to upgrading only its mastery skills, allowing you to specialize and progress
-    within that path.
-  ONLY_ONE_ENCHANT: You can only have 1 active skill on this item
-  ManaSplashBottle: Mana Splash Potion
-  TS_LevelUp_8: By continuously grinding and reaching level 10, you'll earn 1 Skill
-    Point. Skill Points are only awarded at milestone levels that are multiples of
-    10 such as level 10, 20, 30, and so on.
-  LOW: LOW
-  Next: Next
-  RELOAD_PLUGIN0: Reloading Plugin
-  ShieldEnchant: Shield Enchantments
-  RELOAD_PLUGIN1: Plugin Reloaded
-  TS_LevelUp_3: Now you're learning! I'm proud of you!
-  COMMON: Common
-  TS_LevelUp_2: Cool! You've just gained an EXP buy killing a mob, now try breaking
-    any type of block
-  Level: LEVEL
-  SturdyLore: Obtain physical resistance when equipped
-  JuggernautLore: Deal armor penetration
-  TS_LevelUp_1: Okay... Let's start at the very basic, try killing any mob to gain
-    Exp
-  TS_LevelUp_7: 'ATTRIBUTE POINTS can be invested to enhance core stats: Strength,
-    Agility, and Intelligence. Each point spent increases your chosen attribute, shaping
-    your character''s overall abilities and play style.'
-  TS_LevelUp_6: As you can see, you are currently level _a and have _b attribute point
-    to spend
-  TS_LevelUp_5: '''/ce skills'''
-  TS_LevelUp_4: Each time you kill a mob or break a block, you will gain EXP. If you
-    reach a certain EXP threshold, you will get 1 level. Let's go back to the Skills
-    UI
-  QUEST_LOAD: Loading your quest...
-  FireBall: Fire Ball
-  DoubleJumpLore: Sneak while on air to jump
-  AutoRepair: Auto Repair
-  WIZARD_LORE: Occupies the lands of Snowy Plain.
-  SharpArrowLore: Deal more ranged damage
-  Gooey: Gooey
-  SkillTree: Skill Tree
-  PayMoneyPlayer: Successfully paid _a to _b
-  Freeze: Freeze
-  TradeExchange: You have exchanged _a for _b
-  Blocks: blocks
-  StellaLore: Ultimate bow enchantment
-  TS_Shop_16: Good Job!
-  FallingStar: Falling Star
-  TS_Shop_17: I'm so proud of you!
-  TS_Shop_14: try the remove command
-  TS_Shop_15: /ce Shop Remove Sword Shop
-  TS_Shop_12: Cool! We're almost done!
-  TS_Shop_13: Now that you've created a shop, lets
-  TS_Shop_10: Now try interacting it
-  TS_Shop_11: Right Click the shop
-  Omnivamp: Omni Vamp
-  FocusFire: Focus Fire
-  TS_Shop_18: Now try creating shops in your server
-  Blindness: Blindness
-  UNCOMMON: Uncommon
-  PICKAXE: Pickaxe
-  KILL: Kill _a
-  SuddenBlow: Sudden Blow
-  FarmlandLore: Create a small chunk of farmland
-  ReceiveMoneyPlayer: Received _a from _b
-  MagicResistLore: Gain magic damage resistance
-  GUITreasureItems: Treasure Items List
-  GUITreasureLore: Rarely found on villages, mineshaft, and looting plot chests
-  WARRIOR_LORE: Settle in the southern area of the Taiga Biomes.
-  TS_QuestShop_1_1: 'YT Tutorial: https://youtu.be/8Ojqnw-8Mnc'
-  FallingStarLore: Call the falling star above to rain the enemies
-  TreasureHPS: 'Health Regen: _a hp/s'
-  QUEST_ENTITY_SET: Quest Entity Set!
-  NoAttributePoint: You don't have enough attribute point/s
-  DeathRay: Death Ray
-  ARCHER_LORE0: They shun the use of heavy equipment as it
-  Critical: Critical
-  TreasureAddMgcDmg: 'Additional Magical Damage: _a ⚡'
-  ARCHER_LORE1: restricts their mobility and agility.
-  QUEST_INFO_1: 'Title: _a'
-  QUEST_INFO_2: 'Objective: _a'
-  QUEST_INFO_3: 'Goal: _a'
-  SpecifyPlayer: Please specify the player name
-  DuplicateShop: Shop already exists
-  SyntaxError: Command Syntax Error!
-  UNSWERVING_SHOT: UNSWERVING SHOT
-  NoSkillPoint: You don't have enough skill point/s
-  DENY_QUEST: You denied the quest
-  WIZARD_LORE0: They manifest less physical ability than
-  VERY_RARE: Very Rare
-  WIZARD_LORE1: the other classes but has the strongest magical powers.
-  WIZARD_LORE2: (You'll be able to use Magic Enchantments)
-  CoolDownRefreshed: _a is now ready
-  SuccessJoinedClass: _a has successfully joined the _b class!
-  GENERIC: Weapons/Armors/Tools
-  AddMoneyPlayer: Successfully added _a to _b balance
-  Brilliance: Brilliance
-  MaxLevel: Max Level
-  Execute: Execute
-  TS_QuestShop_11: Now try creating quests in your server
-  TS_QuestShop_10: '''/ce Shop Remove My Quest'''
-  FireBallLore: Shoot fireball
-  Confusion: Confusion
-  AntiHeist: Anti Heist
-  CompanionThornsLore: Apply thorns with slowness effect when companion is attacked
-  VeinMiner: Vein Miner
-  ManaShieldLore: Absorb some damage and consume it as mana
-  PLANT_NEAR: Plant _a near _b
-  Points: ATTRIBUTE POINT/S
-  STRENGTH_LORE: Increase physical damage by _a
-  BoughtEnchant: You've bought _a for _b levels
-  WIZARD_MASTERY_LORE: Increase casting range / spell radius by 0.2 blocks
-  EnchantmentShop: Enchantment Shop
-  AGILITY: AGILITY
-  MANA_CHARGE: MANA CHARGE
-  BoundaryRemoved: 'Removed boundary: _a'
-  ItemDamage: Damage
-  StormLore: The power of wind and storm will bind your wand
-  RightClick2: 'Step 2: Switch on item to enchant'
-  RightClick3: 'Step 3: Right click the item'
-  QUEST_REPEAT: Repeat _a times
-  BlackHole: Black Hole
-  AutoRepairLore: Slowly repair tool/weapon over time
-  RightClick1: 'Step 1: Right Click this book'
-  DynamiteSplashBottle: Dynamite
-  ExecuteLore: Deal huge damage on enemy with low health
-  LootingPlotCreatedFailed: Failed to save plot, make sure you follow the saving syntax
-  TS_LevelUp_10: I hope you've picked up some tips on leveling up today. Now get out
-    there, enjoy the grind, and keep pushing forward, wishing you the best on your
-    journey!
-  FocusFireLore: Gain Quick MS and Invisibility on every success hit
-  ARCHER_LORE2: They are considered as the quickest
-  ManaBurn: Mana Burn
-  RequiredSkill: Required _a to be level _b
-  ARCHER_LORE3: and fastest of all the classes.
-  ARCHER_LORE4: (You'll be able to use Bow Enchantments)
-  ManaBottle: Mana Potion
-  MANA_CHARGE_LORE: Increase mana regen by 0.125/s
+- SkillTree: "Skill Tree"
+  PlayerClassesUI: "Select a classification"
+  Player: "Player"
+  Level: "Minecraft Level"
+  Exp: "EXP"
+  Power: "Power"
+  Blocks: "blocks"
+  Check: "Check"
+  DISENCHANT_1: "Place your item at the middle"
+  DISENCHANT_2: "Click on 'check' to select enchantments to remove"
+  DISENCHANT_3: "You'll pay _a levels for every removed enchantment"
+  PlayerRank: "Player Ranks"
+  Points: "ATTRIBUTE POINT/S"
+  ClassPoints: "SKILL POINT/S"
+  EnchantLimit: "You have reached the maximum enchant limit of _a"
+  SpecifyArg: "Specify the arguments"
+  InvalidArg: "Invalid Argument"
+  SpecifyPlayer: "Please specify the player name"
+  NotFoundPlayer: "Player not found, must be online!"
+  FoundPlayer: "_a was added as your ally"
+  RemovedAlly: "_a was removed as your ally"
+  FoundSelf: "Try another name"
+  BuySkill: "Spend a skill point"
+  BuySkillAttribute: "Spend an attribute point"
+  NoSkillPoint: "You don't have enough skill point/s"
+  NoLevelOnDisenchant: "You don't have enough levels to disenchant item"
+  NoAttributePoint: "You don't have enough attribute point/s"
+  RequiredSkill: "Required _a to be level _b"
+  RequiredClass: "You must be in _a class to acquire this skill"
+  PlayerClass: "Class"
+  SelectClass: "Select this class"
+  STRENGTH: "STRENGTH"
+  STRENGTH_LORE: "Increase physical damage by _a"
+  STRENGTH_LORE0: "Increase physical defense by _a"
+  STRENGTH_LORE1: "Increase health regen"
+  AGILITY: "AGILITY"
+  AGILITY_LORE: "Increase movement speed"
+  AGILITY_LORE0: "Increase critical chance"
+  AGILITY_LORE1: "Increase physical damage by _a"
+  INTELLIGENCE: "INTELLIGENCE"
+  INTELLIGENCE_LORE: "Increase mana"
+  INTELLIGENCE_LORE0: "Increase magical damage"
+  INTELLIGENCE_LORE1: "Increase magical defense by _a or _b% on Max INTELLIGENCE"
+  SWORD_MASTERY: "SWORD MASTERY"
+  SWORD_MASTERY_LORE: "Increases sword damage"
+  PENETRATION: "PENETRATION"
+  PENETRATION_LORE: "Ignore physical defense by 0.5%"
+  BERSERK: "BERSERK"
+  BERSERK_LORE: "Increase damage by 0.2 for every hp lost"
+  BOW_MASTERY: "BOW MASTERY"
+  BOW_MASTERY_LORE: "Increase bow damage"
+  UNSWERVING_SHOT: "UNSWERVING SHOT"
+  UNSWERVING_SHOT_LORE: "Increases arrow’s flying speed"
+  SWIFT_ESCAPE: "SWIFT ESCAPE"
+  SWIFT_ESCAPE_LORE: "Increases Chance to Evade/Ignore Damage"
+  WIZARD_MASTERY: "WIZARD MASTERY"
+  WIZARD_MASTERY_LORE: "Increase casting range / spell radius by 0.2 blocks"
+  HOURGLASS: "HOURGLASS"
+  HOURGLASS_LORE: "Decrease Cooldown"
+  MANA_CHARGE: "MANA CHARGE"
+  MANA_CHARGE_LORE: "Increase mana regen by 0.125/s"
+  WARRIOR: "Warrior"
+  WARRIOR_LORE: "Settle in the southern area of the Taiga Biomes."
+  WARRIOR_LORE0: "They have the best in attacking ability and endurance,"
+  WARRIOR_LORE1: "but they're slow in speed and is inaccurate."
+  WARRIOR_LORE2: "(You'll be able to use Sword Enchantments)"
+  ARCHER: "Archer"
+  ARCHER_LORE: "Inhibit in the northern land of jungle biomes"
+  ARCHER_LORE0: "They shun the use of heavy equipment as it"
+  ARCHER_LORE1: "restricts their mobility and agility."
+  ARCHER_LORE2: "They are considered as the quickest"
+  ARCHER_LORE3: "and fastest of all the classes."
+  ARCHER_LORE4: "(You'll be able to use Bow Enchantments)"
+  WIZARD: "Wizard"
+  WIZARD_LORE: "Occupies the lands of Snowy Plain."
+  WIZARD_LORE0: "They manifest less physical ability than"
+  WIZARD_LORE1: "the other classes but has the strongest magical powers."
+  WIZARD_LORE2: "(You'll be able to use Magic Enchantments)"
+  Greeting: "Hello _a!"
+  ClassIntroduction: "This plugin embraces MMORPG gameplay and a class system. Skills are available only to the appropriate classes.\n\n\nChanging class is expensive, so be wise."
+  SuccessJoinedClass: "_a has successfully joined the _b class!"
+  WarnIncompatibleClass: "Enchantment _a can only be used if you're in _b class"
+  MaxSkill: "You have mastered this skill"
+  BoughtSkill: "You have bought _a for _b"
+  LevelUp: "You have leveled up, you have _a point/s to spend. Do _b to buy skill"
+  OpeningInClass: "Opening Classes UI in _a second/s"
+  Shops: "List of Shops"
+  ShopCreated: "Created a shop"
+  Shop: "Shop _a is at _b"
+  InvalidShopType: "Invalid Shop Type"
+  EnterShopName: "Enter the shop name"
+  DuplicateShop: "Shop already exists"
+  InvalidEntityType: "Invalid Entity Type"
+  Disenchant: "Remove Enchantments"
+  RemoveEnchant: "Remove Enchantment"
+  EnchantmentDisabled: "Enchantment was disabled"
+  PROMPT_BUY_PLUGIN_1: "Trial version doesn't allow you to use this item"
+  PROMPT_BUY_PLUGIN_2: "Trial version doesn't allow you to use this command"
+  ONLY_ONE_ENCHANT: "You can only have 1 active skill on this item"
+  Damage: "Damage"
+  BoughtEnchant: "You've bought _a for _b levels"
+  BoughtEnchantRACO: "You've bought _a for _b (RACO)"
+  EnchantmentShop: "Enchantment Shop"
+  WeaponEnchant: "Weapons Enchantments"
+  ToolEnchant: "Tools Enchantments"
+  ArmorEnchant: "Armors Enchantments"
+  GenericEnchant: "Generic and Magic Enchantments"
+  SwordEnchant: "Sword Enchantments"
+  BowEnchant: "Bow Enchantments"
+  ShieldEnchant: "Shield Enchantments"
+  TridentEnchant: "Trident Enchantments"
+  AnimalArmorEnchant: "Animal Armor Enchantments"
+  Back: "Go back"
+  Next: "Next"
+  Cooldown: "Cool Down"
+  MaxLevel: "Max Level"
+  ARMOR: "Armors"
+  BOW: "Bows/Crossbows"
+  CHESTPLATE: "Chestplates"
+  LEGGINGS: "Leggings"
+  HELMET: "Helmet"
+  BOOTS: "Boots"
+  HOE: "Hoe"
+  PICKAXE: "Pickaxe"
+  AXE: "Axe"
+  TOOL: "Tools"
+  GENERIC: "Weapons/Armors/Tools"
+  WAND: "Magic Wands"
+  Allies: "_a's Allies"
+  WOLF_ARMOR: "Wolf Armor"
+  HORSE_ARMOR: "Horse Armor"
+  ANIMAL_ARMOR: "Animal Armors"
+  RightClick1: "Step 1: Right Click this book"
+  RightClick2: "Step 2: Switch on item to enchant"
+  RightClick3: "Step 3: Right click the item"
+  AboutEnchant: "Enchanting is ready, swap to item to enchant"
+  EnchantComplete: "You have applied _a enchantment to _b"
+  EnchantMax: "You already have the maximum level on this enchantment"
+  EnchantTimeout: "Enchanting was cancelled due to timeout"
+  EnchantIncompatible: "The enchantment cannot be applied to this item"
+  ConsumeMana: "(Consumes _a mana)"
+  AppliesTo: "(Applies to _a)"
+  IsCooldown: "Enchantment _a is on cooldown: _b seconds"
+  RequiredMana: "Enchantment _a requires: _b mana"
+  CoolDownRefreshed: "_a is now ready"
+  QuestCoolDownRefreshed: "New Quest is now available"
+  SomeoneWand: "_a's Magic Wand"
+  ManaBottle: "Mana Potion"
+  ManaSplashBottle: "Mana Splash Potion"
+  FireSplashPotion: "Fire Splash Potion"
+  DynamiteSplashBottle: "Dynamite"
+  AntiManaSplashBottle: "Anti Mana Splash Potion"
+  ManaEnergy: "Obtain _a mana when consumed"
+  ManaEnergySplash: "Gain _a mana when splashed in a surrounding area"
+  DrainEnergySplash: "Drains _a mana when splashed in a surrounding area"
+  FireSplash: "Inflicts flame and removes fire resistance"
+  DynamiteSplash: "Explodes when thrown at a target"
+  SplashNearLore: "Deals more effect when thrown near the entity"
+  SelectSpell: "Right click to select a spell"
+  ResetElixir: "Reset Elixir"
+  ResetElixirLore: "Reset your skill tree"
+  ResetMessage: "Your skill tree was reset"
+  KILL: "Kill _a"
+  KILL_NEAR: "Kill _a near _b"
+  PLANT: "Plant _a"
+  PLANT_NEAR: "Plant _a near _b"
+  PLACE: "Place _a"
+  PLACE_NEAR: "Place _a near _b"
+  DESTROY: "Mine _a"
+  DESTROY_NEAR: "Mine _a near _b"
+  CONSUME: "Consume _a"
+  CONSUME_NEAR: "Consume _a near _b"
+  Something: "something"
+  QUEST_CREATE_1: "Enter the quest title. Type _a to cancel"
+  QUEST_CREATE_2: "Quest Title: [_a]"
+  QUEST_CREATE_3: "Type: _a -> _b"
+  QUEST_CREATE_4: "Create your Quest Objective"
+  QUEST_CREATE_5: "Quest type is the objective type"
+  QUEST_CREATE_6: "Something_1 is the goal to complete the objective"
+  QUEST_CREATE_7: "Something_2 is is the condition to complete the goal"
+  QUEST_CREATE_8: "Something_2 should be an entity type!"
+  QUEST_CREATE_8.1: "You also must provide the number of occurrence"
+  QUEST_CREATE_8.2: "for a player to complete the quest"
+  QUEST_CREATE_9: "Example Quest Objective:"
+  QUEST_CREATE_10: "Separate your input with commas[_a]"
+  QUEST_CREATE_11: "Invalid Goal and Condition may not cause any error messages but the quest will not work!"
+  QUEST_CREATE_12: "QUEST: -> _a _b"
+  QUEST_CREATE_13: "Enter quest description"
+  QUEST_CREATE_14: "Description: _a"
+  QUEST_CREATE_15: "Enter Quest Reward (CE Currency)"
+  QUEST_CREATE_16: "Currency reward set to _a"
+  QUEST_CREATE_17: "Hold any item in your main hand as your item reward and type _a"
+  QUEST_CREATE_18: "Item reward was set"
+  QUEST_CREATE_19: "Type the Quest ID's that you want for this quest entity to associate"
+  QUEST_CREATE_20: "Separate with comma[,] example: 1000,1001,1002"
+  QUEST_CANCEL: "You have cancelled creating a quest"
+  QUEST_VERIFY: "Save Quest? _a to save or _b to cancel"
+  QUEST_CREATED: "Quest was saved!"
+  QUEST_ENTITY_SET: "Quest Entity Set!"
+  QUEST_ERROR: "Invalid Input!! Error at _a"
+  QUEST_INFO_1: "Title: _a"
+  QUEST_INFO_2: "Objective: _a"
+  QUEST_INFO_3: "Goal: _a"
+  QUEST_INFO_4: "Condition: _a"
+  QUEST_INFO_5: "Description:"
+  QUEST_INFO_6: "REWARD: _aC and _b"
+  QUEST_REMOVE: "Removed Quest _a"
+  QUEST_REWARDS: "Rewards: _a _b"
+  QuestEntity: "Quest Entity"
+  QUEST_LIST: "List of Quests"
+  QUEST_LIST_SHOP: "List of Quests Entities"
+  QUEST_OPTION: "Type _a to accept, _b to deny quest"
+  QUEST_NOT_AVAILABLE: "Sorry, please try again later..."
+  DENY_QUEST: "You denied the quest"
+  ACCEPT_QUEST: "You have accepted the quest"
+  NEAR: "_a near _b"
+  QUEST_LOAD: "Loading your quest..."
+  QUEST_REPEAT: "Repeat _a times"
+  PLAYER_ON_QUEST: "You are currently on a quest"
+  NO_ACTIVE_QUEST: "You don't have any active quest"
+  QUEST_RETURN: "Return to _a and claim your reward"
+  QUEST_COMPLETE: "Quest _a Completed"
+  QUEST_MODIFY_ENTITY: "Modifying Quests Associated with _a"
+  QUEST_MODIFY_ENTITY_NEARBY: "You must be nearby a quest entity"
+  PLUGIN_INFO_1: "Plugin Information"
+  PLUGIN_INFO_2: "Plugin Version"
+  PLUGIN_INFO_3: "Developed by"
+  PLUGIN_INFO_4: "XP_MULTIPLIER"
+  PLUGIN_INFO_5: "SKILL_POINT_MULTIPLIER"
+  PLUGIN_INFO_6: "ENCHANTMENT_LIMIT"
+  PLUGIN_INFO_7: "QUEST_XP_REWARD"
+  PLUGIN_INFO_8: "DENIED_QUEST_COOLDOWN"
+  PLUGIN_INFO_9: "PARTICLE_EFFECTS"
+  PLUGIN_INFO_10: "MAGIC_WAND_DMG"
+  PLUGIN_INFO_11: "OVERRIDE_CHAT"
+  PLUGIN_INFO_12: "CUSTOM_ITEMS_REGISTERED"
+  PLUGIN_INFO_13: "TREASURE_ITEMS_REGISTERED"
+  PLUGIN_INFO_14: "SHOPS_AND_QUEST_ENTITIES"
+  PLUGIN_INFO_15: "LOOTPLOTS_REGISTERED"
+  LifeSteal: "Life Steal"
+  LifeStealLore: "Heal while attacking"
+  Bleed: "Bleed"
+  BleedLore: "Get a chance for enemy to bleed"
+  Critical: "Critical"
+  CriticalLore: "Deal critical damage to enemy"
+  Poison: "Poison"
+  PoisonLore: "Attack with poison effect"
+  ManaSteal: "Mana Steal"
+  ManaStealLore: "Steal mana from enemy"
+  Execute: "Execute"
+  ExecuteLore: "Deal huge damage on enemy with low health"
+  LightSpirit: "Light Spirit"
+  LightSpiritLore: "Spirit of light binds on your sword"
+  SoulEater: "Soul Eater"
+  Souls: "[Souls _a]"
+  MaxSouls: "Max Souls"
+  SoulEaterLore: "Spirit of darkness binds on your sword"
+  WindStrike: "Wind Strike"
+  WindStrikeLore: "Dashes to enemy, deal magic damage"
+  SuddenBlow: "Sudden Blow"
+  SuddenBlowLore: "Has chance to blind and stun the enemy"
+  HailStorm: "Hail Storm"
+  HailStormLore: "Cast a hail storm in the area"
+  MagicResist: "Magic Resist"
+  MagicResistLore: "Gain magic damage resistance"
+  TankEnchant: "Tank"
+  TankEnchantLore: "Gain physical damage resistance"
+  Regain: "Regain"
+  RegainLore: "Get a second life!"
+  PoisonousThorns: "Poisonous Thorns"
+  PoisonousThornsLore: "Get a chance to poison the attacker"
+  Freeze: "Freeze"
+  FreezeLore: "Get a chance to freeze your attacker"
+  Omnivamp: "Omni Vamp"
+  OmnivampLore: "Get a chance to heal when attacked"
+  Blindness: "Blindness"
+  BlindnessLore: "When attacked, blind the enemy by chance"
+  DoubleJump: "Double Jump"
+  DoubleJumpLore: "Sneak while on air to jump"
+  AutoFarm: "Auto Farm"
+  AutoFarmLore: "Get a chance to replant harvested crops"
+  VeinMiner: "Vein Miner"
+  VeinMinerLore: "Mine veins of ores"
+  Deforestation: "Deforestation"
+  DeforestationLore: "Cut the whole vertical tree trunk"
+  AutoRepair: "Auto Repair"
+  AutoRepairLore: "Slowly repair tool/weapon over time"
+  SuperNova: "Super Nova"
+  SuperNovaLore: "Deal huge magic damage on surrounding area"
+  Lightning: "Lightning"
+  LightningLore: "Strike lightning on surrounding area"
+  Healing: "Healing"
+  HealingLore: "Heal allies nearby"
+  Levitate: "Levitate"
+  LevitateLore: "Levitate Enemies and deal magic damage"
+  Nebula: "Nebula"
+  NebulaLore: "Nebula explosion!"
+  SharpArrow: "Sharp Arrow"
+  SharpArrowLore: "Deal more ranged damage"
+  Stun: "Stun"
+  StunLore: "Get a chance to stun the enemy"
+  FrostArrow: "Frost Arrow"
+  FrostArrowLore: "Slow your enemy by chance"
+  FocusFire: "Focus Fire"
+  FocusFireLore: "Gain Quick MS and Invisibility on every success hit"
+  DeathAngel: "Death Angel"
+  DeathAngelLore: "Fall a meteorite to where the arrow landed"
+  Implant: "Implant"
+  ImplantLore: "The dark matter will give a strength to your bow"
+  Storm: "Storm"
+  StormLore: "The power of wind and storm will bind your wand"
+  ManaShield: "Mana Shield"
+  ManaShieldLore: "Absorb some damage and consume it as mana"
+  ManaBurn: "Mana Burn"
+  ManaBurnLore: "Burn players mana when nearby"
+  Sturdy: "Sturdy"
+  SturdyLore: "Obtain physical resistance when equipped"
+  DeathRay: "Death Ray"
+  DeathRayLore: "Shoot laser on target"
+  Blink: "Blink"
+  BlinkLore: "Shift + Right click to blink on short distance"
+  Juggernaut: "Juggernaut"
+  JuggernautLore: "Deal armor penetration"
+  WindSlasher: "Wind Slasher"
+  WindSlasherLore: "Gain Attack Speed"
+  WindSlasherLore0: "Summon tornado by chance at AGILITY 40+"
+  FireBall: "Fire Ball"
+  FireBallLore: "Shoot fireball"
+  Stella: "Stella"
+  StellaLore: "Ultimate bow enchantment"
+  Farmland: "Farmland"
+  FarmlandLore: "Create a small chunk of farmland"
+  BlackHole: "Black Hole"
+  BlackHoleLore: "Cast a black hole on your area, trapping players"
+  FallingStar: "Falling Star"
+  FallingStarLore: "Call the falling star above to rain the enemies"
+  Telepathy: "Telepathy"
+  TelepathyLore0: "Collect dropped item instantly from being mined"
+  TelepathyLore1: "Incompatible with fortune enchantment"
+  Confusion: "Confusion"
+  ConfusionLore: "Confuse the enemy by chance"
+  DragonBreath: "Dragon Breath"
+  DragonBreathLore: "Inflict your enemies on fire in a radius"
+  Heist: "Heist"
+  HeistLore: "Get a chance to steal money from your enemy"
+  AntiHeist: "Anti Heist"
+  AntiHeistLore: "Get a chance to block heist enchantment from attacker"
+  Magnetic: "Magnetic"
+  MagneticLore: "Attracts ground items nearby to pickup"
+  Brilliance: "Brilliance"
+  BrillianceLore: "Grant mana regeneration"
+  Gooey: "Gooey"
+  GooeyLore: "Get a chance to launch your enemy 8 blocks above"
+  CompanionHealing: "Companion Healing"
+  CompanionHealingLore: "Slowly heals your companion"
+  CompanionThorns: "Companion Thorns"
+  CompanionThornsLore: "Apply thorns with slowness effect when companion is attacked"
+  CannotActivateNearShop: "Enchantment _a cannot activate within _b blocks near a shop"
+  PlayerBalance: "Balance"
+  NotEnoughBalance: "Not enough balance"
+  TargetAvailableBalance: "_a available balance is _b"
+  NotEnoughBalance_1: "You will need _a to buy _b"
+  NoPointBoundary: "You need to set point _a location"
+  SettingBoundary1: "You have set the boundary from"
+  SettingBoundary2: "Location _a to _b"
+  SettingBoundary3: "Type 'save [boundary name]' to save. Example: save territory_1"
+  SettingBoundary4: "Type 'cancel' to cancel"
+  BoundarySaved: "Saved boundary: _a"
+  BoundaryRemoved: "Removed boundary: _a"
+  BoundaryNotFound: "Cannot find boundary: _a"
+  BoundaryCancel: "Cancelled setting boundary"
+  BoundaryList: "List of boundaries"
+  IncompleteCommand: "Incomplete command"
+  InsideBoundaryWarn: "You are inside a protected boundary"
+  ProtectedBoundaryWarn: "This block is inside a protected boundary"
+  SettingSet: "Setting was set"
+  CustomEnchantNotAllowed: "This world doesn't allow you to use custom enchantments"
+  SyntaxError: "Command Syntax Error!"
+  PayMoneyPlayer: "Successfully paid _a to _b"
+  PlayerNotFound: "Player _a was not found or offline"
+  ReceiveMoneyPlayer: "Received _a from _b"
+  AddMoneyPlayer: "Successfully added _a to _b balance"
+  DeductMoneyPlayer: "Successfully deducted _a to _b balance"
+  RemovedMoneyPlayer: "You have been deducted _a from _b"
+  HideActionBar: "You have disabled the action bar"
+  ShowActionBar: "You have enabled the action bar"
+  VERY_HIGH: "VERY HIGH"
+  HIGH: "HIGH"
+  MODERATE: "NORMAL"
+  LOW: "LOW"
+  VERY_LOW: "VERY LOW"
+  OFF: "OFF"
+  COMMON: "Common"
+  UNCOMMON: "Uncommon"
+  RARE: "Rare"
+  VERY_RARE: "Very Rare"
+  EPIC: "Epic"
+  LEGENDARY: "Legendary"
+  ItemDamage: "Damage"
+  ItemPenetration: "Penetration"
+  ItemCritical: "Critical"
+  LootingPlotList: "List of loot plots! You can design your own :)"
+  LootingPlotCreate01: "Design your looting Plot"
+  LootingPlotCreate02: "You can put as many chests you want for looting"
+  LootingPlotCreate03: "but don't put any items on it, the plugin will"
+  LootingPlotCreate04: "generate a loot table for it from LootItems.yml"
+  LootingPlotCreate05: "type 'cancel' to cancel"
+  LootingPlotCreate06: "type 'save plot_name,location' to save"
+  LootingPlotCreate07: "Locations"
+  LootingPlotCreate08: "Surface, Underground"
+  LootingPlotCreate09: "Example: 'save campfire_loot_plot,Surface"
+  LootingPlotCancel: "Loot Plot designing was cancelled"
+  LootingPlotCreated: "Loot Plot designing saved"
+  LootingPlotRemoved: "Removed loot plot [_a]"
+  LootingPlotCreatedFailed: "Failed to save plot, make sure you follow the saving syntax"
+  CurrencyExchange: "Currency Exchange"
+  TransactionFailure: "Transaction Failure"
+  NoSupply: "No more currency supply, wait for buyers to buy"
+  MaxSupply: "Maximum supply has reached, wait for holders to sell"
+  OverMaxSupply: "Amount provided is more than the max supply, allowable amount is _a"
+  TradeUI01: "Market Price"
+  TradeUI02: "CLVL conversion to _a (RACO)"
+  TradeUI03: "_a ≈ _b"
+  TradeUI04: "(Note: Price will change overtime)"
+  TradeUI05: "Buy _a CLVL"
+  TradeUI06: "Sell _a CLVL"
+  TradeUI07: "Buy _a _b (RACO)"
+  TradeUI08: "Sell _a _b (RACO)"
+  TradeUI09: "How to buy RACO coins?"
+  TradeUI10: "- You must convert your LEVEL to CLVL first"
+  TradeUI11: "- After conversion, you can now buy RACO coin"
+  TradeUI12: "Will the RACO value change?"
+  TradeUI13: "- Yes, the more players who will buy RACO,"
+  TradeUI14: "  the value of it increases. The more players"
+  TradeUI15: "  sell RACO, the value of it decreases."
+  TradeUI16: "Market Cap: _a"
+  TradeUI17: "Circulating Supply: _a"
+  TradeUI18: "Total Supply: _a"
+  Wallet: "Your wallet"
+  CLVLBalance: "Balance (CLVL): _a"
+  RACOBalance: "Balance (RACO): _a"
+  TradeExchange: "You have exchanged _a for _b"
+  RacoShop: "Raco Shop"
+  SellRacoShopInfo01: "You can sell something in raco shop!"
+  SellRacoShopInfo02: "To sell item in raco shop, do '/ce shop sell price' while holding the item you want to sell"
+  SellRacoShopInfo03: "Item price should not contain decimal point"
+  SellRacoShopInfo04: "Invalid item"
+  SellRacoShopInfo05: "Price: _a"
+  SellRacoShopInfo06: "Seller: _a"
+  SellRacoShopInfo07: "Item was set in RACO SHOP"
+  SellRacoShopInfo08: "You cannot sell item as of the moment, shop is full"
+  SellRacoShopInfo09: "Someone bought your item"
+  KumandraNoAccount: "You do not have a Kumandra account yet"
+  KumandraNotEnough: "You need _a, you only have _b"
+  KumandraConversionOff: "Currency conversion is disabled on this server"
+  KumandraPaid: "Paid _a from your Kumandra wallet"
+  KumandraBalance: "Balance (_a): _b"
+  KumandraRate: "Rate: _a per 1 RACO"
+  KumandraFee: "Conversion fee: _a"
+  KumandraBuyRaco: "Buy RACO with _a"
+  KumandraSellRaco: "Sell RACO for _a"
+  KumandraUnavailable: "Kumandra's Economy is not available on this server"
+  KumandraShopHint: "You can also pay with _a"
+  CofferguardSpent: "Cofferguard spent _a to soak that hit"
+  CoinworkPayout: "You turned up _a"
+  DredgelineTreasure: "Your line brings up something that was not a fish"
+  TreasureAbility: "Passive Abilities"
+  TreasureManaRegen: "Mana Regen: _a/s"
+  TreasureCDR: "Cooldown Reduction: _as"
+  TreasureAddPhyDmg: "Additional Physical Damage: _a hp"
+  TreasureAddMgcDmg: "Additional Magical Damage: _a ⚡"
+  TreasureMgcDef: "Magical Defense: _ax"
+  TreasurePhyDef: "Physical Defense: _ax"
+  TreasureRacoReward: "Raco reward per kill chance: _a"
+  TreasurePhyDmg: "Physical Damage: _a hp"
+  TreasureMgcDmg: "Magical Damage: _a ⚡"
+  TreasureExpMul: "Exp Multiplier: _ax"
+  TreasureHPS: "Health Regen: _a hp/s"
+  TreasureEarnedRaco: "You've earned _a from that kill"
+  AreaWorldGuarded: "The area is world guarded"
+  AreaWorldGuarded_SpawnMob: "To spawn an entity, set the 'mob-spawning' flag to 'Allow' in your world guarded region"
+  WARNING: "[WARNING]"
+  ENCHANTING_1: "You are about to enchant an item, enchant to item first"
+  ENCHANTING_2: "Remove your offhand item to enchant the main-hand item"
+  RELOAD_PLUGIN0: "Reloading Plugin"
+  RELOAD_PLUGIN1: "Plugin Reloaded"
+  NoPermission: "You have no permission to use this command"
+  ResourcePack: "Resource Pack"
+  ClickToDownload: "Click to download"
+  PluginWiki: "Plugin Wiki"
+  DefaultSettings: "Default/Custom Settings via Github"
+  ClickToOpen: "Click to open website"
+  CustomEnchantTutorial: "Custom Enchantment Help"
+  GUICraftingTutorial: "Crafting Tutorial"
+  GUITreasureItems: "Treasure Items List"
+  GUIPluginWiki: "Plugin Wiki"
+  GUITreasure: "Treasure Items"
+  GUITreasureLore: "Rarely found on villages, mineshaft, and looting plot chests"
+  GUITreasureLore1: "Drop chance per item: _a"
+  TS_P_1: "Tutorial Mode"
+  TS_P_2: "See chat for additional info"
+  TS_P_3: "Tutorial Mode Ended"
+  TS_P_4: "Plugin Tutorials"
+  TS_Shop: "Create Shop Tutorial"
+  TS_LevelUp: "Player Levelling Tutorial"
+  TS_QuestShop: "Create Quest Entity Tutorial"
+  TS_Quest: "Player Quest Tutorial"
+  TS_NoPermission: "Only admins can use this Tutorial"
+  TS_PROCEED: "Moving on next step..."
+  TS_Shop_1: "Now, let's set up a simple shop"
+  TS_Shop_2: "A simple villager sword enchantment shop"
+  TS_Shop_3: "do the command:"
+  TS_Shop_4: "'/ce Shop Add VILLAGER SWORD Sword Shop'"
+  TS_Shop_5: "Please follow the command shown above"
+  TS_Shop_6: "It should be of Shop Entity Type: VILLAGER"
+  TS_Shop_7: "It should be of Shop Type: SWORD"
+  TS_Shop_8: "It should be of Shop Name: Sword Shop"
+  TS_Shop_9: "Cool! You've made your first shop!"
+  TS_Shop_10: "Now try interacting it"
+  TS_Shop_11: "Right Click the shop"
+  TS_Shop_12: "Cool! We're almost done!"
+  TS_Shop_13: "Now that you've created a shop, lets"
+  TS_Shop_14: "try the remove command"
+  TS_Shop_15: "/ce Shop Remove Sword Shop"
+  TS_Shop_16: "Good Job!"
+  TS_Shop_17: "I'm so proud of you!"
+  TS_Shop_18: "Now try creating shops in your server"
+  TS_LevelUp_1: "Okay... Let's start at the very basic, try killing any mob to gain Exp"
+  TS_LevelUp_2: "Cool! You've just gained an EXP buy killing a mob, now try breaking any type of block"
+  TS_LevelUp_3: "Now you're learning! I'm proud of you!"
+  TS_LevelUp_4: "Each time you kill a mob or break a block, you will gain EXP. If you reach a certain EXP threshold, you will get 1 level. Let's go back to the Skills UI"
+  TS_LevelUp_5: "'/ce skills'"
+  TS_LevelUp_6: "As you can see, you are currently level _a and have _b attribute point to spend"
+  TS_LevelUp_7: "ATTRIBUTE POINTS can be invested to enhance core stats: Strength, Agility, and Intelligence. Each point spent increases your chosen attribute, shaping your character's overall abilities and play style."
+  TS_LevelUp_8: "By continuously grinding and reaching level 10, you'll earn 1 Skill Point. Skill Points are only awarded at milestone levels that are multiples of 10 such as level 10, 20, 30, and so on."
+  TS_LevelUp_9: "SKILL POINTS can be spent to unlock specific abilities within a chosen class, such as Archery, Wizard, or Warrior. Once you select a class, you are limited to upgrading only its mastery skills, allowing you to specialize and progress within that path."
+  TS_LevelUp_10: "I hope you've picked up some tips on leveling up today. Now get out there, enjoy the grind, and keep pushing forward, wishing you the best on your journey!"
+  TS_QuestShop_1: "Now that you've got a good spot, let's create a simple quest for now, do the command below and follow the steps. \nNote: don't put space(' ') after each comma's"
+  TS_QuestShop_1_1: "YT Tutorial: https://youtu.be/8Ojqnw-8Mnc"
+  TS_QuestShop_2: "'/ce quest add'"
+  TS_QuestShop_3: "Now that you have created a simple quest, to show the list of quest, you'll just need to do '/ce quest list' and make sure to take note if the 5-digit ID since we will need it."
+  TS_QuestShop_4: "'/ce quest list'"
+  TS_QuestShop_5: "Let's create a quest shop now"
+  TS_QuestShop_6: "'/ce shop add VILLAGER QUEST My Quest'"
+  TS_QuestShop_7: "It should be of Shop Type: QUEST"
+  TS_QuestShop_8: "It should be of Shop Name: My Quest"
+  TS_QuestShop_9: "Right Click the quest shop and start a quest!"
+  TS_QuestShop_10: "'/ce Shop Remove My Quest'"
+  TS_QuestShop_11: "Now try creating quests in your server"
+  TS_Quest_1: "'/ce quest'"
+  TS_Quest_2: "Find the quest shop to begin your adventure! Simply right-click on the shop to receive a quest, then choose whether to accept or decline it. If you decide to decline, you'll need to wait one minute before another quest becomes available."
+  TS_Quest_3: "Congratulations on completing your quest! You can start a new one anytime to earn even more rewards."
+  MaceEnchant: "Mace Enchantments"
+  SpearEnchant: "Spear Enchantments"
+  Stealth: "Stealth"
+  StealthLore: "Deals more damage while sneaking"
+  SilencedWarn: "You cannot cast right now"
+  NoSpellTarget: "Nothing in front of you to target"
+  TradeChartTitle: "RACO Price History"
+  TradeChartPrice: "Last close:"
+  TradeChartHigh: "High:"
+  TradeChartLow: "Low:"
+  TradeChartSupply: "In circulation:"
+  TradeChartEmpty: "Not enough trading history yet. Candles are built every 30 minutes."
+  TradeChartFooter: "Hourly candles. Green closed up, red closed down."
+  BanditAmbush: "_a and his crew have spotted you!"
+  BanditRaco: "You looted _a from the bandit"
+  SellRacoShopInfo10: "Price must be a whole number between 1 and _a"
+  InvalidAmount: "Amount must be a whole number above 0"
+  PaySelf: "You cannot pay yourself"
+  EnchantBookMissing: "The enchantment book is no longer in your inventory, enchanting cancelled"
+  ModuleDisabled: "This feature is disabled on this server"
+  ModuleRestartNeeded: "Module changes take effect on restart: _a"
+  PLUGIN_INFO_16: "MODULES"
+  SetupNoticeTitle: "Setting up Custom Enchantments 3? The setup guide covers it."
+  SetupNoticeLink: "Open the setup guide"
+  SetupNoticeHide: "Only admins see this. Set SetupNotice: false in config.yml to hide it."
+  VanillaEnchantDisabled: "That enchantment is disabled on this server"
+  AuraSkillsRequirement: "You need _a level _b to use _c"
+  AuraSkillsNoticeFault: "AuraSkills threw an error while CE3 was calling it."
+  AuraSkillsNoticeCompat: "The installed AuraSkills _a does not match the version CE3 was built for (_b). The integration is off."
+  AuraSkillsNoticeOff: "The AuraSkills integration switched itself off until /ce reload or a restart."
+  AuraSkillsNoticeFine: "CE3 itself is fine. The console has the details."
+  AuraSkillsNoticeReport: "Report it to AuraSkills: _a"
+  SettingsTitle: "Your Settings"
+  SettingsOn: "ON"
+  SettingsOff: "OFF"
+  SettingsClickToggle: "Click to switch"
+  SettingsLanguage: "Language: _a"
+  SettingsLanguageLore: "The language CE3 uses with you. Nobody else is affected."
+  SettingsLanguageCount: "_a languages on this server"
+  SettingsLanguageOpen: "Click to open"
+  SettingsLanguageNotice: "Language notice"
+  SettingsLanguageNoticeLore: "The line on join that lists this server's languages"
+  SettingsTreasureBroadcast: "Treasure finds in chat"
+  SettingsTreasureBroadcastLore: "See it in chat when someone finds a treasure"
+  SettingsActionBar: "Action bar"
+  SettingsActionBarLore: "Health, speed and mana above your hotbar"
+  LanguageNoticeOn: "You will see the language notice when you join"
+  LanguageNoticeOff: "The language notice is off. Turn it back on in /ce settings"
+  TreasureBroadcastOn: "Treasure finds will show in your chat"
+  TreasureBroadcastOff: "Treasure finds are hidden from your chat"
+  LanguageMenuTitle: "Pick a Language"
+  LanguageInUse: "In use"
+  LanguageClickToUse: "Click to use"
+  LanguageServerDefault: "Server default"
+  LanguageCoverage: "_a of the plugin's text translated"
+  LanguageTranslators: "Translated by _a"
+  LanguageChanged: "Language set to _a. Only your own text changes."
+  LanguageNotInstalled: "_a is not installed on this server. Installed: _b"
+  LanguageNoticeAvailable: "This server has _a languages for CE3. Pick yours in _b"
+  LanguageNoticeSuggest: "Your game is set to _a and this server has it: _b"
+  LanguageNoticeHide: "You can turn this notice off in /ce settings"
+  LanguageGuideTitle: "Languages on this server"
+  LanguageGuideLore: "Where language packs go and how to install one"
+  LanguageGuideInstalled: "Installed: _a"
+  LanguageGuideDefault: "Server default: _a (DefaultLanguage in config.yml)"
+  LanguageGuideStep1: "1. Download a ready made pack with _a"
+  LanguageGuideStep1b: "   or save one by hand from _a"
+  LanguageGuideStep2: "2. Packs live in _a, one file per language"
+  LanguageGuideStep3: "3. After adding or editing a file by hand, run _a"
+  LanguageGuideStep4: "4. Players pick theirs in _a. Everyone else keeps theirs."
+  LanguageGuideAvailable: "Ready to install: _a"
+  LanguageGuideSkipped: "Skipped languages/_a: _b"
+  LanguageInstallStart: "Downloading the _a language pack..."
+  LanguageInstallDone: "Installed _a. Players can pick it in /ce settings now."
+  LanguageInstallFailed: "Could not install _a: _b"
+  LanguageInstallBadCode: "_a is not a language code. Codes look like de_de or zh_cn"
+  LanguageReloaded: "Languages reloaded, _a installed"
+  GUILanguages: "Languages"
+  GUILanguagesLore: "Pick the language CE3 uses with you"
+  GUILanguagesAdminLore: "Admins: right click for the setup guide"
+  TreasureFoundPrefix: "[Treasure]"
+  TreasureFoundChest: "_a found _b in a chest!"
+  TreasureFoundBandit: "_a took _b off a bandit!"
+  TreasureFoundDig: "_a dug up _b!"
+  TreasureFoundFish: "_a fished up _b!"
+  CodexTitle: "Treasure Codex"
+  CodexHelpLore: "Every treasure, and the ones you have found"
+  CodexNewEntry: "New codex entry: _a (_b)"
+  CodexSummary: "_a's collection"
+  CodexCollected: "Collected: _a (_b)"
+  CodexTotalFinds: "Treasures found: _a"
+  CodexRarity: "Rarity: _a"
+  CodexFinds: "Times found: _a"
+  CodexFirstFound: "First found: _a"
+  CodexLocked: "Not found yet"
+  Lodefinder: "Lodefinder"
+  LodefinderLore: "Outlines nearby ore for a few seconds"
+  Kilnfire: "Kilnfire"
+  KilnfireLore: "Ore and sand come out already smelted"
+  LoamSense: "Loam Sense"
+  LoamSenseLore: "Right click to soak and feed nearby farmland"
+  RootRot: "Root Rot"
+  RootRotLore: "Leaves fall the moment the log is cut"
+  DeepTally: "Deep Tally"
+  DeepTallyLore: "Bonus experience the deeper you mine"
+  SiftingHands: "Sifting Hands"
+  SiftingHandsLore: "Loose ground gives up something extra"
+  Toolmarrow: "Toolmarrow"
+  ToolmarrowLore: "A chance to take no durability at all"
+  Brinepull: "Brinepull"
+  BrinepullLore: "Faster bites and a chance at a second catch"
+  AshenGrip: "Ashen Grip"
+  AshenGripLore: "Sets the target alight and the fire spreads"
+  Grudgework: "Grudgework"
+  GrudgeworkLore: "Hitting the same target stacks bonus damage"
+  Tendonsnap: "Tendonsnap"
+  TendonsnapLore: "A chance to stop a sprint and slow the target"
+  Ribcracker: "Ribcracker"
+  RibcrackerLore: "Turns fall distance into extra damage"
+  Tidewrack: "Tidewrack"
+  TidewrackLore: "Leaves a whirlpool that pulls enemies in"
+  Quiverburst: "Quiverburst"
+  QuiverburstLore: "Every few shots releases extra arrows"
+  Marrowshot: "Marrowshot"
+  MarrowshotLore: "Arrows ignore part of magic defence"
+  Emberwake: "Emberwake"
+  EmberwakeLore: "Lays a line of burning runes"
+  Glasswind: "Glasswind"
+  GlasswindLore: "A cheap cone that damages and pushes back"
+  Sundial: "Sundial"
+  SundialLore: "Slows enemies and hurries you and your allies"
+  Rekindle: "Rekindle"
+  RekindleLore: "One burst of healing when you are nearly out"
+  Ballast: "Ballast"
+  BallastLore: "Less knockback and no damage from short falls"
+  Cinderstep: "Cinderstep"
+  CinderstepLore: "Fire and lava hurt less once they start"
+  Nightglass: "Nightglass"
+  NightglassLore: "See in the dark and shake off blindness"
+  Quillmail: "Quillmail"
+  QuillmailLore: "Melee attackers take magic damage back"
+  BulwarkOath: "Bulwark Oath"
+  BulwarkOathLore: "Blocking protects your allies too"
+  Saltcoat: "Saltcoat"
+  SaltcoatLore: "Bad potion effects wear off faster"
+  BardingSpirit: "Barding Spirit"
+  BardingSpiritLore: "Your animal gets tougher and quicker"
+  Slagheap: "Slagheap"
+  SlagheapLore: "Throws away the junk stone, sneak to keep it"
+  Widebore: "Widebore"
+  WideboreLore: "Breaks a wider hole with every swing"
+  Quarryjack: "Quarryjack"
+  QuarryjackLore: "Mining without pausing builds up haste"
+  Stonemason: "Stonemason"
+  StonemasonLore: "Stone comes out of the wall already worked"
+  Seedwake: "Seedwake"
+  SeedwakeLore: "Replants a sapling under the log you cut"
+  Splitgrain: "Splitgrain"
+  SplitgrainLore: "Logs drop planks instead of logs"
+  Deadfall: "Deadfall"
+  DeadfallLore: "Takes the hive without upsetting the bees"
+  Scytheswing: "Scytheswing"
+  ScytheswingLore: "Harvests every grown crop around it"
+  Drillseed: "Drillseed"
+  DrillseedLore: "Replants seeds into the empty farmland nearby"
+  Trenchline: "Trenchline"
+  TrenchlineLore: "Digs a straight line ahead of you"
+  Backfill: "Backfill"
+  BackfillLore: "Sneak click to fill the hole back in"
+  Rodwhip: "Rodwhip"
+  RodwhipLore: "Reels a hooked creature hard toward you"
+  Slackjaw: "Slackjaw"
+  SlackjawLore: "A hooked creature is weak and cannot sprint"
+  Ironmonger: "Ironmonger"
+  IronmongerLore: "Cheaper at the anvil and lasts more repairs"
+  Hairsbreadth: "Hairsbreadth"
+  HairsbreadthLore: "Stops at one durability instead of breaking"
+  HollowToll: "Hollow Toll"
+  HollowTollLore: "A kill weakens others of the same kind nearby"
+  Sawtooth: "Sawtooth"
+  SawtoothLore: "Each hit chews further through their armor"
+  Widowcut: "Widowcut"
+  WidowcutLore: "Hits hardest while your mana is empty"
+  Bloodtithe: "Bloodtithe"
+  BloodtitheLore: "Costs you health to hit far harder"
+  Ironjaw: "Ironjaw"
+  IronjawLore: "Some damage always gets through the defence"
+  Lancework: "Lancework"
+  LanceworkLore: "Also strikes whoever stands behind them"
+  Cleaverhand: "Cleaverhand"
+  CleaverhandLore: "A chance to jam their arms and cut them off"
+  Skullsplit: "Skullsplit"
+  SkullsplitLore: "A killing blow may leave the head behind"
+  Stormhook: "Stormhook"
+  StormhookLore: "Drags whatever it hits back toward you"
+  Bargewake: "Bargewake"
+  BargewakeLore: "Hits harder in water and in the rain"
+  Skipstone: "Skipstone"
+  SkipstoneLore: "Skips off a wall into the nearest enemy"
+  Longdraw: "Longdraw"
+  LongdrawLore: "Hold the shot past full for more damage"
+  Skimshot: "Skimshot"
+  SkimshotLore: "Arrows bounce off a wall into someone else"
+  Tetherline: "Tetherline"
+  TetherlineLore: "Ties the target to the spot it was hit"
+  Ashfletch: "Ashfletch"
+  AshfletchLore: "Leaves a blinding cloud where it lands"
+  Gravewell: "Gravewell"
+  GravewellLore: "A patch of ground that drains and feeds you"
+  Mirrorstep: "Mirrorstep"
+  MirrorstepLore: "Swap places with whatever you are looking at"
+  Cindershroud: "Cindershroud"
+  CindershroudLore: "Takes less damage and burns whoever lands a hit"
+  Chainarc: "Chainarc"
+  ChainarcLore: "A bolt that finds the next target on its own"
+  Hushfall: "Hushfall"
+  HushfallLore: "Takes away the trick, not the health"
+  Waterlung: "Waterlung"
+  WaterlungLore: "Breathes longer and works faster underwater"
+  Crownward: "Crownward"
+  CrownwardLore: "Sheds damage from arrows and thrown things"
+  Hearsay: "Hearsay"
+  HearsayLore: "Shows you what has already decided to attack"
+  Slagplate: "Slagplate"
+  SlagplateLore: "Turns part of a hit into magic your wards can eat"
+  Backdraft: "Backdraft"
+  BackdraftLore: "A heavy hit throws everything off you"
+  Longcoat: "Longcoat"
+  LongcoatLore: "Covers the dull ways to die"
+  Stridecut: "Stridecut"
+  StridecutLore: "Quicker while you are still unhurt"
+  Sprintwell: "Sprintwell"
+  SprintwellLore: "Sprinting feeds your mana back"
+  Deadweight: "Deadweight"
+  DeadweightLore: "Nothing pushes or lifts you anywhere"
+  Softfoot: "Softfoot"
+  SoftfootLore: "Harder to notice and quiet on your feet"
+  Downdraft: "Downdraft"
+  DowndraftLore: "Sneak while falling to glide and steer"
+  Ripostewall: "Ripostewall"
+  RipostewallLore: "Gives a blocked hit back through the shield"
+  Anchorhold: "Anchorhold"
+  AnchorholdLore: "Block without slowing down or sliding back"
+  Wardweave: "Wardweave"
+  WardweaveLore: "Every piece holds a little more mana"
+  Houndsense: "Houndsense"
+  HoundsenseLore: "Your animal goes after whoever hurt you"
+  Tallyscar: "Tallyscar"
+  TallyscarLore: "Every hit leaves a mark, and marks hurt"
+  Coinbite: "Coinbite"
+  CoinbiteLore: "A killed enemy sometimes leaves coin behind"
+  Gallowswing: "Gallowswing"
+  GallowswingLore: "Hits far harder on an enemy off the ground"
+  Rimefang: "Rimefang"
+  RimefangLore: "Chills what you cut and slows it down"
+  Ledgerburn: "Ledgerburn"
+  LedgerburnLore: "The more you have been hurt, the harder you hit"
+  Saltspine: "Saltspine"
+  SaltspineLore: "Salts the wound so it will not close"
+  Knucklebone: "Knucklebone"
+  KnuckleboneLore: "A gamble on every swing, all or nothing"
+  Harpoonwake: "Harpoonwake"
+  HarpoonwakeLore: "Drags what you hit back toward you"
+  Brinelash: "Brinelash"
+  BrinelashLore: "Ruinous against anything already soaked"
+  Tollshot: "Tollshot"
+  TollshotLore: "The first arrow into a target collects more"
+  Ravenquill: "Ravenquill"
+  RavenquillLore: "Your arrows lean toward what you meant to hit"
+  Splintervolley: "Splintervolley"
+  SplintervolleyLore: "Arrows break apart into shards on impact"
+  Voidtithe: "Voidtithe"
+  VoidtitheLore: "Takes life from everything ahead and gives it to you"
+  Embertoll: "Embertoll"
+  EmbertollLore: "Leaves a burning ring where it lands"
+  Starvein: "Starvein"
+  StarveinLore: "A lance of light that goes through everything"
+  Glyphwrack: "Glyphwrack"
+  GlyphwrackLore: "Sets a sigil that goes off a moment later"
+  Cofferguard: "Cofferguard"
+  CofferguardLore: "Spends your coin to soak a hit that would land hard"
+  Vaultskin: "Vaultskin"
+  VaultskinLore: "A little of every hit simply does not reach you"
+  Ironvow: "Ironvow"
+  IronvowLore: "You do not get moved, and you do not get slowed"
+  Paleward: "Paleward"
+  PalewardLore: "Blunts magic and shortens what is thrown at you"
+  Tombstride: "Tombstride"
+  TombstrideLore: "The closer to death, the faster you move"
+  Wardenknot: "Wardenknot"
+  WardenknotLore: "Blocking winds a knot that snaps back when it is full"
+  Coinvein: "Coinvein"
+  CoinveinLore: "Ore sometimes gives up coin as well as stone"
+  Titherow: "Titherow"
+  TitherowLore: "A harvest sometimes pays in coin"
+  Dredgeline: "Dredgeline"
+  DredgelineLore: "Pulls up more than fish"
+  Boonthief: "Boonthief"
+  BoonthiefLore: "Takes their potion effect and wears it yourself"
+  Clangor: "Clangor"
+  ClangorLore: "Rings the target, the next blow from anyone else hits harder"
+  Pinshot: "Pinshot"
+  PinshotLore: "Pins a target against the wall behind it"
+  Riptusk: "Riptusk"
+  RiptuskLore: "Your Riptide launch gores everything in the way"
+  Spitecoil: "Spitecoil"
+  SpitecoilLore: "Hits you take come back on your next swing"

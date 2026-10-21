@@ -1,6 +1,6 @@
 # Custom Enchantment 3 Plugin Configuration
 
-Contains the default configuration of the plugin
+Contains the default configuration of the plugin, as of CE3 1.10.0
 
 ### Installation
 
