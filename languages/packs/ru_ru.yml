@@ -7,7 +7,7 @@ Language:
   Code: ru_ru
   Name: "Русский"
   EnglishName: "Russian"
-  Version: "1.10.0"
+  Version: "1.11.0"
   Translators: ["JayMar921"]
 Messages:
   SkillTree: "Древо навыков"
@@ -657,6 +657,14 @@ Messages:
   CodexFinds: "Сколько раз найдено: _a"
   CodexFirstFound: "Впервые найдено: _a"
   CodexLocked: "Ещё не найдено"
+  VersionFeatureFreeze: "Эффекты заморозки у Заморозки, Ледяной стрелы, Бури и Града"
+  VersionFeatureCompanionArmor: "Исцеление спутника, Шипы спутника и магазин брони для животных"
+  VersionFeatureMace: "Зачарования булавы и магазин булав"
+  VersionFeatureSpear: "Зачарования копья и магазин копий"
+  VersionFeatureDisabled: "_a отключено на версии Minecraft этого сервера. Нужна _b или новее, попросите админа обновить сервер."
+  VersionNoticeTitle: "Сервер работает на Minecraft _a. Эти функции CE3 требуют более новой версии и отключены:"
+  VersionNoticeLine: "_a (нужна _b или новее)"
+  VersionNoticeHide: "Это видят только админы. Обновите сервер, чтобы включить их, или укажите VersionNotice: false в config.yml, чтобы скрыть."
   Lodefinder: "Рудоискатель"
   LodefinderLore: "На пару секунд подсвечивает руду рядом"
   Kilnfire: "Жар печи"

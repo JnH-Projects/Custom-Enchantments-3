@@ -2,13 +2,26 @@
 
 This repository contains the plugin's default and custom configuration. You can also contribute by sharing your own plugin configuration for others to use.
 
+### Server compatibility
+
+CE3 runs on Spigot and Paper from 1.16.5 to 26.3, and on Folia from 1.19.4 to 26.3 (CE3 1.11.0 and newer). Java 16 or newer. A few parts need a newer Minecraft than 1.16.5, and on an older server they are switched off with a note to admins on join and to players who reach for them:
+
+| Feature | Needs |
+| --- | --- |
+| Freeze effects on Freeze, Frost Arrow, Storm and Hail Storm | 1.17 |
+| Companion Healing, Companion Thorns and the animal armor shop | 1.20.5 |
+| Mace enchantments and the mace shop | 1.21 |
+| Spear enchantments and the spear shop | 1.21.11 |
+
+Set `VersionNotice: false` in config.yml to stop the admin note.
+
 ### Configuration
 
-- [config.yml](/config/default/config.yml) - `default` | v1.10.0
+- [config.yml](/config/default/config.yml) - `default` | v1.11.0
 
 ### Language
 
-- [English](/languages/english/lang.yml) - English `default` | v1.10.0
+- [English](/languages/english/lang.yml) - English `default` | v1.11.0
 
 Language packs, one per language, that each player can pick for themselves in `/ce settings` (CE3 1.10.0 and newer). See [languages/README.md](/languages/README.md) for how to install them.
 

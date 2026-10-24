@@ -7,7 +7,7 @@ Language:
   Code: fr_fr
   Name: "Français"
   EnglishName: "French"
-  Version: "1.10.0"
+  Version: "1.11.0"
   Translators: ["JayMar921"]
 Messages:
   SkillTree: "Arbre de compétences"
@@ -657,6 +657,14 @@ Messages:
   CodexFinds: "Nombre de trouvailles : _a"
   CodexFirstFound: "Trouvé pour la première fois : _a"
   CodexLocked: "Pas encore trouvé"
+  VersionFeatureFreeze: "Effets de gel de Gel, Flèche de givre, Tempête et Tempête de grêle"
+  VersionFeatureCompanionArmor: "Soin du compagnon, Épines du compagnon et la boutique d'armures pour animaux"
+  VersionFeatureMace: "Enchantements de masse et la boutique de masses"
+  VersionFeatureSpear: "Enchantements de lance et la boutique de lances"
+  VersionFeatureDisabled: "_a est désactivé sur la version de Minecraft de ce serveur. Il faut _b ou plus récent, demandez à un administrateur de mettre le serveur à jour."
+  VersionNoticeTitle: "Ce serveur tourne sous Minecraft _a. Ces fonctions de CE3 demandent une version plus récente et sont désactivées :"
+  VersionNoticeLine: "_a (demande _b ou plus récent)"
+  VersionNoticeHide: "Seuls les administrateurs voient ceci. Mettez le serveur à jour pour les utiliser, ou mettez VersionNotice: false dans config.yml pour le masquer."
   Lodefinder: "Chercheur de filons"
   LodefinderLore: "Fait ressortir le minerai proche quelques secondes"
   Kilnfire: "Feu de four"

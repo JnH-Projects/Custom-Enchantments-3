@@ -7,7 +7,7 @@ Language:
   Code: ja_jp
   Name: "日本語"
   EnglishName: "Japanese"
-  Version: "1.10.0"
+  Version: "1.11.0"
   Translators: ["JayMar921"]
 Messages:
   SkillTree: "スキルツリー"
@@ -657,6 +657,14 @@ Messages:
   CodexFinds: "見つけた回数：_a"
   CodexFirstFound: "初めて見つけた日：_a"
   CodexLocked: "まだ見つけていない"
+  VersionFeatureFreeze: "凍結、氷の矢、嵐、ヘイルストームの凍結効果"
+  VersionFeatureCompanionArmor: "相棒の回復、相棒のトゲ、動物用防具ショップ"
+  VersionFeatureMace: "メイスのエンチャントとメイスショップ"
+  VersionFeatureSpear: "槍のエンチャントと槍ショップ"
+  VersionFeatureDisabled: "_a はこのサーバーの Minecraft バージョンでは無効です。_b 以降が必要です。管理者にサーバーの更新を頼んでください。"
+  VersionNoticeTitle: "このサーバーは Minecraft _a で動いています。次の CE3 機能は新しいバージョンが必要なため無効です:"
+  VersionNoticeLine: "_a (_b 以降が必要)"
+  VersionNoticeHide: "これは管理者にだけ表示されます。使うにはサーバーを更新するか、非表示にするには config.yml で VersionNotice: false にしてください。"
   Lodefinder: "鉱脈探し"
   LodefinderLore: "数秒間、近くの鉱石を浮かび上がらせる"
   Kilnfire: "窯の火"

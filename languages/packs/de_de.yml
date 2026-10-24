@@ -7,7 +7,7 @@ Language:
   Code: de_de
   Name: "Deutsch"
   EnglishName: "German"
-  Version: "1.10.0"
+  Version: "1.11.0"
   Translators: ["JayMar921"]
 Messages:
   SkillTree: "Fertigkeitsbaum"
@@ -657,6 +657,14 @@ Messages:
   CodexFinds: "Wie oft gefunden: _a"
   CodexFirstFound: "Zuerst gefunden: _a"
   CodexLocked: "Noch nicht gefunden"
+  VersionFeatureFreeze: "Frosteffekte von Frost, Frostpfeil, Sturm und Hagelsturm"
+  VersionFeatureCompanionArmor: "Begleiterheilung, Begleiterdornen und der Tierrüstungsladen"
+  VersionFeatureMace: "Streitkolben-Verzauberungen und der Streitkolbenladen"
+  VersionFeatureSpear: "Speer-Verzauberungen und der Speerladen"
+  VersionFeatureDisabled: "_a ist auf der Minecraft-Version dieses Servers ausgeschaltet. Es braucht _b oder neuer, frag einen Admin nach einem Server-Update."
+  VersionNoticeTitle: "Dieser Server läuft auf Minecraft _a. Diese CE3-Funktionen brauchen eine neuere Version und sind ausgeschaltet:"
+  VersionNoticeLine: "_a (braucht _b oder neuer)"
+  VersionNoticeHide: "Nur Admins sehen das. Aktualisiere den Server, um sie zu nutzen, oder setze VersionNotice: false in der config.yml, um es auszublenden."
   Lodefinder: "Adernfinder"
   LodefinderLore: "Zeigt für ein paar Sekunden Erze in der Nähe"
   Kilnfire: "Brennofenglut"
