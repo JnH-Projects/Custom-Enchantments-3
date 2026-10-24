@@ -7,7 +7,7 @@ Language:
   Code: pt_br
   Name: "Português (Brasil)"
   EnglishName: "Portuguese (Brazil)"
-  Version: "1.10.0"
+  Version: "1.11.0"
   Translators: ["JayMar921"]
 Messages:
   SkillTree: "Árvore de Habilidades"
@@ -657,6 +657,14 @@ Messages:
   CodexFinds: "Vezes encontrado: _a"
   CodexFirstFound: "Encontrado pela primeira vez: _a"
   CodexLocked: "Ainda não encontrado"
+  VersionFeatureFreeze: "Efeitos de congelamento de Congelamento, Flecha de Gelo, Tempestade e Chuva de Granizo"
+  VersionFeatureCompanionArmor: "Cura do Companheiro, Espinhos do Companheiro e a loja de armaduras para animais"
+  VersionFeatureMace: "Encantamentos de maça e a loja de maças"
+  VersionFeatureSpear: "Encantamentos de lança e a loja de lanças"
+  VersionFeatureDisabled: "_a está desativado na versão do Minecraft deste servidor. Precisa da _b ou mais nova, peça a um administrador para atualizar o servidor."
+  VersionNoticeTitle: "Este servidor roda o Minecraft _a. Estas funções do CE3 precisam de uma versão mais nova e estão desativadas:"
+  VersionNoticeLine: "_a (precisa da _b ou mais nova)"
+  VersionNoticeHide: "Só administradores veem isto. Atualize o servidor para usá-las, ou defina VersionNotice: false no config.yml para esconder."
   Lodefinder: "Busca-Veios"
   LodefinderLore: "Destaca os minérios próximos por alguns segundos"
   Kilnfire: "Fogo de Forno"

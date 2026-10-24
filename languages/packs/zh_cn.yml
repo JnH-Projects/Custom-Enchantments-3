@@ -7,7 +7,7 @@ Language:
   Code: zh_cn
   Name: "简体中文"
   EnglishName: "Chinese (Simplified)"
-  Version: "1.10.0"
+  Version: "1.11.0"
   Translators: ["JayMar921"]
 Messages:
   SkillTree: "技能树"
@@ -657,6 +657,14 @@ Messages:
   CodexFinds: "找到次数：_a"
   CodexFirstFound: "首次发现：_a"
   CodexLocked: "尚未找到"
+  VersionFeatureFreeze: "冰冻、冰霜之箭、风暴和冰雹风暴的冰冻效果"
+  VersionFeatureCompanionArmor: "伙伴治疗、伙伴荆棘和动物盔甲商店"
+  VersionFeatureMace: "重锤附魔和重锤商店"
+  VersionFeatureSpear: "长矛附魔和长矛商店"
+  VersionFeatureDisabled: "_a 在本服务器的 Minecraft 版本上已关闭。需要 _b 或更高版本，请联系管理员更新服务器。"
+  VersionNoticeTitle: "本服务器运行的是 Minecraft _a。以下 CE3 功能需要更新的版本，已被关闭："
+  VersionNoticeLine: "_a（需要 _b 或更高版本）"
+  VersionNoticeHide: "只有管理员能看到这条消息。更新服务器即可使用，或在 config.yml 中设置 VersionNotice: false 隐藏。"
   Lodefinder: "寻矿"
   LodefinderLore: "短时间内勾勒出附近的矿石"
   Kilnfire: "窑火"

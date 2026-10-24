@@ -1,6 +1,6 @@
 # Language data, modify you can modify this file
 # Deleting this 'lang.yml' file, the plugin generates a new one
-# English, as CE3 1.10.0 writes it. Copy it over plugins/CustomEnchantments3/lang.yml
+# English, as CE3 1.11.0 writes it. Copy it over plugins/CustomEnchantments3/lang.yml
 # to reset the built in language. For a second language use a pack instead, see languages/README.md.
 LanguageCode: en_us
 LanguageName: English
@@ -652,6 +652,14 @@ LANGUAGE:
   CodexFinds: "Times found: _a"
   CodexFirstFound: "First found: _a"
   CodexLocked: "Not found yet"
+  VersionFeatureFreeze: "Freeze effects on Freeze, Frost Arrow, Storm and Hail Storm"
+  VersionFeatureCompanionArmor: "Companion Healing, Companion Thorns and the animal armor shop"
+  VersionFeatureMace: "Mace enchantments and the mace shop"
+  VersionFeatureSpear: "Spear enchantments and the spear shop"
+  VersionFeatureDisabled: "_a is disabled on this server's Minecraft version. It needs _b or newer, ask an admin to update the server."
+  VersionNoticeTitle: "This server runs Minecraft _a. These CE3 features need a newer version and are switched off:"
+  VersionNoticeLine: "_a (needs _b or newer)"
+  VersionNoticeHide: "Only admins see this. Update the server to use them, or set VersionNotice: false in config.yml to hide it."
   Lodefinder: "Lodefinder"
   LodefinderLore: "Outlines nearby ore for a few seconds"
   Kilnfire: "Kilnfire"

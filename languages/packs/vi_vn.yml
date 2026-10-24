@@ -7,7 +7,7 @@ Language:
   Code: vi_vn
   Name: "Tiếng Việt"
   EnglishName: "Vietnamese"
-  Version: "1.10.0"
+  Version: "1.11.0"
   Translators: ["JayMar921"]
 Messages:
   SkillTree: "Cây kỹ năng"
@@ -657,6 +657,14 @@ Messages:
   CodexFinds: "Số lần tìm thấy: _a"
   CodexFirstFound: "Lần đầu tìm thấy: _a"
   CodexLocked: "Chưa tìm thấy"
+  VersionFeatureFreeze: "Hiệu ứng đóng băng của Đóng băng, Mũi tên băng, Bão tố và Bão mưa đá"
+  VersionFeatureCompanionArmor: "Chữa trị bạn đồng hành, Gai bạn đồng hành và cửa hàng giáp thú"
+  VersionFeatureMace: "Phù phép chùy và cửa hàng chùy"
+  VersionFeatureSpear: "Phù phép giáo và cửa hàng giáo"
+  VersionFeatureDisabled: "_a đã bị tắt trên phiên bản Minecraft của máy chủ này. Cần _b trở lên, hãy nhờ quản trị viên cập nhật máy chủ."
+  VersionNoticeTitle: "Máy chủ này chạy Minecraft _a. Các tính năng CE3 sau cần phiên bản mới hơn nên đã bị tắt:"
+  VersionNoticeLine: "_a (cần _b trở lên)"
+  VersionNoticeHide: "Chỉ quản trị viên thấy dòng này. Cập nhật máy chủ để dùng chúng, hoặc đặt VersionNotice: false trong config.yml để ẩn."
   Lodefinder: "Dò quặng"
   LodefinderLore: "Làm nổi bật quặng gần đó trong vài giây"
   Kilnfire: "Lửa lò"

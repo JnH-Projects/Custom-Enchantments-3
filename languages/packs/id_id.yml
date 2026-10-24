@@ -7,7 +7,7 @@ Language:
   Code: id_id
   Name: "Bahasa Indonesia"
   EnglishName: "Indonesian"
-  Version: "1.10.0"
+  Version: "1.11.0"
   Translators: ["JayMar921"]
 Messages:
   SkillTree: "Pohon Keahlian"
@@ -657,6 +657,14 @@ Messages:
   CodexFinds: "Berapa kali ditemukan: _a"
   CodexFirstFound: "Pertama ditemukan: _a"
   CodexLocked: "Belum ditemukan"
+  VersionFeatureFreeze: "Efek beku dari Bekukan, Panah Es, Badai, dan Badai Es"
+  VersionFeatureCompanionArmor: "Sembuhkan Peliharaan, Duri Peliharaan, dan toko zirah hewan"
+  VersionFeatureMace: "Enchantment gada dan toko gada"
+  VersionFeatureSpear: "Enchantment tombak dan toko tombak"
+  VersionFeatureDisabled: "_a dimatikan di versi Minecraft server ini. Butuh _b atau lebih baru, minta admin memperbarui server."
+  VersionNoticeTitle: "Server ini memakai Minecraft _a. Fitur CE3 berikut butuh versi lebih baru dan dimatikan:"
+  VersionNoticeLine: "_a (butuh _b atau lebih baru)"
+  VersionNoticeHide: "Hanya admin yang melihat ini. Perbarui server untuk memakainya, atau atur VersionNotice: false di config.yml untuk menyembunyikannya."
   Lodefinder: "Pencari Urat"
   LodefinderLore: "Menandai bijih di dekatmu selama beberapa detik"
   Kilnfire: "Api Tungku"

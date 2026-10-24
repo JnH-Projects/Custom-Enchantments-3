@@ -7,7 +7,7 @@ Language:
   Code: es_es
   Name: "Español"
   EnglishName: "Spanish"
-  Version: "1.10.0"
+  Version: "1.11.0"
   Translators: ["JayMar921"]
 Messages:
   SkillTree: "Árbol de habilidades"
@@ -657,6 +657,14 @@ Messages:
   CodexFinds: "Veces encontrado: _a"
   CodexFirstFound: "Encontrado por primera vez: _a"
   CodexLocked: "Aún sin encontrar"
+  VersionFeatureFreeze: "Efectos de congelación de Congelación, Flecha de escarcha, Tormenta y Granizada"
+  VersionFeatureCompanionArmor: "Curación de compañero, Espinas de compañero y la tienda de armaduras para animales"
+  VersionFeatureMace: "Encantamientos de maza y la tienda de mazas"
+  VersionFeatureSpear: "Encantamientos de lanza y la tienda de lanzas"
+  VersionFeatureDisabled: "_a está desactivado en la versión de Minecraft de este servidor. Necesita _b o superior, pide a un administrador que actualice el servidor."
+  VersionNoticeTitle: "Este servidor usa Minecraft _a. Estas funciones de CE3 necesitan una versión más nueva y están desactivadas:"
+  VersionNoticeLine: "_a (necesita _b o superior)"
+  VersionNoticeHide: "Solo lo ven los administradores. Actualiza el servidor para usarlas, o pon VersionNotice: false en config.yml para ocultarlo."
   Lodefinder: "Buscavetas"
   LodefinderLore: "Resalta el mineral cercano unos segundos"
   Kilnfire: "Fuego de horno"

@@ -7,7 +7,7 @@ Language:
   Code: ko_kr
   Name: "한국어"
   EnglishName: "Korean"
-  Version: "1.10.0"
+  Version: "1.11.0"
   Translators: ["JayMar921"]
 Messages:
   SkillTree: "스킬 트리"
@@ -657,6 +657,14 @@ Messages:
   CodexFinds: "찾은 횟수: _a"
   CodexFirstFound: "처음 찾은 날: _a"
   CodexLocked: "아직 찾지 못함"
+  VersionFeatureFreeze: "빙결, 서리 화살, 폭풍, 우박 폭풍의 빙결 효과"
+  VersionFeatureCompanionArmor: "동료 치유, 동료 가시, 동물 갑옷 상점"
+  VersionFeatureMace: "철퇴 인챈트와 철퇴 상점"
+  VersionFeatureSpear: "창 인챈트와 창 상점"
+  VersionFeatureDisabled: "_a 기능은 이 서버의 마인크래프트 버전에서 꺼져 있습니다. _b 이상이 필요하니 관리자에게 서버 업데이트를 요청하세요."
+  VersionNoticeTitle: "이 서버는 마인크래프트 _a 버전입니다. 다음 CE3 기능은 더 새로운 버전이 필요해 꺼져 있습니다:"
+  VersionNoticeLine: "_a (_b 이상 필요)"
+  VersionNoticeHide: "관리자에게만 보입니다. 사용하려면 서버를 업데이트하고, 숨기려면 config.yml에서 VersionNotice: false로 설정하세요."
   Lodefinder: "광맥 탐지"
   LodefinderLore: "몇 초 동안 근처 광석을 드러냄"
   Kilnfire: "가마 불"

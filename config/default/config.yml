@@ -16,7 +16,7 @@
 #    ╚══════╝╚═╝  ╚═══╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═════╝
 #  Developed by: JayMar921
 #  Contributors: Sekai47, MikaPikaChu, JhonoBrine
-Config_Ver: '1.10.0'
+Config_Ver: '1.11.0'
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 #            [𝐏𝐥𝐮𝐠𝐢𝐧 𝐂𝐨𝐧𝐟𝐢𝐠𝐮𝐫𝐚𝐭𝐢𝐨𝐧]
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
@@ -46,6 +46,12 @@ EnableAuthorizationYML: false
 # they get a link to the setup guide. Players never
 # see it. Set to false once your server is set up.
 SetupNotice: true
+# [1.11.0] When this server's Minecraft version is
+# too old for part of CE3 (the mace needs 1.21, the
+# spear 1.21.11, wolf armor 1.20.5) admins are told
+# which parts are off after joining. Nothing is said
+# on a version that runs everything.
+VersionNotice: true
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 #                  [MODULES] [1.8.0]
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
