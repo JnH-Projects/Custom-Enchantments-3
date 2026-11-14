@@ -1,6 +1,10 @@
 # Custom Enchantment 3 Plugin Configuration
 
-Contains the default configuration of the plugin, as of CE3 1.10.0
+Contains the default configuration of the plugin, as of CE3 1.12.0
+
+### You may not need this file
+
+Since 1.12.0, `/ce setup` sets a server up from a menu in game: pick a play style (Simple or Full RPG), switch features on or off, place shops and change the common settings. Every click is written into your own `config.yml` with its comments left in place, so you only need this copy to start over from the defaults.
 
 ### Installation
 

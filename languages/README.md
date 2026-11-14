@@ -45,7 +45,7 @@ Text written onto an item stays in the server default, `DefaultLanguage` in `con
 
 ## Resetting the built in language
 
-[english/lang.yml](/languages/english/lang.yml) is `lang.yml` as CE3 1.10.0 writes it. Copy it over `plugins/CustomEnchantments3/lang.yml` to undo edits.
+[english/lang.yml](/languages/english/lang.yml) is `lang.yml` as CE3 1.12.0 writes it. Copy it over `plugins/CustomEnchantments3/lang.yml` to undo edits.
 
 ## Writing or fixing a pack
 

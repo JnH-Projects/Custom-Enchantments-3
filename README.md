@@ -15,13 +15,17 @@ CE3 runs on Spigot and Paper from 1.16.5 to 26.3, and on Folia from 1.19.4 to 26
 
 Set `VersionNotice: false` in config.yml to stop the admin note.
 
+### Quick start
+
+Install the jar, start the server, join as an op and type `/ce setup`. The menu picks a play style, switches features on or off, places shops with one click and changes the common settings, all written into `config.yml` for you. The full guide is on the [plugin page](https://www.jhprojects.dev/customenchantments3).
+
 ### Configuration
 
-- [config.yml](/config/default/config.yml) - `default` | v1.11.0
+- [config.yml](/config/default/config.yml) - `default` | v1.12.0
 
 ### Language
 
-- [English](/languages/english/lang.yml) - English `default` | v1.11.0
+- [English](/languages/english/lang.yml) - English `default` | v1.12.0
 
 Language packs, one per language, that each player can pick for themselves in `/ce settings` (CE3 1.10.0 and newer). See [languages/README.md](/languages/README.md) for how to install them.
 

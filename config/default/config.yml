@@ -16,7 +16,35 @@
 #    ╚══════╝╚═╝  ╚═══╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═════╝
 #  Developed by: JayMar921
 #  Contributors: Sekai47, MikaPikaChu, JhonoBrine
-Config_Ver: '1.11.0'
+Config_Ver: '1.12.0'
+# -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+#                 [QUICK START] [1.12.0]
+# -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+# You do not have to edit this file to get going.
+# Join the server as an op and type:
+#
+#   /ce setup
+#
+# It opens a menu where you pick how your server
+# plays, switch features on or off, place shops
+# with one click and change the common settings.
+# Every click is written into this file, with its
+# comments left alone, so anything set there can
+# still be changed here later.
+#
+# The two ready made styles:
+#   Simple    /ce shop opens the book shop from
+#             anywhere, any player can buy and use
+#             any book, no levels, classes, quests
+#             or currency.
+#   Full RPG  everything, the way this file ships:
+#             levels, classes, the skill tree,
+#             quests, the RACO currency and shop
+#             characters you place in the world.
+#
+# Feature switches (the Modules block below) take
+# effect on the next restart; the menu tells you
+# when one is waiting.
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 #            [𝐏𝐥𝐮𝐠𝐢𝐧 𝐂𝐨𝐧𝐟𝐢𝐠𝐮𝐫𝐚𝐭𝐢𝐨𝐧]
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
@@ -43,8 +71,10 @@ ShowActionBar: true
 EnableAuthorizationYML: false
 # [1.8.1] About 20 seconds after an admin joins
 # (an op, or anyone with customenchants.admin)
-# they get a link to the setup guide. Players never
-# see it. Set to false once your server is set up.
+# they get a link to the setup guide, and [1.12.0]
+# a line they can click to open /ce setup. Players
+# never see it. Set to false once your server is
+# set up, or switch it off in /ce setup.
 SetupNotice: true
 # [1.11.0] When this server's Minecraft version is
 # too old for part of CE3 (the mace needs 1.21, the
