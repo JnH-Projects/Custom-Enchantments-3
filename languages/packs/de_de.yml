@@ -7,7 +7,7 @@ Language:
   Code: de_de
   Name: "Deutsch"
   EnglishName: "German"
-  Version: "1.12.0"
+  Version: "1.13.0"
   Translators: ["JayMar921"]
 Messages:
   SkillTree: "Fertigkeitsbaum"
@@ -725,6 +725,17 @@ Messages:
   SetupSetCooldownLore: "Sagt Spielern, wenn ein Zauber wieder bereit ist."
   SetupSetSetupNotice: "Einrichtungshinweis beim Beitreten"
   SetupSetSetupNoticeLore: "Admins bekommen beim Beitreten einen Link zu /ce setup."
+  BedrockFormShops: "Wähle einen Laden."
+  BedrockFormBooks: "Tippe auf ein Buch, um es vor dem Kauf zu lesen. Du hast _a Level."
+  BedrockFormUseChest: "Truhenladen verwenden"
+  BedrockFormBuy: "Kaufen"
+  BedrockFormPrice: "Preis: _a"
+  BedrockNoticeFloodgate: "Geyser ist installiert, Floodgate aber nicht. Bedrock-Spieler nutzen den Truhenladen. Installiere Floodgate, um ihnen Touch-Menüs zu geben."
+  BedrockNoticeHide: "Nur Admins sehen das. Setze BedrockForms: false in der config.yml oder schalte es in /ce setup aus, um es auszublenden."
+  SetupSetBedrockForms: "Bedrock-Touch-Menüs"
+  SetupSetBedrockFormsLore: "Bedrock-Spieler bekommen Touch-Menüs für\ndie Buchläden. Aus: der Truhenladen."
+  SetupBedrockFloodgate: "Floodgate gefunden"
+  SetupBedrockNoFloodgate: "Geyser gefunden, Floodgate fehlt"
   Lodefinder: "Adernfinder"
   LodefinderLore: "Zeigt für ein paar Sekunden Erze in der Nähe"
   Kilnfire: "Brennofenglut"

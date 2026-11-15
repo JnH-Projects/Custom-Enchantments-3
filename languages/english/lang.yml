@@ -1,6 +1,6 @@
 # Language data, modify you can modify this file
 # Deleting this 'lang.yml' file, the plugin generates a new one
-# English, as CE3 1.12.0 writes it. Copy it over plugins/CustomEnchantments3/lang.yml
+# English, as CE3 1.13.0 writes it. Copy it over plugins/CustomEnchantments3/lang.yml
 # to reset the built in language. For a second language use a pack instead, see languages/README.md.
 LanguageCode: en_us
 LanguageName: English
@@ -720,6 +720,17 @@ LANGUAGE:
   SetupSetCooldownLore: "Tells a player when a spell is ready again."
   SetupSetSetupNotice: "Setup reminder on join"
   SetupSetSetupNoticeLore: "Admins get a link to /ce setup when they join."
+  BedrockFormShops: "Pick a shop."
+  BedrockFormBooks: "Tap a book to read it before you buy. You have _a levels."
+  BedrockFormUseChest: "Use the chest shop"
+  BedrockFormBuy: "Buy"
+  BedrockFormPrice: "Price: _a"
+  BedrockNoticeFloodgate: "Geyser is installed but Floodgate is not. Bedrock players are using the chest shop. Install Floodgate to give them touch menus."
+  BedrockNoticeHide: "Only admins see this. Set BedrockForms: false in config.yml, or switch it off in /ce setup, to hide it."
+  SetupSetBedrockForms: "Bedrock touch menus"
+  SetupSetBedrockFormsLore: "Bedrock players get touch menus for\nthe book shops. Off: the chest shop."
+  SetupBedrockFloodgate: "Floodgate found"
+  SetupBedrockNoFloodgate: "Geyser found, Floodgate missing"
   Lodefinder: "Lodefinder"
   LodefinderLore: "Outlines nearby ore for a few seconds"
   Kilnfire: "Kilnfire"
