@@ -7,7 +7,7 @@ Language:
   Code: fr_fr
   Name: "Français"
   EnglishName: "French"
-  Version: "1.12.0"
+  Version: "1.13.0"
   Translators: ["JayMar921"]
 Messages:
   SkillTree: "Arbre de compétences"
@@ -725,6 +725,17 @@ Messages:
   SetupSetCooldownLore: "Prévient le joueur quand un sort est de nouveau prêt."
   SetupSetSetupNotice: "Rappel de configuration à la connexion"
   SetupSetSetupNoticeLore: "Les admins reçoivent un lien vers /ce setup en se connectant."
+  BedrockFormShops: "Choisissez une boutique."
+  BedrockFormBooks: "Touchez un livre pour le lire avant d'acheter. Vous avez _a niveaux."
+  BedrockFormUseChest: "Utiliser la boutique coffre"
+  BedrockFormBuy: "Acheter"
+  BedrockFormPrice: "Prix : _a"
+  BedrockNoticeFloodgate: "Geyser est installé mais pas Floodgate. Les joueurs Bedrock utilisent la boutique coffre. Installez Floodgate pour leur donner des menus tactiles."
+  BedrockNoticeHide: "Seuls les administrateurs voient ceci. Mettez BedrockForms: false dans config.yml, ou coupez-le dans /ce setup, pour le masquer."
+  SetupSetBedrockForms: "Menus tactiles Bedrock"
+  SetupSetBedrockFormsLore: "Les joueurs Bedrock ont des menus tactiles\npour les boutiques de livres. Coupé : la boutique coffre."
+  SetupBedrockFloodgate: "Floodgate trouvé"
+  SetupBedrockNoFloodgate: "Geyser trouvé, Floodgate manquant"
   Lodefinder: "Chercheur de filons"
   LodefinderLore: "Fait ressortir le minerai proche quelques secondes"
   Kilnfire: "Feu de four"

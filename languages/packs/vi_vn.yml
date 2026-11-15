@@ -7,7 +7,7 @@ Language:
   Code: vi_vn
   Name: "Tiếng Việt"
   EnglishName: "Vietnamese"
-  Version: "1.12.0"
+  Version: "1.13.0"
   Translators: ["JayMar921"]
 Messages:
   SkillTree: "Cây kỹ năng"
@@ -725,6 +725,17 @@ Messages:
   SetupSetCooldownLore: "Báo cho người chơi khi phép sẵn sàng lại."
   SetupSetSetupNotice: "Nhắc thiết lập khi vào game"
   SetupSetSetupNoticeLore: "Admin nhận đường dẫn tới /ce setup khi vào game."
+  BedrockFormShops: "Chọn một cửa hàng."
+  BedrockFormBooks: "Chạm vào một cuốn sách để đọc trước khi mua. Bạn có _a cấp."
+  BedrockFormUseChest: "Dùng cửa hàng rương"
+  BedrockFormBuy: "Mua"
+  BedrockFormPrice: "Giá: _a"
+  BedrockNoticeFloodgate: "Đã cài Geyser nhưng chưa cài Floodgate. Người chơi Bedrock đang dùng cửa hàng rương. Cài Floodgate để họ có menu cảm ứng."
+  BedrockNoticeHide: "Chỉ quản trị viên thấy dòng này. Đặt BedrockForms: false trong config.yml, hoặc tắt trong /ce setup, để ẩn."
+  SetupSetBedrockForms: "Menu cảm ứng Bedrock"
+  SetupSetBedrockFormsLore: "Người chơi Bedrock có menu cảm ứng cho\ncửa hàng sách. Tắt: cửa hàng rương."
+  SetupBedrockFloodgate: "Đã tìm thấy Floodgate"
+  SetupBedrockNoFloodgate: "Có Geyser, thiếu Floodgate"
   Lodefinder: "Dò quặng"
   LodefinderLore: "Làm nổi bật quặng gần đó trong vài giây"
   Kilnfire: "Lửa lò"

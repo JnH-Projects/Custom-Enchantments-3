@@ -16,7 +16,7 @@
 #    ╚══════╝╚═╝  ╚═══╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═════╝
 #  Developed by: JayMar921
 #  Contributors: Sekai47, MikaPikaChu, JhonoBrine
-Config_Ver: '1.12.0'
+Config_Ver: '1.13.0'
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 #                 [QUICK START] [1.12.0]
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
@@ -82,6 +82,14 @@ SetupNotice: true
 # which parts are off after joining. Nothing is said
 # on a version that runs everything.
 VersionNotice: true
+# [1.13.0] Premium. Bedrock players who join through
+# Geyser get touch menus for the book shops instead
+# of the chest, when Floodgate is installed on this
+# server. Set to false to give them the chest shop,
+# the same as Java players. If Geyser is here and
+# Floodgate is not, admins are told after joining;
+# false hides that too. Lite always uses the chest.
+BedrockForms: true
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 #                  [MODULES] [1.8.0]
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+

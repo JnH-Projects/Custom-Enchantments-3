@@ -7,7 +7,7 @@ Language:
   Code: ru_ru
   Name: "Русский"
   EnglishName: "Russian"
-  Version: "1.12.0"
+  Version: "1.13.0"
   Translators: ["JayMar921"]
 Messages:
   SkillTree: "Древо навыков"
@@ -725,6 +725,17 @@ Messages:
   SetupSetCooldownLore: "Сообщает игроку, когда заклинание снова готово."
   SetupSetSetupNotice: "Напоминание о настройке при входе"
   SetupSetSetupNoticeLore: "Админы получают ссылку на /ce setup при входе."
+  BedrockFormShops: "Выберите магазин."
+  BedrockFormBooks: "Нажмите на книгу, чтобы прочитать её перед покупкой. У вас _a ур."
+  BedrockFormUseChest: "Открыть магазин-сундук"
+  BedrockFormBuy: "Купить"
+  BedrockFormPrice: "Цена: _a"
+  BedrockNoticeFloodgate: "Geyser установлен, а Floodgate нет. Игроки Bedrock пользуются магазином-сундуком. Установите Floodgate, чтобы у них были сенсорные меню."
+  BedrockNoticeHide: "Это видят только админы. Укажите BedrockForms: false в config.yml или выключите в /ce setup, чтобы скрыть."
+  SetupSetBedrockForms: "Сенсорные меню Bedrock"
+  SetupSetBedrockFormsLore: "Игроки Bedrock получают сенсорные меню\nв магазинах книг. Выкл.: магазин-сундук."
+  SetupBedrockFloodgate: "Floodgate найден"
+  SetupBedrockNoFloodgate: "Geyser найден, Floodgate нет"
   Lodefinder: "Рудоискатель"
   LodefinderLore: "На пару секунд подсвечивает руду рядом"
   Kilnfire: "Жар печи"

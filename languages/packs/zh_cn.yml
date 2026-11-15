@@ -7,7 +7,7 @@ Language:
   Code: zh_cn
   Name: "简体中文"
   EnglishName: "Chinese (Simplified)"
-  Version: "1.12.0"
+  Version: "1.13.0"
   Translators: ["JayMar921"]
 Messages:
   SkillTree: "技能树"
@@ -725,6 +725,17 @@ Messages:
   SetupSetCooldownLore: "法术再次就绪时提示玩家。"
   SetupSetSetupNotice: "进入时的设置提醒"
   SetupSetSetupNoticeLore: "管理员进入时会收到 /ce setup 的链接。"
+  BedrockFormShops: "选择一个商店。"
+  BedrockFormBooks: "点按一本书即可在购买前查看说明。你有 _a 级。"
+  BedrockFormUseChest: "使用箱子商店"
+  BedrockFormBuy: "购买"
+  BedrockFormPrice: "价格：_a"
+  BedrockNoticeFloodgate: "已安装 Geyser 但未安装 Floodgate。Bedrock 玩家正在使用箱子商店。安装 Floodgate 即可为他们提供触控菜单。"
+  BedrockNoticeHide: "只有管理员能看到这条消息。在 config.yml 中设置 BedrockForms: false，或在 /ce setup 中关闭，即可隐藏。"
+  SetupSetBedrockForms: "Bedrock 触控菜单"
+  SetupSetBedrockFormsLore: "Bedrock 玩家在附魔书商店中\n使用触控菜单。关闭：箱子商店。"
+  SetupBedrockFloodgate: "已找到 Floodgate"
+  SetupBedrockNoFloodgate: "已找到 Geyser，缺少 Floodgate"
   Lodefinder: "寻矿"
   LodefinderLore: "短时间内勾勒出附近的矿石"
   Kilnfire: "窑火"

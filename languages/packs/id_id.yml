@@ -7,7 +7,7 @@ Language:
   Code: id_id
   Name: "Bahasa Indonesia"
   EnglishName: "Indonesian"
-  Version: "1.12.0"
+  Version: "1.13.0"
   Translators: ["JayMar921"]
 Messages:
   SkillTree: "Pohon Keahlian"
@@ -725,6 +725,17 @@ Messages:
   SetupSetCooldownLore: "Memberi tahu pemain saat sihir siap lagi."
   SetupSetSetupNotice: "Pengingat pengaturan saat masuk"
   SetupSetSetupNoticeLore: "Admin mendapat tautan ke /ce setup saat masuk."
+  BedrockFormShops: "Pilih toko."
+  BedrockFormBooks: "Ketuk buku untuk membacanya sebelum membeli. Kamu punya _a level."
+  BedrockFormUseChest: "Pakai toko peti"
+  BedrockFormBuy: "Beli"
+  BedrockFormPrice: "Harga: _a"
+  BedrockNoticeFloodgate: "Geyser terpasang tetapi Floodgate tidak. Pemain Bedrock memakai toko peti. Pasang Floodgate untuk memberi mereka menu sentuh."
+  BedrockNoticeHide: "Hanya admin yang melihat ini. Atur BedrockForms: false di config.yml, atau matikan di /ce setup, untuk menyembunyikannya."
+  SetupSetBedrockForms: "Menu sentuh Bedrock"
+  SetupSetBedrockFormsLore: "Pemain Bedrock mendapat menu sentuh untuk\ntoko buku. Mati: toko peti."
+  SetupBedrockFloodgate: "Floodgate ditemukan"
+  SetupBedrockNoFloodgate: "Geyser ditemukan, Floodgate tidak ada"
   Lodefinder: "Pencari Urat"
   LodefinderLore: "Menandai bijih di dekatmu selama beberapa detik"
   Kilnfire: "Api Tungku"

@@ -7,7 +7,7 @@ Language:
   Code: es_es
   Name: "Español"
   EnglishName: "Spanish"
-  Version: "1.12.0"
+  Version: "1.13.0"
   Translators: ["JayMar921"]
 Messages:
   SkillTree: "Árbol de habilidades"
@@ -725,6 +725,17 @@ Messages:
   SetupSetCooldownLore: "Avisa al jugador cuando un hechizo vuelve a estar listo."
   SetupSetSetupNotice: "Aviso de configuración al entrar"
   SetupSetSetupNoticeLore: "Los admins reciben un enlace a /ce setup al entrar."
+  BedrockFormShops: "Elige una tienda."
+  BedrockFormBooks: "Toca un libro para leerlo antes de comprar. Tienes _a niveles."
+  BedrockFormUseChest: "Usar la tienda de cofre"
+  BedrockFormBuy: "Comprar"
+  BedrockFormPrice: "Precio: _a"
+  BedrockNoticeFloodgate: "Geyser está instalado pero Floodgate no. Los jugadores de Bedrock usan la tienda de cofre. Instala Floodgate para darles menús táctiles."
+  BedrockNoticeHide: "Solo lo ven los administradores. Pon BedrockForms: false en config.yml, o desactívalo en /ce setup, para ocultarlo."
+  SetupSetBedrockForms: "Menús táctiles de Bedrock"
+  SetupSetBedrockFormsLore: "Los jugadores de Bedrock tienen menús táctiles\npara las tiendas de libros. Apagado: la tienda de cofre."
+  SetupBedrockFloodgate: "Floodgate encontrado"
+  SetupBedrockNoFloodgate: "Geyser encontrado, falta Floodgate"
   Lodefinder: "Buscavetas"
   LodefinderLore: "Resalta el mineral cercano unos segundos"
   Kilnfire: "Fuego de horno"

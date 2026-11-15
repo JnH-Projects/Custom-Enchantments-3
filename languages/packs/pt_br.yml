@@ -7,7 +7,7 @@ Language:
   Code: pt_br
   Name: "Português (Brasil)"
   EnglishName: "Portuguese (Brazil)"
-  Version: "1.12.0"
+  Version: "1.13.0"
   Translators: ["JayMar921"]
 Messages:
   SkillTree: "Árvore de Habilidades"
@@ -725,6 +725,17 @@ Messages:
   SetupSetCooldownLore: "Avisa o jogador quando um feitiço fica pronto de novo."
   SetupSetSetupNotice: "Lembrete de configuração ao entrar"
   SetupSetSetupNoticeLore: "Admins recebem um link para /ce setup ao entrar."
+  BedrockFormShops: "Escolha uma loja."
+  BedrockFormBooks: "Toque em um livro para lê-lo antes de comprar. Você tem _a níveis."
+  BedrockFormUseChest: "Usar a loja de baú"
+  BedrockFormBuy: "Comprar"
+  BedrockFormPrice: "Preço: _a"
+  BedrockNoticeFloodgate: "O Geyser está instalado, mas o Floodgate não. Jogadores do Bedrock estão usando a loja de baú. Instale o Floodgate para dar a eles menus de toque."
+  BedrockNoticeHide: "Só administradores veem isto. Defina BedrockForms: false no config.yml, ou desligue em /ce setup, para esconder."
+  SetupSetBedrockForms: "Menus de toque do Bedrock"
+  SetupSetBedrockFormsLore: "Jogadores do Bedrock recebem menus de toque\nnas lojas de livros. Desligado: a loja de baú."
+  SetupBedrockFloodgate: "Floodgate encontrado"
+  SetupBedrockNoFloodgate: "Geyser encontrado, falta o Floodgate"
   Lodefinder: "Busca-Veios"
   LodefinderLore: "Destaca os minérios próximos por alguns segundos"
   Kilnfire: "Fogo de Forno"
