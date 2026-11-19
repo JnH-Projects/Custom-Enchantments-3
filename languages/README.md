@@ -30,6 +30,7 @@ By hand, on a server that cannot reach GitHub:
 | `id_id` | Bahasa Indonesia (Indonesian) |
 | `ja_jp` | 日本語 (Japanese) |
 | `ko_kr` | 한국어 (Korean) |
+| `nl_nl` | Nederlands (Dutch), by Crumbless. Built into CE3 1.14.0 and newer, no install needed |
 | `pt_br` | Português (Brazilian Portuguese) |
 | `ru_ru` | Русский (Russian) |
 | `vi_vn` | Tiếng Việt (Vietnamese) |

@@ -25,6 +25,10 @@ Packs:
     Name: "한국어"
     EnglishName: "Korean"
     Version: "1.13.0"
+  nl_nl:
+    Name: "Nederlands"
+    EnglishName: "Dutch"
+    Version: "1.14.0"
   pt_br:
     Name: "Português (Brasil)"
     EnglishName: "Portuguese (Brazil)"

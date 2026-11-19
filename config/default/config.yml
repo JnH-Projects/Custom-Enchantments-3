@@ -16,7 +16,7 @@
 #    ╚══════╝╚═╝  ╚═══╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═════╝
 #  Developed by: JayMar921
 #  Contributors: Sekai47, MikaPikaChu, JhonoBrine
-Config_Ver: '1.13.0'
+Config_Ver: '1.14.0'
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 #                 [QUICK START] [1.12.0]
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
@@ -127,6 +127,9 @@ BedrockForms: true
 #   the level tag in chat, and every attribute
 #   requirement on an enchantment book. With this
 #   off any player can buy and use any book.
+#   To keep classes and drop only the attribute
+#   requirements, leave this on and set
+#   AttributeRequirements to false instead.
 #   Points a player earned before the switch stay in
 #   PlayerData.yml and still count toward the passive
 #   stats they already gave. '/ce skills reset <name>'
@@ -229,6 +232,15 @@ AllowOneActiveSkill: true
 # are in a warrior class.
 # this is false by default
 AllowUseAllEnchantDenyClass: false
+# [1.14.0] The STRENGTH / AGILITY / INTELLIGENCE
+# requirement on every enchantment book. Set to false
+# to drop them all at once and keep everything else:
+# levels, the skill tree, classes and the class lock
+# above. Handy when AuraSkills levels gate your books
+# instead. Your *_STRENGTH, *_AGILITY and
+# *_INTELLIGENCE values are kept for when you turn it
+# back on. Applies on '/ce reload'.
+AttributeRequirements: true
 # Tired of creating shops manually?
 # You can enable command shop which allows players to do
 # the command '/ce shop'
