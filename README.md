@@ -41,6 +41,7 @@ Language packs, one per language, that each player can pick for themselves in `/
 | `id_id` | Bahasa Indonesia (Indonesian) | [id_id.yml](/languages/packs/id_id.yml) |
 | `ja_jp` | 日本語 (Japanese) | [ja_jp.yml](/languages/packs/ja_jp.yml) |
 | `ko_kr` | 한국어 (Korean) | [ko_kr.yml](/languages/packs/ko_kr.yml) |
+| `nl_nl` | Nederlands (Dutch), by Crumbless | [nl_nl.yml](/languages/packs/nl_nl.yml) |
 | `pt_br` | Português (Brazilian Portuguese) | [pt_br.yml](/languages/packs/pt_br.yml) |
 | `ru_ru` | Русский (Russian) | [ru_ru.yml](/languages/packs/ru_ru.yml) |
 | `vi_vn` | Tiếng Việt (Vietnamese) | [vi_vn.yml](/languages/packs/vi_vn.yml) |
