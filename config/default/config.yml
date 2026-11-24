@@ -16,7 +16,7 @@
 #    ╚══════╝╚═╝  ╚═══╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═════╝
 #  Developed by: JayMar921
 #  Contributors: Sekai47, MikaPikaChu, JhonoBrine
-Config_Ver: '1.14.0'
+Config_Ver: '1.15.0'
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 #                 [QUICK START] [1.12.0]
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
@@ -844,6 +844,23 @@ AuraSkillsRequirements: false
 # included. Only read while the switch above is true.
 # Example: ['VeinMiner: mining 20', 'SharpArrow: archery 15']
 AuraSkillsRequirementList: []
+# ------------------------------------------------
+#                 Histoblock [1.15.0]
+# ------------------------------------------------
+# Reads Histoblock's history when it is installed.
+# CE3 keeps all of its own data either way: player
+# data, quests and progress never move. What it
+# reads is tracking:
+#  - Mining quests only count blocks that were not
+#    placed by a player. Histoblock remembers that
+#    across restarts, so a placed block cannot be
+#    mined again for quest credit.
+#  - A kill Minecraft gives nobody credit for, such
+#    as TNT a player lit, goes to the player
+#    Histoblock says caused it, for kill quests and
+#    mob EXP.
+# Nothing happens on a server without Histoblock.
+HistoblockSupport: true
 # ------------------------------------------------
 #             Player Languages [1.10.0]
 # ------------------------------------------------

@@ -19,13 +19,17 @@ Set `VersionNotice: false` in config.yml to stop the admin note.
 
 Bedrock players who join through Geyser can use every part of CE3. On Premium 1.13.0 and newer, with [Floodgate](https://geysermc.org/download#floodgate) installed on the server, they also get touch menus for the book shops instead of the chest: a list of shops, a list of books with their prices, and one book with its full description and a Buy button. Geyser and Floodgate are both optional; without Floodgate everyone uses the chest shop. Set `BedrockForms: false` in config.yml, or switch it off in `/ce setup`, to give Bedrock players the chest shop anyway. Lite always uses the chest shop.
 
+### Histoblock
+
+On CE3 1.15.0 and newer, with [Histoblock](https://www.jhprojects.dev/histoblock) 0.7.0 or newer installed, CE3 reads its history for tracking. Mining quests only count blocks no player placed, even across restarts, and a kill Minecraft gives no one credit for (TNT a player lit, for example) counts for the player who caused it, in kill quests and mob EXP. CE3 keeps all of its own data either way. Set `HistoblockSupport: false` in config.yml to leave it off.
+
 ### Quick start
 
 Install the jar, start the server, join as an op and type `/ce setup`. The menu picks a play style, switches features on or off, places shops with one click and changes the common settings, all written into `config.yml` for you. The full guide is on the [plugin page](https://www.jhprojects.dev/customenchantments3).
 
 ### Configuration
 
-- [config.yml](/config/default/config.yml) - `default` | v1.13.0
+- [config.yml](/config/default/config.yml) - `default` | v1.15.0
 
 ### Language
 
