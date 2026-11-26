@@ -16,7 +16,7 @@
 #    ╚══════╝╚═╝  ╚═══╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═════╝
 #  Developed by: JayMar921
 #  Contributors: Sekai47, MikaPikaChu, JhonoBrine
-Config_Ver: '1.15.0'
+Config_Ver: '1.15.1'
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 #                 [QUICK START] [1.12.0]
 # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
@@ -859,6 +859,10 @@ AuraSkillsRequirementList: []
 #    as TNT a player lit, goes to the player
 #    Histoblock says caused it, for kill quests and
 #    mob EXP.
+#  - [1.15.1] With Histoblock 1.1.0 or newer, place
+#    quests skip a block placed where the same
+#    player broke their own placed block in the
+#    last 10 minutes.
 # Nothing happens on a server without Histoblock.
 HistoblockSupport: true
 # ------------------------------------------------

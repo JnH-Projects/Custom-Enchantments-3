@@ -21,7 +21,7 @@ Bedrock players who join through Geyser can use every part of CE3. On Premium 1.
 
 ### Histoblock
 
-On CE3 1.15.0 and newer, with [Histoblock](https://www.jhprojects.dev/histoblock) 0.7.0 or newer installed, CE3 reads its history for tracking. Mining quests only count blocks no player placed, even across restarts, and a kill Minecraft gives no one credit for (TNT a player lit, for example) counts for the player who caused it, in kill quests and mob EXP. CE3 keeps all of its own data either way. Set `HistoblockSupport: false` in config.yml to leave it off.
+On CE3 1.15.0 and newer, with [Histoblock](https://www.jhprojects.dev/histoblock) 0.7.0 or newer installed, CE3 reads its history for tracking. Mining quests only count blocks no player placed, even across restarts, and a kill Minecraft gives no one credit for (TNT a player lit, for example) counts for the player who caused it, in kill quests and mob EXP. From CE3 1.15.1 with Histoblock 1.1.0, that kill is paid the moment the mob dies, and place quests skip a block placed where you broke your own placed block in the last 10 minutes. CE3 keeps all of its own data either way. Set `HistoblockSupport: false` in config.yml to leave it off.
 
 ### Quick start
 
@@ -29,7 +29,7 @@ Install the jar, start the server, join as an op and type `/ce setup`. The menu 
 
 ### Configuration
 
-- [config.yml](/config/default/config.yml) - `default` | v1.15.0
+- [config.yml](/config/default/config.yml) - `default` | v1.15.1
 
 ### Language
 
